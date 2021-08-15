@@ -1,0 +1,19 @@
+html,
+body,
+#app {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: rgb(31, 41, 55);
+}
+
+.icon-btn {
+  @apply inline-block cursor-pointer select-none
+    opacity-75 transition duration-200 ease-in-out
+    hover:opacity-100 hover:text-teal-600;
+  font-size: 0.9em;
+}
