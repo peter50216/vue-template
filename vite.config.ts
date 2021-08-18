@@ -30,6 +30,11 @@ const config: UserConfig = {
 
     WindiCSS(),
   ],
+  server: {
+    fs: {
+      strict: true,
+    },
+  },
 };
 
 export default config;
