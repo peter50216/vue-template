@@ -1,8 +1,10 @@
 import Vue from "@vitejs/plugin-vue";
 import path from "path";
+import AutoImport from "unplugin-auto-import/vite";
+import IconsResolver from "unplugin-icons/resolver";
+import Icons from "unplugin-icons/vite";
+import Components from "unplugin-vue-components/vite";
 import { UserConfig } from "vite";
-import ViteComponents from "vite-plugin-components";
-import ViteIcons, { ViteIconsResolver } from "vite-plugin-icons";
 import WindiCSS from "vite-plugin-windicss";
 
 const config: UserConfig = {
@@ -14,19 +16,25 @@ const config: UserConfig = {
       ssr: !!process.env.SSG,
     }),
 
-    // https://github.com/antfu/vite-plugin-components
-    ViteComponents({
+    // https://github.com/antfu/unplugin-auto-import
+    AutoImport({
+      imports: ["vue", "@vueuse/head", "@vueuse/core"],
+    }),
+
+    // https://github.com/antfu/unplugin-vue-components
+    Components({
       directoryAsNamespace: true,
-      globalComponentsDeclaration: true,
-      // auto import icons
-      customComponentResolvers: [
-        // https://github.com/antfu/vite-plugin-icons
-        ViteIconsResolver(),
+      resolvers: [
+        // auto import icons
+        // https://github.com/antfu/unplugin-icons
+        IconsResolver({
+          componentPrefix: "",
+        }),
       ],
     }),
 
-    // https://github.com/antfu/vite-plugin-icons
-    ViteIcons(),
+    // https://github.com/antfu/unplugin-icons
+    Icons(),
 
     WindiCSS(),
   ],
