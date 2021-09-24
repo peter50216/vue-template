@@ -18,6 +18,7 @@ jobs:
       with:
         version: 6.15.1
         run_install: true
-    - run: pnpm run lint:strict
+    - run: pnpm run lint:js:all
+    - run: pnpm run lint:css:all
     - run: pnpm run tsc
     - run: pnpm run build
