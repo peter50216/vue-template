@@ -20,3 +20,4 @@ jobs:
         run_install: true
     - run: pnpm run lint:strict
     - run: pnpm run tsc
+    - run: pnpm run build

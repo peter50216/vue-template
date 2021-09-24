@@ -1,8 +1,3 @@
 {
-  "extends": [
-    "config:js-app",
-    ":automergeBranch",
-    ":automergeLinters",
-    ":automergeTypes"
-  ]
+  "extends": ["github>peter50216/renovate-config"]
 }
