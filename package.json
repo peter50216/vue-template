@@ -7,6 +7,7 @@
     "build": "NODE_ENV=production vite build",
     "tsc": "vue-tsc --noEmit",
     "lint": "eslint --ext .js,.ts,.vue .",
+    "lint:strict": "eslint --max-warnings 0 --ext .js,.ts,.vue .",
     "lint:fix": "eslint --fix --ext .js,.ts,.vue .",
     "lint:fix:strict": "eslint --max-warnings 0 --fix --ext .js,.ts,.vue"
   },
