@@ -23,7 +23,7 @@ specifiers:
   typescript: 4.4.3
   unplugin-auto-import: 0.4.6
   unplugin-icons: 0.11.3
-  unplugin-vue-components: 0.15.2
+  unplugin-vue-components: 0.15.3
   vite: 2.5.10
   vite-plugin-windicss: 1.4.4
   vue: 3.2.16
@@ -56,7 +56,7 @@ devDependencies:
   typescript: 4.4.3
   unplugin-auto-import: 0.4.6_@vueuse+core@6.4.1+vite@2.5.10
   unplugin-icons: 0.11.3_7600cb822313a9246557cfc65a420087
-  unplugin-vue-components: 0.15.2_vite@2.5.10+vue@3.2.16
+  unplugin-vue-components: 0.15.3_vite@2.5.10+vue@3.2.16
   vite: 2.5.10
   vite-plugin-windicss: 1.4.4_typescript@4.4.3+vite@2.5.10
   vue-tsc: 0.3.0_typescript@4.4.3
@@ -2930,8 +2930,8 @@ packages:
       - webpack
     dev: true
 
-  /unplugin-vue-components/0.15.2_vite@2.5.10+vue@3.2.16:
-    resolution: {integrity: sha512-g9IUvBzRTJw2TniXVVtzkxs+VNJ5buzzsG7vIQdwh28830AYo052l//hCTv/4tvT4wPGJiCCZQdJ8O5MREDbuQ==}
+  /unplugin-vue-components/0.15.3_vite@2.5.10+vue@3.2.16:
+    resolution: {integrity: sha512-y358MXjvfmAqo/n/BKwl2QP5cbo0Npj37FbWig+9BKREMMPvZRIBNK8z4E9+ewriDAXGHcKAbHmXCinZf30hBA==}
     engines: {node: '>=14'}
     peerDependencies:
       vue: 2 || 3
@@ -2944,7 +2944,7 @@ packages:
       magic-string: 0.25.7
       minimatch: 3.0.4
       resolve: 1.20.0
-      unplugin: 0.2.10_vite@2.5.10
+      unplugin: 0.2.13_vite@2.5.10
       vue: 3.2.16
     transitivePeerDependencies:
       - rollup
