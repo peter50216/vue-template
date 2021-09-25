@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@commitlint/cli': 13.1.0
   '@commitlint/config-conventional': 13.1.0
-  '@iconify/json': 1.1.405
+  '@iconify/json': 1.1.406
   '@types/node': 16.9.6
   '@typescript-eslint/eslint-plugin': 4.31.2
   '@typescript-eslint/parser': 4.31.2
@@ -41,7 +41,7 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 13.1.0
   '@commitlint/config-conventional': 13.1.0
-  '@iconify/json': 1.1.405
+  '@iconify/json': 1.1.406
   '@types/node': 16.9.6
   '@typescript-eslint/eslint-plugin': 4.31.2_3815fab247b4312be6d1f55eb1f81298
   '@typescript-eslint/parser': 4.31.2_eslint@7.32.0+typescript@4.4.3
@@ -61,7 +61,7 @@ devDependencies:
   stylelint-config-standard: 22.0.0_stylelint@13.13.1
   typescript: 4.4.3
   unplugin-auto-import: 0.4.7_@vueuse+core@6.4.1+vite@2.5.10
-  unplugin-icons: 0.11.4_3b67c47b521b352b862c34ac7066ad59
+  unplugin-icons: 0.11.4_e5361e8664a0a56769b615f511416f8c
   unplugin-vue-components: 0.15.3_vite@2.5.10+vue@3.2.18
   vite: 2.5.10
   vite-plugin-windicss: 1.4.5_typescript@4.4.3+vite@2.5.10
@@ -504,8 +504,8 @@ packages:
     resolution: {integrity: sha512-LFelJDOLZ6JHlmlAkgrvmcu4hpNPB91KYcr4f60D/exzU1eNOb4/KCVHIydGHIQFaOacIOD+Xy+B7P1z812cZg==}
     dev: true
 
-  /@iconify/json/1.1.405:
-    resolution: {integrity: sha512-4QLGQG8esr+1FLFuEJoEwcjlMSA/ByQhS7g5Qg0AF/Lpi3/xTYKxkSeQAa8YQL9e9NCVa7yZHNAPgBsoUDW8Zg==}
+  /@iconify/json/1.1.406:
+    resolution: {integrity: sha512-3mNuYfU1cQeaV0m2mSI5Lf+13Tr6xueOP30w3Du4xCIBFGQY4O0D8wJ8rOp9PXRik1oleu+aKfEVnned0b/tqw==}
     dev: true
 
   /@nodelib/fs.scandir/2.1.5:
@@ -3807,7 +3807,7 @@ packages:
       - webpack
     dev: true
 
-  /unplugin-icons/0.11.4_3b67c47b521b352b862c34ac7066ad59:
+  /unplugin-icons/0.11.4_e5361e8664a0a56769b615f511416f8c:
     resolution: {integrity: sha512-vmUqYCf+uFZF33GyL5/1X3LqNJrn6RfI8K85EPs8PzTTqMF6lGnO9wERSo2yKt2wzkCye10urZFdaYrReheA8A==}
     peerDependencies:
       '@iconify/json': '*'
@@ -3826,7 +3826,7 @@ packages:
         optional: true
     dependencies:
       '@antfu/utils': 0.3.0
-      '@iconify/json': 1.1.405
+      '@iconify/json': 1.1.406
       '@iconify/json-tools': 1.0.10
       '@vue/compiler-sfc': 3.2.18
       has-pkg: 0.0.1
