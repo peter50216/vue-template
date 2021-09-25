@@ -25,7 +25,7 @@ specifiers:
   stylelint-config-standard: 22.0.0
   typescript: 4.4.3
   unplugin-auto-import: 0.4.7
-  unplugin-icons: 0.11.3
+  unplugin-icons: 0.11.4
   unplugin-vue-components: 0.15.3
   vite: 2.5.10
   vite-plugin-windicss: 1.4.5
@@ -61,7 +61,7 @@ devDependencies:
   stylelint-config-standard: 22.0.0_stylelint@13.13.1
   typescript: 4.4.3
   unplugin-auto-import: 0.4.7_@vueuse+core@6.4.1+vite@2.5.10
-  unplugin-icons: 0.11.3_3b67c47b521b352b862c34ac7066ad59
+  unplugin-icons: 0.11.4_3b67c47b521b352b862c34ac7066ad59
   unplugin-vue-components: 0.15.3_vite@2.5.10+vue@3.2.18
   vite: 2.5.10
   vite-plugin-windicss: 1.4.5_typescript@4.4.3+vite@2.5.10
@@ -3807,8 +3807,8 @@ packages:
       - webpack
     dev: true
 
-  /unplugin-icons/0.11.3_3b67c47b521b352b862c34ac7066ad59:
-    resolution: {integrity: sha512-qJMi1YBv6QN2R6lu+l7dR+W3LXmen09/h2OzD9324YOvRM6ElsmaCWvc5uuvAVUSpSuuAKfb+Ay1lCIfpb34RA==}
+  /unplugin-icons/0.11.4_3b67c47b521b352b862c34ac7066ad59:
+    resolution: {integrity: sha512-vmUqYCf+uFZF33GyL5/1X3LqNJrn6RfI8K85EPs8PzTTqMF6lGnO9wERSo2yKt2wzkCye10urZFdaYrReheA8A==}
     peerDependencies:
       '@iconify/json': '*'
       '@svgr/core': ^5.5.0
@@ -3830,7 +3830,7 @@ packages:
       '@iconify/json-tools': 1.0.10
       '@vue/compiler-sfc': 3.2.18
       has-pkg: 0.0.1
-      unplugin: 0.2.10_vite@2.5.10
+      unplugin: 0.2.16_vite@2.5.10
     transitivePeerDependencies:
       - rollup
       - vite
@@ -3858,25 +3858,6 @@ packages:
       - supports-color
       - vite
       - webpack
-    dev: true
-
-  /unplugin/0.2.10_vite@2.5.10:
-    resolution: {integrity: sha512-GkY1taNOBxsY+V+rVx/wKESKJlc9L444HU84zlsMPx5o/QC2xklLsgQ3AUWnFbzUHlQ0SadDNcloXtafmNCqCA==}
-    peerDependencies:
-      rollup: ^2.50.0
-      vite: ^2.3.0
-      webpack: 4 || 5
-    peerDependenciesMeta:
-      rollup:
-        optional: true
-      vite:
-        optional: true
-      webpack:
-        optional: true
-    dependencies:
-      upath: 2.0.1
-      vite: 2.5.10
-      webpack-virtual-modules: 0.4.3
     dev: true
 
   /unplugin/0.2.13_vite@2.5.10:
