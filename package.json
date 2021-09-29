@@ -20,7 +20,7 @@
   "devDependencies": {
     "@commitlint/cli": "13.2.0",
     "@commitlint/config-conventional": "13.2.0",
-    "@iconify/json": "1.1.407",
+    "@iconify/json": "1.1.408",
     "@types/node": "16.9.6",
     "@typescript-eslint/eslint-plugin": "4.32.0",
     "@typescript-eslint/parser": "4.32.0",
