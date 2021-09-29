@@ -26,7 +26,7 @@ specifiers:
   typescript: 4.4.3
   unplugin-auto-import: 0.4.10
   unplugin-icons: 0.11.4
-  unplugin-vue-components: 0.15.4
+  unplugin-vue-components: 0.15.6
   vite: 2.6.1
   vite-plugin-windicss: 1.4.8
   vue: 3.2.19
@@ -62,7 +62,7 @@ devDependencies:
   typescript: 4.4.3
   unplugin-auto-import: 0.4.10_@vueuse+core@6.5.3+vite@2.6.1
   unplugin-icons: 0.11.4_106496589e1ca1d7161f7c98c51411fd
-  unplugin-vue-components: 0.15.4_vite@2.6.1+vue@3.2.19
+  unplugin-vue-components: 0.15.6_vite@2.6.1+vue@3.2.19
   vite: 2.6.1
   vite-plugin-windicss: 1.4.8_typescript@4.4.3+vite@2.6.1
   vue-tsc: 0.3.0_typescript@4.4.3
@@ -3988,8 +3988,8 @@ packages:
       - webpack
     dev: true
 
-  /unplugin-vue-components/0.15.4_vite@2.6.1+vue@3.2.19:
-    resolution: {integrity: sha512-RQpNj5u4j7yiZpaUyzTyJl6ZTtwlThOnTmchV6Foml8BvRBv/Eogr8zFeQ89amEd9Wc9eiCA46d6v0u3uM/d/A==}
+  /unplugin-vue-components/0.15.6_vite@2.6.1+vue@3.2.19:
+    resolution: {integrity: sha512-Prl+qtWtDwnxSYJckGn+WvrXElhEnjN9bJyi9D7d0mJcsspuFBlxRQEzAUnDvlr0CvuIkBZBVdXLu1oDTESjhg==}
     engines: {node: '>=14'}
     peerDependencies:
       vue: 2 || 3
@@ -3999,7 +3999,7 @@ packages:
       chokidar: 3.5.2
       debug: 4.3.2
       fast-glob: 3.2.7
-      has-pkg: 0.0.1
+      local-pkg: 0.1.0
       magic-string: 0.25.7
       minimatch: 3.0.4
       resolve: 1.20.0
