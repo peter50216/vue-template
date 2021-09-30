@@ -10,7 +10,8 @@
     "lint:js": "eslint --max-warnings 0 --ext .js,.ts,.vue",
     "lint:js:all": "pnpm run lint:js -- .",
     "prepare": "husky install .husky",
-    "tsc": "vue-tsc --noEmit"
+    "tsc": "vue-tsc --noEmit",
+    "serve": "vite preview"
   },
   "dependencies": {
     "@vueuse/core": "6.5.3",
@@ -43,9 +44,13 @@
     "unplugin-icons": "0.11.4",
     "unplugin-vue-components": "0.15.6",
     "vite": "2.6.1",
+    "vite-plugin-pwa": "0.11.2",
     "vite-plugin-windicss": "1.4.8",
     "vue-tsc": "0.3.0",
-    "windicss": "3.1.8"
+    "windicss": "3.1.8",
+    "workbox-core": "^6.3.0",
+    "workbox-precaching": "^6.3.0",
+    "workbox-window": "^6.3.0"
   },
   "lint-staged": {
     "!(auto-imports.d.ts)*.{js,ts,vue}": [
