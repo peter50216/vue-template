@@ -16,7 +16,10 @@
     "forceConsistentCasingInFileNames": true,
     "types": [
       "vite/client",
-      "node"
+      "node",
+      "vite-plugin-vue-layouts/client",
+      "vite-plugin-pages/client",
+      "vite-plugin-pwa/client"
     ],
     "paths": {
       "/~/*": [
