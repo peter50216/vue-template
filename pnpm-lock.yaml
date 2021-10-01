@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@commitlint/cli': 13.2.0
   '@commitlint/config-conventional': 13.2.0
-  '@iconify/json': 1.1.408
+  '@iconify/json': 1.1.409
   '@types/node': 16.9.6
   '@typescript-eslint/eslint-plugin': 4.32.0
   '@typescript-eslint/parser': 4.32.0
@@ -49,7 +49,7 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 13.2.0_typescript@4.4.3
   '@commitlint/config-conventional': 13.2.0
-  '@iconify/json': 1.1.408
+  '@iconify/json': 1.1.409
   '@types/node': 16.9.6
   '@typescript-eslint/eslint-plugin': 4.32.0_1eacf2495a01e8a68ffa99482308e8ec
   '@typescript-eslint/parser': 4.32.0_eslint@7.32.0+typescript@4.4.3
@@ -69,7 +69,7 @@ devDependencies:
   stylelint-config-standard: 22.0.0_stylelint@13.13.1
   typescript: 4.4.3
   unplugin-auto-import: 0.4.10_@vueuse+core@6.5.3+vite@2.6.2
-  unplugin-icons: 0.11.4_d7afbeb2654c3780066bb7395b84518f
+  unplugin-icons: 0.11.4_d11992b8ccac8b14898f380351be585a
   unplugin-vue-components: 0.15.6_vite@2.6.2+vue@3.2.19
   vite: 2.6.2
   vite-plugin-pages: 0.18.1_482d2d3d4c9442e66bdc4cb86c777ab2
@@ -1420,8 +1420,8 @@ packages:
     resolution: {integrity: sha512-LFelJDOLZ6JHlmlAkgrvmcu4hpNPB91KYcr4f60D/exzU1eNOb4/KCVHIydGHIQFaOacIOD+Xy+B7P1z812cZg==}
     dev: true
 
-  /@iconify/json/1.1.408:
-    resolution: {integrity: sha512-GceXOj/a8FqPKT19umdPdV+yyxGyv9karZRWBTAseaO8jNdFzcj6Def77ZgysxkxilP+MWloW1/CAznPbE08xw==}
+  /@iconify/json/1.1.409:
+    resolution: {integrity: sha512-8ozw0ZjqAYRHzkse/TMe+iGm56XxMj6RtTT8W6pLSybgBln8foUQ3n2KHinM/qyklwqqs/gpH+yelNXSCtF2Rw==}
     dev: true
 
   /@nodelib/fs.scandir/2.1.5:
@@ -5545,7 +5545,7 @@ packages:
       - webpack
     dev: true
 
-  /unplugin-icons/0.11.4_d7afbeb2654c3780066bb7395b84518f:
+  /unplugin-icons/0.11.4_d11992b8ccac8b14898f380351be585a:
     resolution: {integrity: sha512-vmUqYCf+uFZF33GyL5/1X3LqNJrn6RfI8K85EPs8PzTTqMF6lGnO9wERSo2yKt2wzkCye10urZFdaYrReheA8A==}
     peerDependencies:
       '@iconify/json': '*'
@@ -5564,7 +5564,7 @@ packages:
         optional: true
     dependencies:
       '@antfu/utils': 0.3.0
-      '@iconify/json': 1.1.408
+      '@iconify/json': 1.1.409
       '@iconify/json-tools': 1.0.10
       '@vue/compiler-sfc': 3.2.19
       has-pkg: 0.0.1
