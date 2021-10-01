@@ -16,7 +16,8 @@
   "dependencies": {
     "@vueuse/core": "6.5.3",
     "pinia": "2.0.0-rc.10",
-    "vue": "3.2.19"
+    "vue": "3.2.19",
+    "vue-router": "4.0.11"
   },
   "devDependencies": {
     "@commitlint/cli": "13.2.0",
@@ -44,16 +45,18 @@
     "unplugin-icons": "0.11.4",
     "unplugin-vue-components": "0.15.6",
     "vite": "2.6.2",
+    "vite-plugin-pages": "0.18.1",
     "vite-plugin-pwa": "0.11.2",
+    "vite-plugin-vue-layouts": "0.5.0",
     "vite-plugin-windicss": "1.4.8",
     "vue-tsc": "0.3.0",
     "windicss": "3.1.8",
-    "workbox-core": "^6.3.0",
-    "workbox-precaching": "^6.3.0",
-    "workbox-window": "^6.3.0"
+    "workbox-core": "6.3.0",
+    "workbox-precaching": "6.3.0",
+    "workbox-window": "6.3.0"
   },
   "lint-staged": {
-    "!(auto-imports.d.ts)*.{js,ts,vue}": [
+    "!(auto-imports.d.ts|components.d.ts)*.{js,ts,vue}": [
       "pnpm run lint:js -- --fix"
     ],
     "*.{css,vue}": [

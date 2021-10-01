@@ -5,7 +5,9 @@ import IconsResolver from "unplugin-icons/resolver";
 import Icons from "unplugin-icons/vite";
 import Components from "unplugin-vue-components/vite";
 import { UserConfig } from "vite";
+import Pages from "vite-plugin-pages";
 import { VitePWA } from "vite-plugin-pwa";
+import Layouts from "vite-plugin-vue-layouts";
 import WindiCSS from "vite-plugin-windicss";
 
 const config: UserConfig = {
@@ -24,6 +26,7 @@ const config: UserConfig = {
 
     // https://github.com/antfu/unplugin-vue-components
     Components({
+      dts: true,
       directoryAsNamespace: true,
       resolvers: [
         // auto import icons
@@ -38,6 +41,10 @@ const config: UserConfig = {
     Icons(),
 
     WindiCSS(),
+
+    Pages(),
+
+    Layouts(),
 
     VitePWA({
       registerType: "autoUpdate",

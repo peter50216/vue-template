@@ -5,4 +5,3 @@ dist
 .presite
 dist-ssr
 .env
-components.d.ts
