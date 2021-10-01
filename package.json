@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@vueuse/core": "6.5.3",
-    "pinia": "0.5.4",
+    "pinia": "2.0.0-rc.10",
     "vue": "3.2.19"
   },
   "devDependencies": {
