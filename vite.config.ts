@@ -11,8 +11,10 @@ import Layouts from "vite-plugin-vue-layouts";
 import WindiCSS from "vite-plugin-windicss";
 
 const config: UserConfig = {
-  alias: {
-    "/~/": `${path.resolve(__dirname, "src")}/`,
+  resolve: {
+    alias: {
+      "/~/": `${path.resolve(__dirname, "src")}/`,
+    },
   },
   plugins: [
     Vue({
@@ -38,7 +40,7 @@ const config: UserConfig = {
     }),
 
     // https://github.com/antfu/unplugin-icons
-    Icons(),
+    Icons({ iconSource: "legacy" }),
 
     WindiCSS(),
 
