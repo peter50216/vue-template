@@ -42,7 +42,7 @@
     "stylelint-config-standard": "22.0.0",
     "typescript": "4.4.3",
     "unplugin-auto-import": "0.4.10",
-    "unplugin-icons": "0.12.8",
+    "unplugin-icons": "0.12.9",
     "unplugin-vue-components": "0.15.6",
     "vite": "2.6.2",
     "vite-plugin-pages": "0.18.1",
