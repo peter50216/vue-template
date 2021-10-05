@@ -26,7 +26,7 @@
     "@types/node": "16.9.6",
     "@typescript-eslint/eslint-plugin": "4.33.0",
     "@typescript-eslint/parser": "4.33.0",
-    "@vitejs/plugin-vue": "1.9.2",
+    "@vitejs/plugin-vue": "1.9.3",
     "@vue/compiler-sfc": "3.2.19",
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.3.0",
