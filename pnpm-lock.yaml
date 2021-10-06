@@ -25,7 +25,7 @@ specifiers:
   stylelint-config-standard: 22.0.0
   typescript: 4.4.3
   unplugin-auto-import: 0.4.10
-  unplugin-icons: 0.12.9
+  unplugin-icons: 0.12.10
   unplugin-vue-components: 0.15.6
   vite: 2.6.2
   vite-plugin-pages: 0.18.1
@@ -69,7 +69,7 @@ devDependencies:
   stylelint-config-standard: 22.0.0_stylelint@13.13.1
   typescript: 4.4.3
   unplugin-auto-import: 0.4.10_@vueuse+core@6.5.3+vite@2.6.2
-  unplugin-icons: 0.12.9_482d2d3d4c9442e66bdc4cb86c777ab2
+  unplugin-icons: 0.12.10_482d2d3d4c9442e66bdc4cb86c777ab2
   unplugin-vue-components: 0.15.6_vite@2.6.2+vue@3.2.19
   vite: 2.6.2
   vite-plugin-pages: 0.18.1_482d2d3d4c9442e66bdc4cb86c777ab2
@@ -3854,6 +3854,10 @@ packages:
     resolution: {integrity: sha512-sZLUnTqimCkvkgRS+kbPlYW5o8q5w1cu+uIisKpEWkj31I8mx8kNG162DwRav8Zirkva6N5uoFsm9kzK4mUXjw==}
     dev: true
 
+  /kolorist/1.5.0:
+    resolution: {integrity: sha512-pPobydIHK884YBtkS/tWSZXpSAEpcMbilyun3KL37ot935qL2HNKm/tI45i/Rd+MxdIWEhm7/LmUQzWZYK+Qhg==}
+    dev: true
+
   /leven/3.1.0:
     resolution: {integrity: sha512-qsda+H8jTaUaN/x5vzW2rzc+8Rw4TAQ/4KjB46IwK5VH+IlVeeeje/EoZRpiXvIqjFgK84QffqPztGI3VBLG1A==}
     engines: {node: '>=6'}
@@ -5577,8 +5581,8 @@ packages:
       - webpack
     dev: true
 
-  /unplugin-icons/0.12.9_482d2d3d4c9442e66bdc4cb86c777ab2:
-    resolution: {integrity: sha512-SsuSqFAsbaRNweEI7W1uDinD/XfXNrAUQOaC+35XB3YRZleBjlr2XxW3J4Z0YmMkI0JXRwqalWh6xOds2jXKww==}
+  /unplugin-icons/0.12.10_482d2d3d4c9442e66bdc4cb86c777ab2:
+    resolution: {integrity: sha512-lOgHtTx620UstuMYa9T8jkDVF2iVwyfEEYp2QL6rBdBsvIUZ+L6/Bd9WQTGyW/hAiTPv7P0ow2QtFRdEtUnXkg==}
     peerDependencies:
       '@svgr/core': ^5.5.0
       '@vue/compiler-sfc': ^3.0.2
@@ -5600,8 +5604,8 @@ packages:
       '@iconify/utils': 1.0.10
       '@vue/compiler-sfc': 3.2.19
       debug: 4.3.2
+      kolorist: 1.5.0
       local-pkg: 0.3.0
-      nanocolors: 0.2.12
       unplugin: 0.2.16_vite@2.6.2
     transitivePeerDependencies:
       - rollup
