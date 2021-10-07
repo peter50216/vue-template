@@ -17,7 +17,7 @@ specifiers:
   eslint-plugin-vue: 7.19.1
   husky: 7.0.2
   lint-staged: 11.2.0
-  pinia: 2.0.0-rc.11
+  pinia: 2.0.0-rc.12
   pnpm: 6.16.1
   prettier: 2.4.1
   stylelint: 13.13.1
@@ -42,7 +42,7 @@ specifiers:
 
 dependencies:
   '@vueuse/core': 6.5.3_vue@3.2.19
-  pinia: 2.0.0-rc.11_typescript@4.4.3+vue@3.2.19
+  pinia: 2.0.0-rc.12_typescript@4.4.3+vue@3.2.19
   vue: 3.2.19
   vue-router: 4.0.11_vue@3.2.19
 
@@ -4377,10 +4377,10 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /pinia/2.0.0-rc.11_typescript@4.4.3+vue@3.2.19:
-    resolution: {integrity: sha512-JJinfdMn52Id5/+rOJXP4zRszuiOlunEoVt8gYMneAZ8IyXKPvw9/Cu+HztB+53dHyNM7GdjX+uhjKBNs31tvQ==}
+  /pinia/2.0.0-rc.12_typescript@4.4.3+vue@3.2.19:
+    resolution: {integrity: sha512-1MqXgyiju5fcJBfNO+aU5GP24ZxoaC5bjosSTVnb13fJYu8CfFxCZ/XWwMoD1QnZFq6JGbYigZNCaJDL2tmzQg==}
     peerDependencies:
-      '@vue/composition-api': ^1.2.2
+      '@vue/composition-api': ^1.2.3
       typescript: ^4.4.3
       vue: ^2.6.14 || ^3.2.0
     peerDependenciesMeta:
