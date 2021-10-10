@@ -18,7 +18,7 @@ specifiers:
   husky: 7.0.2
   lint-staged: 11.2.2
   pinia: 2.0.0-rc.12
-  pnpm: 6.16.1
+  pnpm: 6.17.0
   prettier: 2.4.1
   stylelint: 13.13.1
   stylelint-config-idiomatic-order: 8.1.0
@@ -62,7 +62,7 @@ devDependencies:
   eslint-plugin-vue: 7.19.1_eslint@7.32.0
   husky: 7.0.2
   lint-staged: 11.2.2
-  pnpm: 6.16.1
+  pnpm: 6.17.0
   prettier: 2.4.1
   stylelint: 13.13.1
   stylelint-config-idiomatic-order: 8.1.0_stylelint@13.13.1
@@ -4382,8 +4382,8 @@ packages:
       semver-compare: 1.0.0
     dev: true
 
-  /pnpm/6.16.1:
-    resolution: {integrity: sha512-oTZtaWJvvQ1V4KzpPya/BYYF90c6ICKmFYof8DAzMi0g2PEGseSVRdw/A2ov6mQJxBjHyRyYp/j42j8QOqRuKw==}
+  /pnpm/6.17.0:
+    resolution: {integrity: sha512-EgwdelfAtv5ld5J9vYLqgBjPeqjjr298o9nkVW7prT8aUFLsVet2rIP8FjdTBk7ApYDldJ2HWTkmp0qGqf1ONA==}
     engines: {node: '>=12.17'}
     hasBin: true
     dev: true
