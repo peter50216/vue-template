@@ -25,7 +25,7 @@ specifiers:
   stylelint-config-standard: 22.0.0
   typescript: 4.4.4
   unplugin-auto-import: 0.4.12
-  unplugin-icons: 0.12.15
+  unplugin-icons: 0.12.16
   unplugin-vue-components: 0.15.6
   vite: 2.6.7
   vite-plugin-pages: 0.18.1
@@ -69,7 +69,7 @@ devDependencies:
   stylelint-config-standard: 22.0.0_stylelint@13.13.1
   typescript: 4.4.4
   unplugin-auto-import: 0.4.12_@vueuse+core@6.5.3+vite@2.6.7
-  unplugin-icons: 0.12.15_e14ef356e1d12d404481b7eb2ba1650f
+  unplugin-icons: 0.12.16_e14ef356e1d12d404481b7eb2ba1650f
   unplugin-vue-components: 0.15.6_vite@2.6.7+vue@3.2.20
   vite: 2.6.7
   vite-plugin-pages: 0.18.1_e14ef356e1d12d404481b7eb2ba1650f
@@ -5465,8 +5465,8 @@ packages:
       - webpack
     dev: true
 
-  /unplugin-icons/0.12.15_e14ef356e1d12d404481b7eb2ba1650f:
-    resolution: {integrity: sha512-irLvZ09zfhBczb4D6ZJgns4rgYwxkJjdrFi62Iql7iFIrJsP6FmrrRJ0C+iWWo1XHSF+tFWugoL7Wye9yVy+dA==}
+  /unplugin-icons/0.12.16_e14ef356e1d12d404481b7eb2ba1650f:
+    resolution: {integrity: sha512-eGxlLrf/aExIgfRTqv9ALFZSyurYUxPHYb7lDFBc1KfhVhnvq7TdLE3d5AUJgiNh7QxcO0ezsBQ8mQNlCH/+Og==}
     peerDependencies:
       '@svgr/core': ^5.5.0
       '@vue/compiler-sfc': ^3.0.2
