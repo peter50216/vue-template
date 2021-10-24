@@ -22,7 +22,7 @@ specifiers:
   prettier: 2.4.1
   stylelint: 13.13.1
   stylelint-config-idiomatic-order: 8.1.0
-  stylelint-config-standard: 22.0.0
+  stylelint-config-standard: 23.0.0
   typescript: 4.4.4
   unplugin-auto-import: 0.4.13
   unplugin-icons: 0.12.16
@@ -66,7 +66,7 @@ devDependencies:
   prettier: 2.4.1
   stylelint: 13.13.1
   stylelint-config-idiomatic-order: 8.1.0_stylelint@13.13.1
-  stylelint-config-standard: 22.0.0_stylelint@13.13.1
+  stylelint-config-standard: 23.0.0_stylelint@13.13.1
   typescript: 4.4.4
   unplugin-auto-import: 0.4.13_@vueuse+core@6.7.3+vite@2.6.10
   unplugin-icons: 0.12.16_db95163608a1914986a6b89b9234c90a
@@ -5085,21 +5085,21 @@ packages:
       stylelint-order: 3.1.1_stylelint@13.13.1
     dev: true
 
-  /stylelint-config-recommended/5.0.0_stylelint@13.13.1:
-    resolution: {integrity: sha512-c8aubuARSu5A3vEHLBeOSJt1udOdS+1iue7BmJDTSXoCBmfEQmmWX+59vYIj3NQdJBY6a/QRv1ozVFpaB9jaqA==}
+  /stylelint-config-recommended/6.0.0_stylelint@13.13.1:
+    resolution: {integrity: sha512-ZorSSdyMcxWpROYUvLEMm0vSZud2uB7tX1hzBZwvVY9SV/uly4AvvJPPhCcymZL3fcQhEQG5AELmrxWqtmzacw==}
     peerDependencies:
-      stylelint: ^13.13.0
+      stylelint: ^14.0.0
     dependencies:
       stylelint: 13.13.1
     dev: true
 
-  /stylelint-config-standard/22.0.0_stylelint@13.13.1:
-    resolution: {integrity: sha512-uQVNi87SHjqTm8+4NIP5NMAyY/arXrBgimaaT7skvRfE9u3JKXRK9KBkbr4pVmeciuCcs64kAdjlxfq6Rur7Hw==}
+  /stylelint-config-standard/23.0.0_stylelint@13.13.1:
+    resolution: {integrity: sha512-8PDlk+nWuc1T66nVaODTdVodN0pjuE5TBlopi39Lt9EM36YJsRhqttMyUhnS78oc/59Q6n8iw2GJB4QcoFqtRg==}
     peerDependencies:
-      stylelint: ^13.13.0
+      stylelint: ^14.0.0
     dependencies:
       stylelint: 13.13.1
-      stylelint-config-recommended: 5.0.0_stylelint@13.13.1
+      stylelint-config-recommended: 6.0.0_stylelint@13.13.1
     dev: true
 
   /stylelint-order/3.1.1_stylelint@13.13.1:
