@@ -16,7 +16,7 @@ specifiers:
   eslint-plugin-simple-import-sort: 7.0.0
   eslint-plugin-vue: 7.20.0
   husky: 7.0.4
-  lint-staged: 11.2.4
+  lint-staged: 11.2.5
   pinia: 2.0.0-rc.15
   pnpm: 6.19.0
   postcss-html: 1.1.1
@@ -62,7 +62,7 @@ devDependencies:
   eslint-plugin-simple-import-sort: 7.0.0_eslint@8.1.0
   eslint-plugin-vue: 7.20.0_eslint@8.1.0
   husky: 7.0.4
-  lint-staged: 11.2.4
+  lint-staged: 11.2.5
   pnpm: 6.19.0
   postcss-html: 1.1.1
   prettier: 2.4.1
@@ -3716,8 +3716,8 @@ packages:
     resolution: {integrity: sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=}
     dev: true
 
-  /lint-staged/11.2.4:
-    resolution: {integrity: sha512-aTUqcPDSV05EyKlMT4N5h7tmnevKfAxI3xZkRb+DHfmcFaoCxfxVvpqlLMCVGy3EYle9JYER2nA5zc4eNTkZVQ==}
+  /lint-staged/11.2.5:
+    resolution: {integrity: sha512-bD6FeKyRtMA3jXcNg/J0fuJmwDN8yaoTdqliFcEl8pFTHiP9NYwQCeZwBoZ8FEXx4lj/pli3oFehr86XYvMNEA==}
     hasBin: true
     dependencies:
       cli-truncate: 2.1.0
