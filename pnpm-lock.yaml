@@ -19,7 +19,7 @@ specifiers:
   lint-staged: 11.2.4
   pinia: 2.0.0-rc.15
   pnpm: 6.19.0
-  postcss-html: 1.1.0
+  postcss-html: 1.1.1
   prettier: 2.4.1
   stylelint: 14.0.0
   stylelint-config-idiomatic-order: 8.1.0
@@ -64,7 +64,7 @@ devDependencies:
   husky: 7.0.4
   lint-staged: 11.2.4
   pnpm: 6.19.0
-  postcss-html: 1.1.0
+  postcss-html: 1.1.1
   prettier: 2.4.1
   stylelint: 14.0.0
   stylelint-config-idiomatic-order: 8.1.0_stylelint@14.0.0
@@ -4173,8 +4173,8 @@ packages:
     hasBin: true
     dev: true
 
-  /postcss-html/1.1.0:
-    resolution: {integrity: sha512-90V3H0oXIn9vC5JAXTANd83PVvATzWX9b1Nv5KMVG5InUZRmISp9olcj7HDOMgABP5AI903fyB4ApXNuYTdfdg==}
+  /postcss-html/1.1.1:
+    resolution: {integrity: sha512-Lo8YIAosY9ghizW1mqwETnq9U/LziFeTbZhGkH0b7yiPvuuwj7V5EuzFOOYUu8sxZHZq/GkN2b9ydPE9tftgvA==}
     engines: {node: ^12 || >=14}
     dependencies:
       htmlparser2: 7.1.2
