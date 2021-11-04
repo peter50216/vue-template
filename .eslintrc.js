@@ -97,12 +97,7 @@ module.exports = {
     "prettier-vue/prettier": "error",
     "simple-import-sort/exports": "error",
     "simple-import-sort/imports": "error",
-    "vue/multi-word-component-names": [
-      "error",
-      {
-        ignores: ["[...all]"],
-      },
-    ],
+    "vue/multi-word-component-names": "off",
   },
   settings: {
     "prettier-vue": {
