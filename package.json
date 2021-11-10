@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@vueuse/core": "6.8.0",
-    "pinia": "2.0.2",
+    "pinia": "2.0.3",
     "vue": "3.2.21",
     "vue-router": "4.0.12"
   },
