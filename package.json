@@ -14,7 +14,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "@vueuse/core": "6.8.0",
+    "@vueuse/core": "6.9.1",
     "pinia": "2.0.3",
     "vue": "3.2.22",
     "vue-router": "4.0.12"
