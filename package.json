@@ -52,9 +52,9 @@
     "vite-plugin-windicss": "1.5.1",
     "vue-tsc": "0.29.5",
     "windicss": "3.2.1",
-    "workbox-core": "6.3.0",
-    "workbox-precaching": "6.3.0",
-    "workbox-window": "6.3.0"
+    "workbox-core": "6.4.1",
+    "workbox-precaching": "6.4.1",
+    "workbox-window": "6.4.1"
   },
   "lint-staged": {
     "!(auto-imports.d.ts|components.d.ts)*.{js,ts,vue}": [
