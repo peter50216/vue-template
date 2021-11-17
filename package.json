@@ -20,8 +20,8 @@
     "vue-router": "4.0.12"
   },
   "devDependencies": {
-    "@commitlint/cli": "14.1.0",
-    "@commitlint/config-conventional": "14.1.0",
+    "@commitlint/cli": "15.0.0",
+    "@commitlint/config-conventional": "15.0.0",
     "@iconify/json": "1.1.428",
     "@types/node": "16.11.7",
     "@typescript-eslint/eslint-plugin": "5.4.0",
