@@ -25,7 +25,7 @@ specifiers:
   stylelint-config-idiomatic-order: 8.1.0
   stylelint-config-standard: 24.0.0
   typescript: 4.5.2
-  unplugin-auto-import: 0.4.16
+  unplugin-auto-import: 0.4.17
   unplugin-icons: 0.12.18
   unplugin-vue-components: 0.17.2
   vite: 2.6.14
@@ -70,7 +70,7 @@ devDependencies:
   stylelint-config-idiomatic-order: 8.1.0_stylelint@14.1.0
   stylelint-config-standard: 24.0.0_stylelint@14.1.0
   typescript: 4.5.2
-  unplugin-auto-import: 0.4.16_@vueuse+core@7.0.3+vite@2.6.14
+  unplugin-auto-import: 0.4.17_@vueuse+core@7.0.3+vite@2.6.14
   unplugin-icons: 0.12.18_744c3dc4f4777e47e76c501a561da7bf
   unplugin-vue-components: 0.17.2_vite@2.6.14+vue@3.2.22
   vite: 2.6.14
@@ -5222,11 +5222,11 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unplugin-auto-import/0.4.16_@vueuse+core@7.0.3+vite@2.6.14:
-    resolution: {integrity: sha512-OuYzwHnhMOleSUlEXInMV7Y2yM1o4iY1qBQHN8MCQ2dNKdAAjUo4ln0kZy2me21q0GBJSgtmuelHrODZdCRPXQ==}
+  /unplugin-auto-import/0.4.17_@vueuse+core@7.0.3+vite@2.6.14:
+    resolution: {integrity: sha512-qtuyAFrs3cwQSZYukthKrT0O2iVatxouc/DTEjlnbrZHxosQqXSLQgSM/cce4XWQW5Jh4iS01YmaHDcSxXTysQ==}
     engines: {node: '>=14'}
     peerDependencies:
-      '@vueuse/core': ^6.0.0
+      '@vueuse/core': '*'
     peerDependenciesMeta:
       '@vueuse/core':
         optional: true
@@ -5237,7 +5237,7 @@ packages:
       local-pkg: 0.4.0
       magic-string: 0.25.7
       resolve: 1.20.0
-      unplugin: 0.2.20_vite@2.6.14
+      unplugin: 0.2.21_vite@2.6.14
     transitivePeerDependencies:
       - rollup
       - vite
@@ -5309,6 +5309,24 @@ packages:
 
   /unplugin/0.2.20_vite@2.6.14:
     resolution: {integrity: sha512-CGnCaTqNjqeixpIlNEkpysxfR2hb4xv21xa4IURXnhYTfCp73UWuG0KcdanuhFJbwO5w+EGK4XaAaqdb/1vWbg==}
+    peerDependencies:
+      rollup: ^2.50.0
+      vite: ^2.3.0
+      webpack: 4 || 5
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+      vite:
+        optional: true
+      webpack:
+        optional: true
+    dependencies:
+      vite: 2.6.14
+      webpack-virtual-modules: 0.4.3
+    dev: true
+
+  /unplugin/0.2.21_vite@2.6.14:
+    resolution: {integrity: sha512-IJ15/L5XbhnV7J09Zjk0FT5HEkBjkXucWAXQWRsmEtUxmmxwh23yavrmDbCF6ZPxWiVB28+wnKIHePTRRpQPbQ==}
     peerDependencies:
       rollup: ^2.50.0
       vite: ^2.3.0
