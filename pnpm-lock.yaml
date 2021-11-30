@@ -30,7 +30,7 @@ specifiers:
   unplugin-vue-components: 0.17.2
   vite: 2.6.14
   vite-plugin-pages: 0.19.0-beta.6
-  vite-plugin-pwa: 0.11.8
+  vite-plugin-pwa: 0.11.9
   vite-plugin-vue-layouts: 0.5.0
   vite-plugin-windicss: 1.5.3
   vue: 3.2.23
@@ -75,7 +75,7 @@ devDependencies:
   unplugin-vue-components: 0.17.2_vite@2.6.14+vue@3.2.23
   vite: 2.6.14
   vite-plugin-pages: 0.19.0-beta.6_9417d93c2d611a99e242fff8baf59806
-  vite-plugin-pwa: 0.11.8_vite@2.6.14
+  vite-plugin-pwa: 0.11.9_vite@2.6.14
   vite-plugin-vue-layouts: 0.5.0_9e1dbf652a28e46019b578233a662bd2
   vite-plugin-windicss: 1.5.3_vite@2.6.14
   vue-tsc: 0.29.8_typescript@4.5.2
@@ -5431,8 +5431,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-pwa/0.11.8_vite@2.6.14:
-    resolution: {integrity: sha512-IbiVEwvvXWlm2LeNPcTjnQfYTwPN/BDicbY6Nn9LNx2ECKjjCDDraLpqFe8v7OKATAiuXnx35q4DDI7UvJoqPw==}
+  /vite-plugin-pwa/0.11.9_vite@2.6.14:
+    resolution: {integrity: sha512-w2rWd91Kw/UrwJurrnkGCuPlDiLYdNCe4B29smcACoEgopgM/rw2AVsNhaKeut6nHlzKEyu9tnGd4YN80N4R1g==}
     peerDependencies:
       vite: ^2.0.0
     dependencies:
