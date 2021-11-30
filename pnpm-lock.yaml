@@ -26,7 +26,7 @@ specifiers:
   stylelint-config-standard: 24.0.0
   typescript: 4.5.2
   unplugin-auto-import: 0.5.1
-  unplugin-icons: 0.12.20
+  unplugin-icons: 0.12.21
   unplugin-vue-components: 0.17.2
   vite: 2.6.14
   vite-plugin-pages: 0.19.0-beta.6
@@ -71,7 +71,7 @@ devDependencies:
   stylelint-config-standard: 24.0.0_stylelint@14.1.0
   typescript: 4.5.2
   unplugin-auto-import: 0.5.1_@vueuse+core@7.1.2+vite@2.6.14
-  unplugin-icons: 0.12.20_9417d93c2d611a99e242fff8baf59806
+  unplugin-icons: 0.12.21_9417d93c2d611a99e242fff8baf59806
   unplugin-vue-components: 0.17.2_vite@2.6.14+vue@3.2.23
   vite: 2.6.14
   vite-plugin-pages: 0.19.0-beta.6_9417d93c2d611a99e242fff8baf59806
@@ -1431,14 +1431,14 @@ packages:
     resolution: {integrity: sha512-ih5tnLNBu+mLVQSKkwhawZSdYhJ84zOSGw2gAojJZcypFmb5aQTzshSx4Lp4r5esz9vq3VORqXZF0EVHRFw5XQ==}
     dev: true
 
-  /@iconify/types/1.0.10:
-    resolution: {integrity: sha512-SN3z6einVeUckDQiE8p4POF7X4hk4/y2+a7a4ogJOCxX5XT6z1zXNN8dwS5O1vloXpc6mkHizRZm2qPnhK6NnQ==}
+  /@iconify/types/1.0.12:
+    resolution: {integrity: sha512-6er6wSGF3hgc1JEZqiGpg21CTCjHBYOUwqLmb2Idzkjiw6ogalGP0ZMLVutCzah+0WB4yP+Zd2oVPN8jvJ+Ftg==}
     dev: true
 
-  /@iconify/utils/1.0.18:
-    resolution: {integrity: sha512-uCfJ7FdTxDk1DLKsvynTsYX4LnkGIDw+LCpoY0mRdl+NrNPCjYZ8HHYs4xzmo7cryRe0ZT0yuF2f3oipPIHn8w==}
+  /@iconify/utils/1.0.20:
+    resolution: {integrity: sha512-J5IriR8KeANs8vIEFKWzOlOvNgZHkwqkmqaIwvqtuDbBeFHtXGfM/LYMDmjtRJ0AAa7f254qw6TK7gAibYfHUA==}
     dependencies:
-      '@iconify/types': 1.0.10
+      '@iconify/types': 1.0.12
     dev: true
 
   /@nodelib/fs.scandir/2.1.5:
@@ -5279,8 +5279,8 @@ packages:
       - webpack
     dev: true
 
-  /unplugin-icons/0.12.20_9417d93c2d611a99e242fff8baf59806:
-    resolution: {integrity: sha512-7gHxygp1iRbh85/43yqSbzImo5Y7KmVZFV8k79XL/SYNuIPsn19A10Mn2X1YUWm/uQWu/0J9ouq/083Mo4gyPg==}
+  /unplugin-icons/0.12.21_9417d93c2d611a99e242fff8baf59806:
+    resolution: {integrity: sha512-YLTHlf2lcBcBctRkQZTb4N5PBaw59xnrJ9SO7hoWmPF/ExnqW3VaHNOakncW50oxxeGFmDsw0kL9Hd5Qa2FzuQ==}
     peerDependencies:
       '@svgr/core': ^5.5.0
       '@vue/compiler-sfc': ^3.0.2
@@ -5298,9 +5298,9 @@ packages:
     dependencies:
       '@antfu/install-pkg': 0.1.0
       '@antfu/utils': 0.3.0
-      '@iconify/utils': 1.0.18
+      '@iconify/utils': 1.0.20
       '@vue/compiler-sfc': 3.2.23
-      debug: 4.3.2
+      debug: 4.3.3
       kolorist: 1.5.0
       local-pkg: 0.4.0
       unplugin: 0.2.21_vite@2.6.14
