@@ -4,7 +4,7 @@ specifiers:
   '@commitlint/cli': 15.0.0
   '@commitlint/config-conventional': 15.0.0
   '@iconify/json': 1.1.439
-  '@types/node': 16.11.11
+  '@types/node': 16.11.12
   '@typescript-eslint/eslint-plugin': 5.6.0
   '@typescript-eslint/parser': 5.6.0
   '@vitejs/plugin-vue': 1.10.1
@@ -51,7 +51,7 @@ devDependencies:
   '@commitlint/cli': 15.0.0
   '@commitlint/config-conventional': 15.0.0
   '@iconify/json': 1.1.439
-  '@types/node': 16.11.11
+  '@types/node': 16.11.12
   '@typescript-eslint/eslint-plugin': 5.6.0_16d83f5c41c3abb1061a82b07c18e4f3
   '@typescript-eslint/parser': 5.6.0_eslint@8.4.1+typescript@4.5.2
   '@vitejs/plugin-vue': 1.10.1_vite@2.6.14
@@ -1545,8 +1545,8 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: true
 
-  /@types/node/16.11.11:
-    resolution: {integrity: sha512-KB0sixD67CeecHC33MYn+eYARkqTheIRNuu97y2XMjR7Wu3XibO1vaY6VBV6O/a89SPI81cEUIYT87UqUWlZNw==}
+  /@types/node/16.11.12:
+    resolution: {integrity: sha512-+2Iggwg7PxoO5Kyhvsq9VarmPbIelXP070HMImEpbtGCoyWNINQj4wzjbQCXzdHTRXnqufutJb5KAURZANNBAw==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -1560,7 +1560,7 @@ packages:
   /@types/resolve/1.17.1:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
-      '@types/node': 16.11.11
+      '@types/node': 16.11.12
     dev: true
 
   /@types/throttle-debounce/2.1.0:
@@ -3663,7 +3663,7 @@ packages:
     resolution: {integrity: sha512-KWYVV1c4i+jbMpaBC+U++4Va0cp8OisU185o73T1vo99hqi7w8tSJfUXYswwqqrjzwxa6KpRK54WhPvwf5w6PQ==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 16.11.11
+      '@types/node': 16.11.12
       merge-stream: 2.0.0
       supports-color: 7.2.0
     dev: true
