@@ -17,9 +17,7 @@ const config: UserConfig = {
     },
   },
   plugins: [
-    Vue({
-      ssr: !!process.env.SSG,
-    }),
+    Vue(),
 
     // https://github.com/antfu/unplugin-auto-import
     AutoImport({

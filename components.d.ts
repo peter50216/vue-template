@@ -4,9 +4,7 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
-    AkarIconsCirclePlus: typeof import('~icons/akar-icons/circle-plus')['default']
     Navbar: typeof import('./src/components/navbar.vue')['default']
-    NotoV1RabbitFace: typeof import('~icons/noto-v1/rabbit-face')['default']
   }
 }
 
