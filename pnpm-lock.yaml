@@ -36,7 +36,7 @@ specifiers:
   vue: 3.2.26
   vue-router: 4.0.12
   vue-tsc: 0.29.8
-  windicss: 3.3.0
+  windicss: 3.4.0
   workbox-core: 6.4.2
   workbox-precaching: 6.4.2
   workbox-window: 6.4.2
@@ -79,7 +79,7 @@ devDependencies:
   vite-plugin-vue-layouts: 0.5.0_23eb389c859000c595bff8f15eeb256b
   vite-plugin-windicss: 1.5.4_vite@2.7.3
   vue-tsc: 0.29.8_typescript@4.5.4
-  windicss: 3.3.0
+  windicss: 3.4.0
   workbox-core: 6.4.2
   workbox-precaching: 6.4.2
   workbox-window: 6.4.2
@@ -1879,7 +1879,7 @@ packages:
     dependencies:
       debug: 4.3.3
       jiti: 1.12.9
-      windicss: 3.3.0
+      windicss: 3.4.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1893,7 +1893,7 @@ packages:
       fast-glob: 3.2.7
       magic-string: 0.25.7
       micromatch: 4.0.4
-      windicss: 3.3.0
+      windicss: 3.4.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5448,7 +5448,7 @@ packages:
       debug: 4.3.3
       kolorist: 1.5.0
       vite: 2.7.3
-      windicss: 3.3.0
+      windicss: 3.4.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5724,8 +5724,8 @@ packages:
       isexe: 2.0.0
     dev: true
 
-  /windicss/3.3.0:
-    resolution: {integrity: sha512-LxA9iCPEe4lBbC5MGLo6g1gbJxYlTXpDCLJRaHo0EcEN6X0ki26hunOJWGcBvO9qz1r/ead1L7wS5MkSoOCIZQ==}
+  /windicss/3.4.0:
+    resolution: {integrity: sha512-X+9Y1/FPxX253Xo4Hk/qfVuvoAxgKx686Z6yHxmBFMH7wRCPdRO42na9k/yEnrW6EqCFJP/GcMIHn3QENaE42g==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
