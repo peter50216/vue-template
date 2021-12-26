@@ -29,7 +29,7 @@ specifiers:
   unplugin-icons: 0.12.23
   unplugin-vue-components: 0.17.10
   vite: 2.7.6
-  vite-plugin-pages: 0.19.6
+  vite-plugin-pages: 0.19.7
   vite-plugin-pwa: 0.11.12
   vite-plugin-vue-layouts: 0.5.0
   vite-plugin-windicss: 1.6.1
@@ -74,7 +74,7 @@ devDependencies:
   unplugin-icons: 0.12.23_871f6ee9e44a1b674bb015d29ae57637
   unplugin-vue-components: 0.17.10_vite@2.7.6+vue@3.2.26
   vite: 2.7.6
-  vite-plugin-pages: 0.19.6_871f6ee9e44a1b674bb015d29ae57637
+  vite-plugin-pages: 0.19.7_871f6ee9e44a1b674bb015d29ae57637
   vite-plugin-pwa: 0.11.12_vite@2.7.6
   vite-plugin-vue-layouts: 0.5.0_8d12181306819baa2f4c8b15fe034bbb
   vite-plugin-windicss: 1.6.1_vite@2.7.6
@@ -5359,8 +5359,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-plugin-pages/0.19.6_871f6ee9e44a1b674bb015d29ae57637:
-    resolution: {integrity: sha512-wpgVAQmNLSmxNfEY1o/f3s7fcghPMMBteJYtZxfVwMUt+DaxJPlponDRGi3dEf/OVLZKOBzD0qW7468icqYiRg==}
+  /vite-plugin-pages/0.19.7_871f6ee9e44a1b674bb015d29ae57637:
+    resolution: {integrity: sha512-X5DsgRBRdJnTwB3iMgxEjg0OVqvcnwzMOW+QedZWmM/02Gv85hanPNFYesK1uX61+16okVU6430lGJpdMUNYng==}
     peerDependencies:
       '@vue/compiler-sfc': '>=3'
       vite: '>=2'
