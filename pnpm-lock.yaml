@@ -30,7 +30,7 @@ specifiers:
   unplugin-vue-components: 0.17.11
   vite: 2.7.10
   vite-plugin-pages: 0.19.9
-  vite-plugin-pwa: 0.11.12
+  vite-plugin-pwa: 0.11.13
   vite-plugin-vue-layouts: 0.5.0
   vite-plugin-windicss: 1.6.2
   vue: 3.2.26
@@ -75,7 +75,7 @@ devDependencies:
   unplugin-vue-components: 0.17.11_vite@2.7.10+vue@3.2.26
   vite: 2.7.10
   vite-plugin-pages: 0.19.9_4af608186f67ba0b0ce2a847876acdaf
-  vite-plugin-pwa: 0.11.12_vite@2.7.10
+  vite-plugin-pwa: 0.11.13_vite@2.7.10
   vite-plugin-vue-layouts: 0.5.0_356ec39c15e6be83b5da8ae2fd7c7b8a
   vite-plugin-windicss: 1.6.2_vite@2.7.10
   vue-tsc: 0.30.2_typescript@4.5.4
@@ -4835,6 +4835,7 @@ packages:
 
   /source-map-url/0.4.1:
     resolution: {integrity: sha512-cPiFOTLUKvJFIg4SKVScy4ilPPW6rFgMgfuZJPNoDuMs3nC1HbMUycBoJw77xFIp6z1UJQJOfx6C9GMH80DiTw==}
+    deprecated: See https://github.com/lydell/source-map-url#deprecated
     dev: true
 
   /source-map/0.5.7:
@@ -5518,13 +5519,13 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-pwa/0.11.12_vite@2.7.10:
-    resolution: {integrity: sha512-XqFmA4y9C4RBb5osSsa26GVwOSwbzf2GNVcT5+06KYYdguqLpuI9FW7iV/akZqg0OUNUpH4tHfme8SnHA4PIXA==}
+  /vite-plugin-pwa/0.11.13_vite@2.7.10:
+    resolution: {integrity: sha512-Ssj14m3TRVLfkFEAWSMcFE2d1cSdEZyrVTzfY2lSL+umHYvcIFHVDAY143sygtBCb44OPczsAOmWwBTxwOvh7g==}
     peerDependencies:
       vite: ^2.0.0
     dependencies:
       debug: 4.3.3
-      fast-glob: 3.2.7
+      fast-glob: 3.2.10
       pretty-bytes: 5.6.0
       rollup: 2.61.1
       vite: 2.7.10
