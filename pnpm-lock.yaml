@@ -27,7 +27,7 @@ specifiers:
   typescript: 4.5.4
   unplugin-auto-import: 0.5.11
   unplugin-icons: 0.13.0
-  unplugin-vue-components: 0.17.11
+  unplugin-vue-components: 0.17.13
   vite: 2.7.12
   vite-plugin-pages: 0.19.9
   vite-plugin-pwa: 0.11.13
@@ -72,7 +72,7 @@ devDependencies:
   typescript: 4.5.4
   unplugin-auto-import: 0.5.11_@vueuse+core@7.5.3+vite@2.7.12
   unplugin-icons: 0.13.0_8e7a794d2c1f1ff5ff6eb4ae771e4ef1
-  unplugin-vue-components: 0.17.11_vite@2.7.12+vue@3.2.26
+  unplugin-vue-components: 0.17.13_vite@2.7.12+vue@3.2.26
   vite: 2.7.12
   vite-plugin-pages: 0.19.9_8e7a794d2c1f1ff5ff6eb4ae771e4ef1
   vite-plugin-pwa: 0.11.13_vite@2.7.12
@@ -91,12 +91,6 @@ packages:
     dependencies:
       execa: 5.1.1
       find-up: 5.0.0
-    dev: true
-
-  /@antfu/utils/0.3.0:
-    resolution: {integrity: sha512-UU8TLr/EoXdg7OjMp0h9oDoIAVr+Z/oW9cpOxQQyrsz6Qzd2ms/1CdWx8fl2OQdFpxGmq5Vc4TwfLHId6nAZjA==}
-    dependencies:
-      '@types/throttle-debounce': 2.1.0
     dev: true
 
   /@antfu/utils/0.4.0:
@@ -1949,7 +1943,7 @@ packages:
       '@antfu/utils': 0.4.0
       '@windicss/config': 1.6.2
       debug: 4.3.3
-      fast-glob: 3.2.10
+      fast-glob: 3.2.11
       magic-string: 0.25.7
       micromatch: 4.0.4
       windicss: 3.4.2
@@ -3103,6 +3097,17 @@ packages:
       micromatch: 4.0.4
     dev: true
 
+  /fast-glob/3.2.11:
+    resolution: {integrity: sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==}
+    engines: {node: '>=8.6.0'}
+    dependencies:
+      '@nodelib/fs.stat': 2.0.5
+      '@nodelib/fs.walk': 1.2.8
+      glob-parent: 5.1.2
+      merge2: 1.4.1
+      micromatch: 4.0.4
+    dev: true
+
   /fast-glob/3.2.7:
     resolution: {integrity: sha512-rYGMRwip6lUMvYD3BTScMwT1HtAs2d71SMv66Vrxs0IekGZEjhM0pcMfjQPnknBt2zeCwQMEupiN02ZP4DiT1Q==}
     engines: {node: '>=8'}
@@ -3341,7 +3346,7 @@ packages:
     dependencies:
       array-union: 2.1.0
       dir-glob: 3.0.1
-      fast-glob: 3.2.10
+      fast-glob: 3.2.11
       ignore: 5.2.0
       merge2: 1.4.1
       slash: 3.0.0
@@ -4641,13 +4646,6 @@ packages:
       global-dirs: 0.1.1
     dev: true
 
-  /resolve/1.20.0:
-    resolution: {integrity: sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==}
-    dependencies:
-      is-core-module: 2.8.0
-      path-parse: 1.0.7
-    dev: true
-
   /resolve/1.21.0:
     resolution: {integrity: sha512-3wCbTpk5WJlyE4mSOtDLhqQmGFi0/TD9VPwmiolnk8U0wRgMEktqCXd3vy5buTO3tljvalNvKrjHEfrd2WpEKA==}
     hasBin: true
@@ -5382,8 +5380,8 @@ packages:
       - webpack
     dev: true
 
-  /unplugin-vue-components/0.17.11_vite@2.7.12+vue@3.2.26:
-    resolution: {integrity: sha512-u5MQ0TbikszRelCt6EA/HskGtGkGLDxi7tQ4/4tcEPWkH3yXSZRJCOeLF5MSdxN1SiGjaJ0I9zeHjoZFC3FvRw==}
+  /unplugin-vue-components/0.17.13_vite@2.7.12+vue@3.2.26:
+    resolution: {integrity: sha512-WII6hAW+HSvlXDx4t0LqcAvLg4ESsoBz1nuUDMPx6ZGuKBPjSRP4Wmnk559nZ6qpaOW41iY48cBeUpWSPjH7WA==}
     engines: {node: '>=14'}
     peerDependencies:
       '@babel/parser': ^7.15.8
@@ -5395,18 +5393,19 @@ packages:
       '@babel/traverse':
         optional: true
     dependencies:
-      '@antfu/utils': 0.3.0
+      '@antfu/utils': 0.4.0
       '@rollup/pluginutils': 4.1.2
       chokidar: 3.5.2
       debug: 4.3.3
-      fast-glob: 3.2.7
-      local-pkg: 0.4.0
+      fast-glob: 3.2.11
+      local-pkg: 0.4.1
       magic-string: 0.25.7
       minimatch: 3.0.4
-      resolve: 1.20.0
-      unplugin: 0.2.21_vite@2.7.12
+      resolve: 1.21.0
+      unplugin: 0.3.0_vite@2.7.12
       vue: 3.2.26
     transitivePeerDependencies:
+      - esbuild
       - rollup
       - supports-color
       - vite
