@@ -4,7 +4,7 @@ specifiers:
   '@commitlint/cli': 16.0.2
   '@commitlint/config-conventional': 16.0.0
   '@iconify/json': 1.1.457
-  '@types/node': 16.11.20
+  '@types/node': 16.11.21
   '@typescript-eslint/eslint-plugin': 5.10.0
   '@typescript-eslint/parser': 5.10.0
   '@vitejs/plugin-vue': 2.0.1
@@ -48,10 +48,10 @@ dependencies:
   vue-router: 4.0.12_vue@3.2.27
 
 devDependencies:
-  '@commitlint/cli': 16.0.2_@types+node@16.11.20
+  '@commitlint/cli': 16.0.2_@types+node@16.11.21
   '@commitlint/config-conventional': 16.0.0
   '@iconify/json': 1.1.457
-  '@types/node': 16.11.20
+  '@types/node': 16.11.21
   '@typescript-eslint/eslint-plugin': 5.10.0_3b6b276e93ead7cf6063f183a5e18d1f
   '@typescript-eslint/parser': 5.10.0_eslint@8.7.0+typescript@4.5.4
   '@vitejs/plugin-vue': 2.0.1_vite@2.7.12+vue@3.2.27
@@ -1234,14 +1234,14 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@commitlint/cli/16.0.2_@types+node@16.11.20:
+  /@commitlint/cli/16.0.2_@types+node@16.11.21:
     resolution: {integrity: sha512-Jt7iaBjoLGC5Nq4dHPTvTYnqPGkElFPBtTXTvBpTgatZApczyjI2plE0oG4GYWPp1suHIS/VdVDOMpPZjGVusg==}
     engines: {node: '>=v12'}
     hasBin: true
     dependencies:
       '@commitlint/format': 16.0.0
       '@commitlint/lint': 16.0.0
-      '@commitlint/load': 16.0.0_@types+node@16.11.20
+      '@commitlint/load': 16.0.0_@types+node@16.11.21
       '@commitlint/read': 16.0.0
       '@commitlint/types': 16.0.0
       lodash: 4.17.21
@@ -1308,7 +1308,7 @@ packages:
       '@commitlint/types': 16.0.0
     dev: true
 
-  /@commitlint/load/16.0.0_@types+node@16.11.20:
+  /@commitlint/load/16.0.0_@types+node@16.11.21:
     resolution: {integrity: sha512-7WhrGCkP6K/XfjBBguLkkI2XUdiiIyMGlNsSoSqgRNiD352EiffhFEApMy1/XOU+viwBBm/On0n5p0NC7e9/4A==}
     engines: {node: '>=v12'}
     dependencies:
@@ -1318,7 +1318,7 @@ packages:
       '@commitlint/types': 16.0.0
       chalk: 4.1.2
       cosmiconfig: 7.0.1
-      cosmiconfig-typescript-loader: 1.0.2_0a60133a064fc169bdb31577a77f9d57
+      cosmiconfig-typescript-loader: 1.0.2_6c639fe72b7dff7b66d483307814106a
       lodash: 4.17.21
       resolve-from: 5.0.0
       typescript: 4.5.4
@@ -1588,8 +1588,8 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: true
 
-  /@types/node/16.11.20:
-    resolution: {integrity: sha512-lAKaZ0Lc1Umwd0AqLr6iy5U8u/1DpK7/JzNgQn9cMMUk2mFR8bbhEP8BQrI9Cm5CU0bOVCaWbkGBvgqKMOJHsw==}
+  /@types/node/16.11.21:
+    resolution: {integrity: sha512-Pf8M1XD9i1ksZEcCP8vuSNwooJ/bZapNmIzpmsMaL+jMI+8mEYU3PKvs+xDNuQcJWF/x24WzY4qxLtB0zNow9A==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -1603,7 +1603,7 @@ packages:
   /@types/resolve/1.17.1:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
-      '@types/node': 16.11.20
+      '@types/node': 16.11.21
     dev: true
 
   /@types/throttle-debounce/2.1.0:
@@ -2422,16 +2422,16 @@ packages:
       semver: 7.0.0
     dev: true
 
-  /cosmiconfig-typescript-loader/1.0.2_0a60133a064fc169bdb31577a77f9d57:
+  /cosmiconfig-typescript-loader/1.0.2_6c639fe72b7dff7b66d483307814106a:
     resolution: {integrity: sha512-27ZehvijYqAKVzta5xtZBS3PAliC8CmnWkGXN0vgxAZz7yqxpMjf3aG7flxF5rEiu8FAD7nZZXtOI+xUGn+bVg==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@types/node': '*'
       typescript: '>=3'
     dependencies:
-      '@types/node': 16.11.20
+      '@types/node': 16.11.21
       cosmiconfig: 7.0.1
-      ts-node: 10.4.0_0a60133a064fc169bdb31577a77f9d57
+      ts-node: 10.4.0_6c639fe72b7dff7b66d483307814106a
       typescript: 4.5.4
     transitivePeerDependencies:
       - '@swc/core'
@@ -3732,7 +3732,7 @@ packages:
     resolution: {integrity: sha512-KWYVV1c4i+jbMpaBC+U++4Va0cp8OisU185o73T1vo99hqi7w8tSJfUXYswwqqrjzwxa6KpRK54WhPvwf5w6PQ==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 16.11.20
+      '@types/node': 16.11.21
       merge-stream: 2.0.0
       supports-color: 7.2.0
     dev: true
@@ -5176,7 +5176,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /ts-node/10.4.0_0a60133a064fc169bdb31577a77f9d57:
+  /ts-node/10.4.0_6c639fe72b7dff7b66d483307814106a:
     resolution: {integrity: sha512-g0FlPvvCXSIO1JDF6S232P5jPYqBkRL9qly81ZgAOSU7rwI0stphCgd2kLiCrU9DjQCrJMWEqcNSjQL02s6d8A==}
     hasBin: true
     peerDependencies:
@@ -5195,7 +5195,7 @@ packages:
       '@tsconfig/node12': 1.0.9
       '@tsconfig/node14': 1.0.1
       '@tsconfig/node16': 1.0.2
-      '@types/node': 16.11.20
+      '@types/node': 16.11.21
       acorn: 8.7.0
       acorn-walk: 8.2.0
       arg: 4.1.3
