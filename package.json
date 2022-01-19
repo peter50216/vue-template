@@ -20,7 +20,7 @@
     "vue-router": "4.0.12"
   },
   "devDependencies": {
-    "@commitlint/cli": "16.0.2",
+    "@commitlint/cli": "16.0.3",
     "@commitlint/config-conventional": "16.0.0",
     "@iconify/json": "1.1.458",
     "@types/node": "16.11.21",

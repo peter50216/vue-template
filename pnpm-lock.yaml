@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@commitlint/cli': 16.0.2
+  '@commitlint/cli': 16.0.3
   '@commitlint/config-conventional': 16.0.0
   '@iconify/json': 1.1.458
   '@types/node': 16.11.21
@@ -48,7 +48,7 @@ dependencies:
   vue-router: 4.0.12_vue@3.2.27
 
 devDependencies:
-  '@commitlint/cli': 16.0.2_@types+node@16.11.21
+  '@commitlint/cli': 16.0.3_@types+node@16.11.21
   '@commitlint/config-conventional': 16.0.0
   '@iconify/json': 1.1.458
   '@types/node': 16.11.21
@@ -1234,8 +1234,8 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@commitlint/cli/16.0.2_@types+node@16.11.21:
-    resolution: {integrity: sha512-Jt7iaBjoLGC5Nq4dHPTvTYnqPGkElFPBtTXTvBpTgatZApczyjI2plE0oG4GYWPp1suHIS/VdVDOMpPZjGVusg==}
+  /@commitlint/cli/16.0.3_@types+node@16.11.21:
+    resolution: {integrity: sha512-SB1od4/1ek5SShNKjKgUdpqiVNulNVgCkjkV4Zz9zLKrxn3sPcgvXMQNh/wy0/T4WPUVgHrHGcxWYOYXxrGwpg==}
     engines: {node: '>=v12'}
     hasBin: true
     dependencies:
