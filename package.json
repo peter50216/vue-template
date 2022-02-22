@@ -51,7 +51,7 @@
     "vite-plugin-vue-layouts": "0.6.0",
     "vite-plugin-windicss": "1.7.1",
     "vue-tsc": "0.31.4",
-    "windicss": "3.4.3",
+    "windicss": "3.4.4",
     "workbox-core": "6.4.2",
     "workbox-precaching": "6.4.2",
     "workbox-window": "6.4.2"
