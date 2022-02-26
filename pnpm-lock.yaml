@@ -32,7 +32,7 @@ specifiers:
   vite-plugin-pages: 0.20.2
   vite-plugin-pwa: 0.11.13
   vite-plugin-vue-layouts: 0.6.0
-  vite-plugin-windicss: 1.7.1
+  vite-plugin-windicss: 1.8.1
   vue: 3.2.31
   vue-router: 4.0.12
   vue-tsc: 0.32.0
@@ -77,7 +77,7 @@ devDependencies:
   vite-plugin-pages: 0.20.2_7c21275ff0dea6ae855d07d572d52fcf
   vite-plugin-pwa: 0.11.13_vite@2.8.4
   vite-plugin-vue-layouts: 0.6.0_38d013b3483c2295d006adc17a4cc10f
-  vite-plugin-windicss: 1.7.1_vite@2.8.4
+  vite-plugin-windicss: 1.8.1_vite@2.8.4
   vue-tsc: 0.32.0_typescript@4.5.5
   windicss: 3.4.4
   workbox-core: 6.5.0
@@ -1944,26 +1944,26 @@ packages:
       vue-demi: 0.12.1_vue@3.2.31
     dev: false
 
-  /@windicss/config/1.7.1:
-    resolution: {integrity: sha512-bT4Ze8d1kTKbVdQZ7yal9vjhIfuYypco2gVTy4OXvg6eAHFNZaOB/Ai4FqdRKvbgOqChHGiC32r5J55hmq6tDw==}
+  /@windicss/config/1.8.1:
+    resolution: {integrity: sha512-WwrUMa8dT1AXbUjzQUVVCEpCNQg6rvr6wTyLXX8tv5jf9zYyTmj10sl0f7i5tbsMeG66hd2TpDp2JCcQf9knTA==}
     dependencies:
       debug: 4.3.3
-      jiti: 1.12.15
-      windicss: 3.4.4
+      jiti: 1.13.0
+      windicss: 3.5.0
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@windicss/plugin-utils/1.7.1:
-    resolution: {integrity: sha512-VMBLZ11s5kQt1RIIwfB45xFswb+SI1cvI5mK07dUSlfpomG1d1bqnB57bioo/jFNZh2Rl8wVnEvLTl7iZ4r09Q==}
+  /@windicss/plugin-utils/1.8.1:
+    resolution: {integrity: sha512-bYJDw5cPBhUR8qlyL1g634xtGPF4ABOmtRfDrkL8nf9YAJkNowHao9lAMAJqHLd56Zp6BEoqib3smuwKSJKBnQ==}
     dependencies:
-      '@antfu/utils': 0.4.0
-      '@windicss/config': 1.7.1
+      '@antfu/utils': 0.5.0
+      '@windicss/config': 1.8.1
       debug: 4.3.3
       fast-glob: 3.2.11
       magic-string: 0.25.7
       micromatch: 4.0.4
-      windicss: 3.4.4
+      windicss: 3.5.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3754,8 +3754,8 @@ packages:
       supports-color: 7.2.0
     dev: true
 
-  /jiti/1.12.15:
-    resolution: {integrity: sha512-/+K89y6KJA2nISbWrlc/773XdpDgSQq/LdQ+ZZyw2jRxUNyquPtbsDCCCMRzzNORUgroUGc4nAXxJEnQvpViCA==}
+  /jiti/1.13.0:
+    resolution: {integrity: sha512-/n9mNxZj/HDSrincJ6RP+L+yXbpnB8FybySBa+IjIaoH9FIxBbrbRT5XUbe8R7zuVM2AQqNMNDDqz0bzx3znOQ==}
     hasBin: true
     dev: true
 
@@ -5543,16 +5543,16 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-windicss/1.7.1_vite@2.8.4:
-    resolution: {integrity: sha512-eEDeTPaeQAfe0widkTkm9X51BVpOE/yDIuFbULIKjXI7CfY1yjsPcxA6E3aZbLBYQcUmfhVUTYVaH5iAE5L8Hg==}
+  /vite-plugin-windicss/1.8.1_vite@2.8.4:
+    resolution: {integrity: sha512-c+900Dkc94kRuZPb6mz79B5XOS2PHNhadf7P9UjIRoimEE5HB7hj1f+A6qGHO4VejwU/MIvA6D5+Sz2lDKAaEQ==}
     peerDependencies:
       vite: ^2.0.1
     dependencies:
-      '@windicss/plugin-utils': 1.7.1
+      '@windicss/plugin-utils': 1.8.1
       debug: 4.3.3
       kolorist: 1.5.1
       vite: 2.8.4
-      windicss: 3.4.4
+      windicss: 3.5.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5823,6 +5823,12 @@ packages:
 
   /windicss/3.4.4:
     resolution: {integrity: sha512-M3ZTw8wiluUjg16Pu7nwqZmmCiX+eEX6yArzXX0a/HFQWhwyghi7ouT2m95XQsXqvnzAw9FKiF2eFHGfOezdsg==}
+    engines: {node: '>= 12'}
+    hasBin: true
+    dev: true
+
+  /windicss/3.5.0:
+    resolution: {integrity: sha512-+UNYm2Zy4TM2uLiz6bqY2a69LavMqGbILFIwuGhPEJ/uqsPT3kCGSaWlhMw/weIaFOkm1K1cEzZ015Y8pp8N1A==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
