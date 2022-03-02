@@ -11,7 +11,7 @@ specifiers:
   '@vue/compiler-sfc': 3.2.31
   '@vueuse/core': 7.7.0
   eslint: 8.10.0
-  eslint-config-prettier: 8.4.0
+  eslint-config-prettier: 8.5.0
   eslint-plugin-prettier-vue: 3.1.0
   eslint-plugin-simple-import-sort: 7.0.0
   eslint-plugin-vue: 8.5.0
@@ -57,7 +57,7 @@ devDependencies:
   '@vitejs/plugin-vue': 2.2.4_vite@2.8.6+vue@3.2.31
   '@vue/compiler-sfc': 3.2.31
   eslint: 8.10.0
-  eslint-config-prettier: 8.4.0_eslint@8.10.0
+  eslint-config-prettier: 8.5.0_eslint@8.10.0
   eslint-plugin-prettier-vue: 3.1.0
   eslint-plugin-simple-import-sort: 7.0.0_eslint@8.10.0
   eslint-plugin-vue: 8.5.0_eslint@8.10.0
@@ -2939,8 +2939,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-prettier/8.4.0_eslint@8.10.0:
-    resolution: {integrity: sha512-CFotdUcMY18nGRo5KGsnNxpznzhkopOcOo0InID+sgQssPrzjvsyKZPvOgymTFeHrFuC3Tzdf2YndhXtULK9Iw==}
+  /eslint-config-prettier/8.5.0_eslint@8.10.0:
+    resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
