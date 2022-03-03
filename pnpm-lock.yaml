@@ -36,7 +36,7 @@ specifiers:
   vue: 3.2.31
   vue-router: 4.0.13
   vue-tsc: 0.32.1
-  windicss: 3.5.0
+  windicss: 3.5.1
   workbox-core: 6.5.0
   workbox-precaching: 6.5.0
   workbox-window: 6.5.0
@@ -79,7 +79,7 @@ devDependencies:
   vite-plugin-vue-layouts: 0.6.0_a4592832fd4441821c40bfaa7d2d3166
   vite-plugin-windicss: 1.8.2_vite@2.8.6
   vue-tsc: 0.32.1_typescript@4.6.2
-  windicss: 3.5.0
+  windicss: 3.5.1
   workbox-core: 6.5.0
   workbox-precaching: 6.5.0
   workbox-window: 6.5.0
@@ -5824,12 +5824,6 @@ packages:
     hasBin: true
     dependencies:
       isexe: 2.0.0
-    dev: true
-
-  /windicss/3.5.0:
-    resolution: {integrity: sha512-+UNYm2Zy4TM2uLiz6bqY2a69LavMqGbILFIwuGhPEJ/uqsPT3kCGSaWlhMw/weIaFOkm1K1cEzZ015Y8pp8N1A==}
-    engines: {node: '>= 12'}
-    hasBin: true
     dev: true
 
   /windicss/3.5.1:
