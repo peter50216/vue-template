@@ -25,7 +25,7 @@ specifiers:
   stylelint-config-idiomatic-order: 8.1.0
   stylelint-config-standard: 25.0.0
   typescript: 4.6.3
-  unplugin-auto-import: 0.6.6
+  unplugin-auto-import: 0.6.8
   unplugin-icons: 0.14.1
   unplugin-vue-components: 0.18.5
   vite: 2.8.6
@@ -70,7 +70,7 @@ devDependencies:
   stylelint-config-idiomatic-order: 8.1.0_stylelint@14.6.1
   stylelint-config-standard: 25.0.0_stylelint@14.6.1
   typescript: 4.6.3
-  unplugin-auto-import: 0.6.6_@vueuse+core@8.2.0+vite@2.8.6
+  unplugin-auto-import: 0.6.8_@vueuse+core@8.2.0+vite@2.8.6
   unplugin-icons: 0.14.1_5dbb0cc878f3ab9caa0bd7b169eded43
   unplugin-vue-components: 0.18.5_vite@2.8.6+vue@3.2.31
   vite: 2.8.6
@@ -5244,8 +5244,8 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unplugin-auto-import/0.6.6_@vueuse+core@8.2.0+vite@2.8.6:
-    resolution: {integrity: sha512-x3YxAI9ePoumXOakuS5YJlFkSyAkl5vJlaFZSJhSp75nH5gg8LpqQ/0Gz1/CG/JRRv+xaE1CZpEV161AqFGjEg==}
+  /unplugin-auto-import/0.6.8_@vueuse+core@8.2.0+vite@2.8.6:
+    resolution: {integrity: sha512-Nko4z1oSXpV/HNLexxKt+QP+BD4uNS9v2ronHnCWpm4uCMUCj2MXaK9XtFuCvCciIbkLd7wVNXZjpR5eeJs9vA==}
     engines: {node: '>=14'}
     peerDependencies:
       '@vueuse/core': '*'
