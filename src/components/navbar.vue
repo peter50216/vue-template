@@ -1,12 +1,18 @@
 <template>
-  <div class="flex flex-row px-4 pb-2">
+  <div 
+    flex="~ row"
+    p="x-4 b-2"
+  >
     <router-link
       to="/"
       class="text-2xl font-bold"
     >
       TODO
     </router-link>
-    <div class="flex-1 text-center text-2xl">
+    <div
+      flex="1"
+      text="2xl center"
+    >
       {{ props.title }}
     </div>
   </div>

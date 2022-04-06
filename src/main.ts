@@ -1,4 +1,5 @@
-import "virtual:windi.css";
+import "@unocss/reset/tailwind.css";
+import "uno.css";
 import "./main.css";
 
 import { createPinia } from "pinia";

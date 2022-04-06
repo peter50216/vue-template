@@ -1,15 +1,32 @@
 <template>
-  <div class="flex-1 flex flex-col items-center justify-center p-4">
-    <div class="flex items-center">
-      <noto-v1-rabbit-face class="mr-2" />
+  <div
+    flex="~ 1 col"
+    items="center"
+    justify="center"
+    p="4"
+  >
+    <div
+      flex="~"
+      items="center"
+    >
+      <div
+        i="noto-v1-rabbit-face"
+        mr="2"
+      />
       Hello to Vue 3 + WindiCSS!
     </div>
-    <div class="flex items-center">
+    <div
+      flex="~"
+      items="center"
+    >
       <button
-        class="mr-2"
+        mr="2"
         @click="inc"
       >
-        <akar-icons-circle-plus class="block" />
+        <div
+          i="akar-icons-circle-plus"
+          class="block"
+        />
       </button>
       Here's a counter: {{ cnt }}
     </div>

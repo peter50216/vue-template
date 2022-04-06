@@ -1,5 +1,5 @@
 <template>
-  <span class="text-3xl">
+  <span text="3xl">
     Not found!
   </span>
 </template>

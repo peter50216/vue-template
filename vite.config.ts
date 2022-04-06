@@ -1,14 +1,16 @@
+import presetAttributify from "@unocss/preset-attributify";
+import presetIcons from "@unocss/preset-icons";
+import presetUno from "@unocss/preset-uno";
 import Vue from "@vitejs/plugin-vue";
 import path from "path";
+import Unocss from "unocss/vite";
+import { presetScrollbar } from "unocss-preset-scrollbar";
 import AutoImport from "unplugin-auto-import/vite";
-import IconsResolver from "unplugin-icons/resolver";
-import Icons from "unplugin-icons/vite";
 import Components from "unplugin-vue-components/vite";
 import { UserConfig } from "vite";
 import Pages from "vite-plugin-pages";
 import { VitePWA } from "vite-plugin-pwa";
 import Layouts from "vite-plugin-vue-layouts";
-import WindiCSS from "vite-plugin-windicss";
 
 const config: UserConfig = {
   resolve: {
@@ -28,19 +30,16 @@ const config: UserConfig = {
     Components({
       dts: true,
       directoryAsNamespace: true,
-      resolvers: [
-        // auto import icons
-        // https://github.com/antfu/unplugin-icons
-        IconsResolver({
-          componentPrefix: "",
-        }),
-      ],
     }),
 
-    // https://github.com/antfu/unplugin-icons
-    Icons({ iconSource: "legacy" }),
-
-    WindiCSS(),
+    Unocss({
+      presets: [
+        presetUno(),
+        presetIcons(),
+        presetAttributify(),
+        presetScrollbar(),
+      ],
+    }),
 
     Pages(),
 
