@@ -18,7 +18,7 @@ specifiers:
   eslint-config-prettier: 8.5.0
   eslint-plugin-prettier-vue: 3.1.0
   eslint-plugin-simple-import-sort: 7.0.0
-  eslint-plugin-vue: 8.5.0
+  eslint-plugin-vue: 8.6.0
   husky: 7.0.4
   lint-staged: 12.3.7
   pinia: 2.0.13
@@ -67,7 +67,7 @@ devDependencies:
   eslint-config-prettier: 8.5.0_eslint@8.12.0
   eslint-plugin-prettier-vue: 3.1.0
   eslint-plugin-simple-import-sort: 7.0.0_eslint@8.12.0
-  eslint-plugin-vue: 8.5.0_eslint@8.12.0
+  eslint-plugin-vue: 8.6.0_eslint@8.12.0
   husky: 7.0.4
   lint-staged: 12.3.7
   pnpm: 6.32.4
@@ -3090,8 +3090,8 @@ packages:
       eslint: 8.12.0
     dev: true
 
-  /eslint-plugin-vue/8.5.0_eslint@8.12.0:
-    resolution: {integrity: sha512-i1uHCTAKOoEj12RDvdtONWrGzjFm/djkzqfhmQ0d6M/W8KM81mhswd/z+iTZ0jCpdUedW3YRgcVfQ37/J4zoYQ==}
+  /eslint-plugin-vue/8.6.0_eslint@8.12.0:
+    resolution: {integrity: sha512-abXiF2J18n/7ZPy9foSlJyouKf54IqpKlNvNmzhM93N0zs3QUxZG/oBd3tVPOJTKg7SlhBUtPxugpqzNbgGpQQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
