@@ -98,6 +98,8 @@ module.exports = {
     "simple-import-sort/exports": "error",
     "simple-import-sort/imports": "error",
     "vue/multi-word-component-names": "off",
+    // ref sugar
+    "vue/no-setup-props-destructure": "off",
   },
   settings: {
     "prettier-vue": {

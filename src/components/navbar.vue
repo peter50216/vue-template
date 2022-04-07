@@ -13,11 +13,11 @@
       flex="1"
       text="2xl center"
     >
-      {{ props.title }}
+      {{ title }}
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-const props = defineProps<{ title?: string }>();
+const { title = "" } = defineProps<{ title?: string }>();
 </script>

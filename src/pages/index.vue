@@ -36,8 +36,6 @@
 <script setup lang="ts">
 const emit = defineEmits<{ (ev: "setTitle", title: string): void }>();
 emit("setTitle", "Index");
-const cnt = ref(0);
-const inc = () => {
-  cnt.value++;
-};
+let cnt = $ref(0);
+const inc = () => cnt++;
 </script>

@@ -19,7 +19,9 @@ const config: UserConfig = {
     },
   },
   plugins: [
-    Vue(),
+    Vue({
+      reactivityTransform: true,
+    }),
 
     // https://github.com/antfu/unplugin-auto-import
     AutoImport({

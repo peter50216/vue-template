@@ -1,11 +1,17 @@
 <template>
-  <div class="w-full h-full flex flex-col text-white p-2 text-xl">
+  <div 
+    w="full"
+    h="full"
+    flex="~ col"
+    text="white xl"
+    p="2"
+  >
     <Navbar :title="title" />
     <router-view @set-title="setTitle" />
   </div>
 </template>
 
 <script setup lang="ts">
-const title = ref("");
-const setTitle = (s: string) => (title.value = s);
+let title = $ref("");
+const setTitle = (s: string) => (title = s);
 </script>
