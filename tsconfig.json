@@ -26,7 +26,8 @@
         "src/*"
       ]
     },
-    "noUnusedLocals": true
+    "noUnusedLocals": true,
+    "jsx": "preserve"
   },
   "exclude": [
     "dist",
