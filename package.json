@@ -55,9 +55,9 @@
     "vite-plugin-pwa": "0.11.13",
     "vite-plugin-vue-layouts": "0.6.0",
     "vue-tsc": "0.34.6",
-    "workbox-core": "6.5.2",
-    "workbox-precaching": "6.5.2",
-    "workbox-window": "6.5.2"
+    "workbox-core": "6.5.3",
+    "workbox-precaching": "6.5.3",
+    "workbox-window": "6.5.3"
   },
   "lint-staged": {
     "!(auto-imports.d.ts|components.d.ts)*.{js,ts,vue}": [
