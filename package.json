@@ -17,7 +17,7 @@
     "@unocss/reset": "0.31.0",
     "@vueuse/core": "8.2.5",
     "pinia": "2.0.13",
-    "vue": "3.2.31",
+    "vue": "3.2.32",
     "vue-router": "4.0.14"
   },
   "devDependencies": {
@@ -31,7 +31,7 @@
     "@unocss/preset-icons": "0.31.0",
     "@unocss/preset-uno": "0.31.0",
     "@vitejs/plugin-vue": "2.3.1",
-    "@vue/compiler-sfc": "3.2.31",
+    "@vue/compiler-sfc": "3.2.32",
     "eslint": "8.13.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier-vue": "3.1.0",
