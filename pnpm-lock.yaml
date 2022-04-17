@@ -34,7 +34,7 @@ specifiers:
   unplugin-auto-import: 0.7.1
   unplugin-vue-components: 0.19.3
   vite: 2.9.5
-  vite-plugin-pages: 0.22.0
+  vite-plugin-pages: 0.23.0
   vite-plugin-pwa: 0.11.13
   vite-plugin-vue-layouts: 0.6.0
   vue: 3.2.33
@@ -82,7 +82,7 @@ devDependencies:
   unplugin-auto-import: 0.7.1_@vueuse+core@8.2.6+vite@2.9.5
   unplugin-vue-components: 0.19.3_vite@2.9.5+vue@3.2.33
   vite: 2.9.5
-  vite-plugin-pages: 0.22.0_373ff0796f2ad1831080f280f76c13f4
+  vite-plugin-pages: 0.23.0_373ff0796f2ad1831080f280f76c13f4
   vite-plugin-pwa: 0.11.13_vite@2.9.5
   vite-plugin-vue-layouts: 0.6.0_c6669f7f6a2bb1e4cd0ce207bade55c6
   vue-tsc: 0.34.7_typescript@4.6.3
@@ -151,7 +151,7 @@ packages:
       convert-source-map: 1.8.0
       debug: 4.3.4
       gensync: 1.0.0-beta.2
-      json5: 2.2.0
+      json5: 2.2.1
       semver: 6.3.0
     transitivePeerDependencies:
       - supports-color
@@ -1588,7 +1588,7 @@ packages:
     resolution: {integrity: sha512-lR8q/9W7hZpMWweNiAKU7NQerBnzQQLvi8qnTDU/fxItPhtZVMbPV3lbCwjhIlNBe9Bbr5V+KHshvWmVSG9cxQ==}
     dependencies:
       ejs: 3.1.6
-      json5: 2.2.0
+      json5: 2.2.1
       magic-string: 0.25.9
       string.prototype.matchall: 4.0.6
     dev: true
@@ -1609,6 +1609,12 @@ packages:
     resolution: {integrity: sha512-eZxlbI8GZscaGS7kkc/trHTT5xgrjH3/1n2JDwusC9iahPKWMRvRjJSAN5mCXviuTGQ/lHnhvv8Q1YTpnfz9gA==}
     dev: true
 
+  /@types/debug/4.1.7:
+    resolution: {integrity: sha512-9AonUzyTjXXhEOa0DnqpzZi6VHlqKMswga9EXjpXnnqxwLtdvPPtlO8evrI5D9S6asFRCQ6v+wpiUKbw+vKqyg==}
+    dependencies:
+      '@types/ms': 0.7.31
+    dev: true
+
   /@types/estree/0.0.39:
     resolution: {integrity: sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==}
     dev: true
@@ -1619,6 +1625,10 @@ packages:
 
   /@types/minimist/1.2.2:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
+    dev: true
+
+  /@types/ms/0.7.31:
+    resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: true
 
   /@types/node/16.11.27:
@@ -3911,12 +3921,10 @@ packages:
     resolution: {integrity: sha1-nbe1lJatPzz+8wp1FC0tkwrXJlE=}
     dev: true
 
-  /json5/2.2.0:
-    resolution: {integrity: sha512-f+8cldu7X/y7RAJurMEJmdoKXGB/X550w2Nr3tTbezL6RwEE/iMcm+tZnXeoZtKuOq6ft8+CqzEkrIgx1fPoQA==}
+  /json5/2.2.1:
+    resolution: {integrity: sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==}
     engines: {node: '>=6'}
     hasBin: true
-    dependencies:
-      minimist: 1.2.5
     dev: true
 
   /jsonfile/6.1.0:
@@ -4194,10 +4202,6 @@ packages:
       arrify: 1.0.1
       is-plain-obj: 1.1.0
       kind-of: 6.0.3
-    dev: true
-
-  /minimist/1.2.5:
-    resolution: {integrity: sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==}
     dev: true
 
   /mrmime/1.0.0:
@@ -5504,24 +5508,25 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-plugin-pages/0.22.0_373ff0796f2ad1831080f280f76c13f4:
-    resolution: {integrity: sha512-OeCtSKoQNjrjtlNgkF4JTU0UdiZsa0cSQJKFyRoUz5KMbGoXR8O29BB2fZx9tMSBPyQJgGvIpzdoofLDaRNcQQ==}
+  /vite-plugin-pages/0.23.0_373ff0796f2ad1831080f280f76c13f4:
+    resolution: {integrity: sha512-KEfW6WBfACCjMXoQY0mLEzfifwCTq6FlvvtXs2XSEe9Pd4QadZTNzHOPKHDsKpVXysRzbYxE8/c/Ao9+nXsQ7w==}
     peerDependencies:
-      '@vue/compiler-sfc': '>=3'
-      vite: '>=2'
+      '@vue/compiler-sfc': ^3.0.0
+      vite: ^2.0.0
     peerDependenciesMeta:
       '@vue/compiler-sfc':
         optional: true
     dependencies:
+      '@types/debug': 4.1.7
       '@vue/compiler-sfc': 3.2.33
-      debug: 4.3.3
+      debug: 4.3.4
       deep-equal: 2.0.5
       fast-glob: 3.2.11
-      json5: 2.2.0
+      json5: 2.2.1
       local-pkg: 0.4.1
       picocolors: 1.0.0
       vite: 2.9.5
-      yaml: 2.0.0-10
+      yaml: 2.0.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5939,9 +5944,9 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /yaml/2.0.0-10:
-    resolution: {integrity: sha512-FHV8s5ODFFQXX/enJEU2EkanNl1UDBUz8oa4k5Qo/sR+Iq7VmhCDkRMb0/mjJCNeAWQ31W8WV6PYStDE4d9EIw==}
-    engines: {node: '>= 12'}
+  /yaml/2.0.1:
+    resolution: {integrity: sha512-1NpAYQ3wjzIlMs0mgdBmYzLkFgWBIWrzYVDYfrixhoFNNgJ444/jT2kUT2sicRbJES3oQYRZugjB6Ro8SjKeFg==}
+    engines: {node: '>= 14'}
     dev: true
 
   /yargs-parser/20.2.9:
