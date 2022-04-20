@@ -20,7 +20,7 @@ specifiers:
   eslint-plugin-simple-import-sort: 7.0.0
   eslint-plugin-vue: 8.6.0
   husky: 7.0.4
-  lint-staged: 12.3.8
+  lint-staged: 12.4.0
   pinia: 2.0.13
   pnpm: 6.32.9
   postcss-html: 1.4.1
@@ -69,7 +69,7 @@ devDependencies:
   eslint-plugin-simple-import-sort: 7.0.0_eslint@8.13.0
   eslint-plugin-vue: 8.6.0_eslint@8.13.0
   husky: 7.0.4
-  lint-staged: 12.3.8
+  lint-staged: 12.4.0
   pnpm: 6.32.9
   postcss-html: 1.4.1
   prettier: 2.6.2
@@ -3981,8 +3981,8 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: true
 
-  /lint-staged/12.3.8:
-    resolution: {integrity: sha512-0+UpNaqIwKRSGAFOCcpuYNIv/j5QGVC+xUVvmSdxHO+IfIGoHbFLo3XcPmV/LLnsVj5EAncNHVtlITSoY5qWGQ==}
+  /lint-staged/12.4.0:
+    resolution: {integrity: sha512-3X7MR0h9b7qf4iXf/1n7RlVAx+EzpAZXoCEMhVSpaBlgKDfH2ewf+QUm7BddFyq29v4dgPP+8+uYpWuSWx035A==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -3993,7 +3993,7 @@ packages:
       execa: 5.1.1
       lilconfig: 2.0.4
       listr2: 4.0.4
-      micromatch: 4.0.4
+      micromatch: 4.0.5
       normalize-path: 3.0.0
       object-inspect: 1.12.0
       pidtree: 0.5.0
@@ -4155,14 +4155,6 @@ packages:
   /merge2/1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
     engines: {node: '>= 8'}
-    dev: true
-
-  /micromatch/4.0.4:
-    resolution: {integrity: sha512-pRmzw/XUcwXGpD9aI9q/0XOwLNygjETJ8y0ao0wdqprrzDa4YnxLcz7fQRZr8voh8V10kGhABbNcHVk5wHgWwg==}
-    engines: {node: '>=8.6'}
-    dependencies:
-      braces: 3.0.2
-      picomatch: 2.3.1
     dev: true
 
   /micromatch/4.0.5:
