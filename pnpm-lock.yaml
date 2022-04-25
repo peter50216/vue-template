@@ -30,7 +30,7 @@ specifiers:
   stylelint-config-standard: 25.0.0
   typescript: 4.6.3
   unocss: 0.31.13
-  unocss-preset-scrollbar: 0.0.1
+  unocss-preset-scrollbar: 0.1.0
   unplugin-auto-import: 0.7.1
   unplugin-vue-components: 0.19.3
   vite: 2.9.5
@@ -78,7 +78,7 @@ devDependencies:
   stylelint-config-standard: 25.0.0_stylelint@14.7.1
   typescript: 4.6.3
   unocss: 0.31.13_vite@2.9.5
-  unocss-preset-scrollbar: 0.0.1_unocss@0.31.13
+  unocss-preset-scrollbar: 0.1.0_unocss@0.31.13
   unplugin-auto-import: 0.7.1_@vueuse+core@8.3.1+vite@2.9.5
   unplugin-vue-components: 0.19.3_vite@2.9.5+vue@3.2.33
   vite: 2.9.5
@@ -1804,10 +1804,6 @@ packages:
       unconfig: 0.3.3
     dev: true
 
-  /@unocss/core/0.30.12:
-    resolution: {integrity: sha512-uxtLVT59ryp/h4I5QgcN4il+5MOEEfzf0M0FxzxYAiizO3cBLNCmCfPKo0Sp5VWCgWDrBFtyEEVP7G6lDOin/w==}
-    dev: true
-
   /@unocss/core/0.31.13:
     resolution: {integrity: sha512-mrhFmnbSVgUDrSH22WEHwKPFXOSHe10lEsE++7VsnEKpVAlYYnk+LxEjCNCm7GhiikWGuWI8oPLg50qQoBW3XQ==}
     dev: true
@@ -1832,12 +1828,6 @@ packages:
       '@unocss/core': 0.31.13
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /@unocss/preset-mini/0.30.12:
-    resolution: {integrity: sha512-4R9Pd0ZInq5HbW1a/H74AVoiCiTiaff79zuCUz8T/R/yOeoSfZuDjUgPFJrlRUyWLTIKxwi2DxGEfkN3AfQIGg==}
-    dependencies:
-      '@unocss/core': 0.30.12
     dev: true
 
   /@unocss/preset-mini/0.31.13:
@@ -5390,12 +5380,12 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unocss-preset-scrollbar/0.0.1_unocss@0.31.13:
-    resolution: {integrity: sha512-Gupfv1dqTExL7C6ZHTzXqA61ehzdHJXyQrcAvgFVJE/DrqX8BBjEeJSy4lCpaTXnjlyGXyFszDpCe0Gw13vnSA==}
+  /unocss-preset-scrollbar/0.1.0_unocss@0.31.13:
+    resolution: {integrity: sha512-fR5+CsdIwI8g1xIMKBuLFSZ0LiElTznq/Ylub6Bf1QKWq7UyQruX0vBW70QN/R0U3RLc5Cexe5tXqREcocdweA==}
     peerDependencies:
-      unocss: ^0.30.6
+      unocss: ^0.31.13
     dependencies:
-      '@unocss/preset-mini': 0.30.12
+      '@unocss/preset-mini': 0.31.13
       unocss: 0.31.13_vite@2.9.5
     dev: true
 
