@@ -6,7 +6,7 @@
     text="white xl"
     p="2"
   >
-    <Navbar />
+    <TopNavbar />
     <router-view />
   </div>
 </template>

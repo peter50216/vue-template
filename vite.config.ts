@@ -7,12 +7,12 @@ import Unocss from "unocss/vite";
 import { presetScrollbar } from "unocss-preset-scrollbar";
 import AutoImport from "unplugin-auto-import/vite";
 import Components from "unplugin-vue-components/vite";
-import { UserConfig } from "vite";
 import Pages from "vite-plugin-pages";
 import { VitePWA } from "vite-plugin-pwa";
 import Layouts from "vite-plugin-vue-layouts";
+import { defineConfig } from "vitest/config";
 
-const config: UserConfig = {
+export default defineConfig({
   resolve: {
     alias: {
       "/~/": `${path.resolve(__dirname, "src")}/`,
@@ -89,6 +89,7 @@ const config: UserConfig = {
       strict: true,
     },
   },
-};
-
-export default config;
+  test: {
+    environment: "jsdom",
+  },
+});

@@ -3,34 +3,29 @@
     "baseUrl": ".",
     "module": "ESNext",
     "target": "es2016",
-    "lib": [
-      "DOM",
-      "ESNext",
-      "WebWorker"
-    ],
+    "lib": ["DOM", "ESNext", "WebWorker"],
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
     "types": [
-      "vite/client",
       "node",
+      "vite/client",
       "vite-plugin-vue-layouts/client",
       "vite-plugin-pages/client",
       "vite-plugin-pwa/client"
     ],
+    "jsx": "preserve",
     "paths": {
-      "/~/*": [
-        "src/*"
-      ]
-    },
-    "noUnusedLocals": true,
-    "jsx": "preserve"
+      "/~/*": ["src/*"]
+    }
   },
-  "exclude": [
-    "dist",
-    "node_modules"
-  ]
+  "ts-node": {
+    "compilerOptions": {
+      "noUnusedLocals": false
+    }
+  }
 }

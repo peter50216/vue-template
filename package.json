@@ -3,6 +3,7 @@
   "name": "TODO",
   "scripts": {
     "build": "NODE_ENV=production vite build",
+    "coverage": "vitest run --silent --coverage",
     "dev": "vite --open",
     "lint": "pnpm run lint:js:all -- --fix && pnpm run lint:css:all -- --fix",
     "lint:css": "stylelint --max-warnings 0 **/*.{css,vue}",
@@ -10,8 +11,9 @@
     "lint:js": "eslint --max-warnings 0 --ext .js,.ts,.vue",
     "lint:js:all": "pnpm run lint:js -- .",
     "prepare": "husky install .husky",
-    "tsc": "vue-tsc --noEmit",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "test": "vitest --silent",
+    "tsc": "vue-tsc --noEmit"
   },
   "dependencies": {
     "@unocss/reset": "0.31.17",
@@ -33,12 +35,14 @@
     "@vitejs/plugin-vue": "2.3.1",
     "@vue/compiler-sfc": "3.2.33",
     "@vue/runtime-core": "3.2.33",
+    "@vue/test-utils": "^2.0.0-rc.21",
     "eslint": "8.14.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier-vue": "3.1.0",
     "eslint-plugin-simple-import-sort": "7.0.0",
     "eslint-plugin-vue": "8.7.1",
     "husky": "7.0.4",
+    "jsdom": "^19.0.0",
     "lint-staged": "12.4.1",
     "pnpm": "6.32.10",
     "postcss-html": "1.4.1",
@@ -55,6 +59,7 @@
     "vite-plugin-pages": "0.23.0",
     "vite-plugin-pwa": "0.12.0",
     "vite-plugin-vue-layouts": "0.6.0",
+    "vitest": "^0.10.0",
     "vue-tsc": "0.34.10",
     "workbox-core": "6.5.3",
     "workbox-precaching": "6.5.3",
