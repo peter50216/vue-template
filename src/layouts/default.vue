@@ -6,12 +6,7 @@
     text="white xl"
     p="2"
   >
-    <Navbar :title="title" />
-    <router-view @set-title="setTitle" />
+    <Navbar />
+    <router-view />
   </div>
 </template>
-
-<script setup lang="ts">
-let title = $ref("");
-const setTitle = (s: string) => (title = s);
-</script>

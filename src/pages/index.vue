@@ -34,8 +34,14 @@
 </template>
 
 <script setup lang="ts">
-const emit = defineEmits<{ (ev: "setTitle", title: string): void }>();
-emit("setTitle", "Index");
+import { useNavbarStore } from "/~/store/navbar";
+
+const store = useNavbarStore();
+
+onMounted(() => {
+  store.title = "Index";
+});
+
 let cnt = $ref(0);
 const inc = () => cnt++;
 </script>

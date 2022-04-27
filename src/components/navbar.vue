@@ -13,11 +13,13 @@
       flex="1"
       text="2xl center"
     >
-      {{ title }}
+      {{ store.title }}
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-const { title = "" } = defineProps<{ title?: string }>();
+import { useNavbarStore } from "/~/store/navbar";
+
+const store = useNavbarStore();
 </script>
