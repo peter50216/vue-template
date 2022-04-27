@@ -13,7 +13,7 @@ specifiers:
   '@unocss/reset': 0.31.17
   '@vitejs/plugin-vue': 2.3.1
   '@vue/compiler-sfc': 3.2.33
-  '@vue/runtime-core': ^3.2.33
+  '@vue/runtime-core': 3.2.33
   '@vueuse/core': 8.3.1
   eslint: 8.14.0
   eslint-config-prettier: 8.5.0
