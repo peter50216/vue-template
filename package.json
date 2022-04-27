@@ -44,7 +44,7 @@
     "husky": "7.0.4",
     "jsdom": "^19.0.0",
     "lint-staged": "12.4.1",
-    "pnpm": "6.32.10",
+    "pnpm": "6.32.11",
     "postcss-html": "1.4.1",
     "prettier": "2.6.2",
     "stylelint": "14.8.0",
