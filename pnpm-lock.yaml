@@ -33,7 +33,7 @@ specifiers:
   stylelint-config-standard: 25.0.0
   typescript: 4.6.4
   unocss: 0.32.8
-  unocss-preset-scrollbar: 0.1.0
+  unocss-preset-scrollbar: 0.2.0
   unplugin-auto-import: 0.7.1
   unplugin-vue-components: 0.19.3
   vite: 2.9.6
@@ -85,7 +85,7 @@ devDependencies:
   stylelint-config-standard: 25.0.0_stylelint@14.8.1
   typescript: 4.6.4
   unocss: 0.32.8_vite@2.9.6
-  unocss-preset-scrollbar: 0.1.0_unocss@0.32.8
+  unocss-preset-scrollbar: 0.2.0_unocss@0.32.8
   unplugin-auto-import: 0.7.1_utbicujaitsyfhhenhpcxjwwzu
   unplugin-vue-components: 0.19.3_vite@2.9.6+vue@3.2.33
   vite: 2.9.6
@@ -5779,8 +5779,8 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unocss-preset-scrollbar/0.1.0_unocss@0.32.8:
-    resolution: {integrity: sha512-fR5+CsdIwI8g1xIMKBuLFSZ0LiElTznq/Ylub6Bf1QKWq7UyQruX0vBW70QN/R0U3RLc5Cexe5tXqREcocdweA==}
+  /unocss-preset-scrollbar/0.2.0_unocss@0.32.8:
+    resolution: {integrity: sha512-4S8uF02LKkVX0bbIqH0v+mnG9W6ifBZZiyTG20MULlLTEzObA2CEyj0ZYRrgTTTvRDiJ/qquCvJXdREtuoVpdQ==}
     peerDependencies:
       unocss: ^0.31.13 || 0
     dependencies:
