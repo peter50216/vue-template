@@ -72,5 +72,12 @@
     "*.{css,vue}": [
       "pnpm run lint:css --fix"
     ]
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "allowedVersions": {
+        "unocss": "0"
+      }
+    }
   }
 }
