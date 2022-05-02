@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@commitlint/cli': 16.2.4
   '@commitlint/config-conventional': 16.2.4
-  '@iconify/json': 2.1.34
+  '@iconify/json': 2.1.35
   '@types/node': 16.11.33
   '@typescript-eslint/eslint-plugin': 5.21.0
   '@typescript-eslint/parser': 5.21.0
@@ -58,7 +58,7 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 16.2.4
   '@commitlint/config-conventional': 16.2.4
-  '@iconify/json': 2.1.34
+  '@iconify/json': 2.1.35
   '@types/node': 16.11.33
   '@typescript-eslint/eslint-plugin': 5.21.0_vxtfsxfxxyksjzzdyas4bgfolu
   '@typescript-eslint/parser': 5.21.0_t725usgvqspm5woeqpaxbfp2qu
@@ -1450,8 +1450,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify/json/2.1.34:
-    resolution: {integrity: sha512-95Va53VLuWSMosTjfy4SUcnzcbNgfhW4CalMfrWiu/LSdO46/tIHCqFf+ZYWnhatC3PgFg12zIcQ5Y66hBWElA==}
+  /@iconify/json/2.1.35:
+    resolution: {integrity: sha512-VFPRA58gMmT3bAPBhPTyN3KCcrImeiMzHEAPzRRUaz6SGaXvpKlGDJa+qUVHaJKL3Ht1UYUv1cY0t0wNKM/3Bg==}
     dependencies:
       '@iconify/types': 1.1.0
       pathe: 0.2.0
@@ -5788,7 +5788,7 @@ packages:
   /unocss-preset-scrollbar/0.1.0_unocss@0.32.8:
     resolution: {integrity: sha512-fR5+CsdIwI8g1xIMKBuLFSZ0LiElTznq/Ylub6Bf1QKWq7UyQruX0vBW70QN/R0U3RLc5Cexe5tXqREcocdweA==}
     peerDependencies:
-      unocss: ^0.31.13
+      unocss: ^0.31.13 || 0
     dependencies:
       '@unocss/preset-mini': 0.31.17
       unocss: 0.32.8_vite@2.9.6
