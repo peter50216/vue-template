@@ -5,11 +5,11 @@
     "build": "NODE_ENV=production vite build",
     "coverage": "vitest run --silent --coverage",
     "dev": "vite --open",
-    "lint": "pnpm run lint:js:all -- --fix && pnpm run lint:css:all -- --fix",
+    "lint": "pnpm run lint:js:all --fix && pnpm run lint:css:all --fix",
     "lint:css": "stylelint --max-warnings 0 **/*.{css,vue}",
-    "lint:css:all": "pnpm run lint:css -- **/*.{css,vue}",
+    "lint:css:all": "pnpm run lint:css **/*.{css,vue}",
     "lint:js": "eslint --max-warnings 0 --ext .js,.ts,.vue",
-    "lint:js:all": "pnpm run lint:js -- .",
+    "lint:js:all": "pnpm run lint:js .",
     "prepare": "husky install .husky",
     "serve": "vite preview",
     "test": "vitest --silent",
@@ -67,10 +67,10 @@
   },
   "lint-staged": {
     "!(auto-imports.d.ts|components.d.ts)*.{js,ts,vue}": [
-      "pnpm run lint:js -- --fix"
+      "pnpm run lint:js --fix"
     ],
     "*.{css,vue}": [
-      "pnpm run lint:css -- --fix"
+      "pnpm run lint:css --fix"
     ]
   }
 }
