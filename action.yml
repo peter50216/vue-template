@@ -1,0 +1,19 @@
+name: 'Basic checks'
+description: 'Basic Vue checks & builds for the template'
+runs:
+  using: "composite"
+  steps:
+    - name: Cache pnpm modules
+      uses: actions/cache@v3
+      with:
+        path: ~/.pnpm-store
+        key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+        restore-keys: ${{ runner.os }}
+    - name: Setup PNPM
+      uses: pnpm/action-setup@v2.2.1
+      with:
+        run_install: true
+    - run: pnpm run lint:js:all
+    - run: pnpm run lint:css:all
+    - run: pnpm run tsc
+    - run: pnpm run build

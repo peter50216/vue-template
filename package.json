@@ -73,6 +73,7 @@
       "pnpm run lint:css --fix"
     ]
   },
+  "packageManager": "pnpm@7.0.0",
   "pnpm": {
     "peerDependencyRules": {
       "allowedVersions": {
