@@ -32,7 +32,7 @@
     "@unocss/preset-attributify": "0.32.12",
     "@unocss/preset-icons": "0.32.12",
     "@unocss/preset-uno": "0.32.12",
-    "@vitejs/plugin-vue": "2.3.1",
+    "@vitejs/plugin-vue": "2.3.2",
     "@vue/compiler-sfc": "3.2.33",
     "@vue/runtime-core": "3.2.33",
     "@vue/test-utils": "^2.0.0-rc.21",
