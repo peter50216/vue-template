@@ -42,7 +42,7 @@ specifiers:
   vite-plugin-vue-layouts: 0.6.0
   vitest: ^0.10.0
   vue: 3.2.33
-  vue-router: 4.0.14
+  vue-router: 4.0.15
   vue-tsc: 0.34.11
   workbox-core: 6.5.3
   workbox-precaching: 6.5.3
@@ -53,7 +53,7 @@ dependencies:
   '@vueuse/core': 8.4.1_vue@3.2.33
   pinia: 2.0.13_ytvqwwdyss532bvoq2clv4ed5m
   vue: 3.2.33
-  vue-router: 4.0.14_vue@3.2.33
+  vue-router: 4.0.15_vue@3.2.33
 
 devDependencies:
   '@commitlint/cli': 16.2.4
@@ -91,7 +91,7 @@ devDependencies:
   vite: 2.9.7
   vite-plugin-pages: 0.23.0_xmnm7nh53mueszahrj7hnsgdsm
   vite-plugin-pwa: 0.12.0_vite@2.9.7
-  vite-plugin-vue-layouts: 0.6.0_cy27blvoe2cwdzwso5wue736a4
+  vite-plugin-vue-layouts: 0.6.0_khv5hr3jkjj3v2binzaekby4fi
   vitest: 0.10.0_jsdom@19.0.0
   vue-tsc: 0.34.11_typescript@4.6.4
   workbox-core: 6.5.3
@@ -5958,7 +5958,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-vue-layouts/0.6.0_cy27blvoe2cwdzwso5wue736a4:
+  /vite-plugin-vue-layouts/0.6.0_khv5hr3jkjj3v2binzaekby4fi:
     resolution: {integrity: sha512-7QX7o/NpCfs+hyXphwYfmPqAEQ6qd4uXsvI0VsovjGT2eCoEE5dMdP6L+uqqNWY4uqv7oCvtinecZmbzZv/9Rg==}
     peerDependencies:
       vite: ^2.5.0
@@ -5970,7 +5970,7 @@ packages:
       fast-glob: 3.2.11
       vite: 2.9.7
       vue: 3.2.33
-      vue-router: 4.0.14_vue@3.2.33
+      vue-router: 4.0.15_vue@3.2.33
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6065,8 +6065,8 @@ packages:
       - supports-color
     dev: true
 
-  /vue-router/4.0.14_vue@3.2.33:
-    resolution: {integrity: sha512-wAO6zF9zxA3u+7AkMPqw9LjoUCjSxfFvINQj3E/DceTt6uEz1XZLraDhdg2EYmvVwTBSGlLYsUw8bDmx0754Mw==}
+  /vue-router/4.0.15_vue@3.2.33:
+    resolution: {integrity: sha512-xa+pIN9ZqORdIW1MkN2+d9Ui2pCM1b/UMgwYUCZOiFYHAvz/slKKBDha8DLrh5aCG/RibtrpyhKjKOZ85tYyWg==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
