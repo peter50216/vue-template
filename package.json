@@ -54,7 +54,7 @@
     "unocss": "0.33.1",
     "unocss-preset-scrollbar": "0.2.0",
     "unplugin-auto-import": "0.7.1",
-    "unplugin-vue-components": "0.19.3",
+    "unplugin-vue-components": "0.19.5",
     "vite": "2.9.8",
     "vite-plugin-pages": "0.23.0",
     "vite-plugin-pwa": "0.12.0",
