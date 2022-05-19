@@ -25,7 +25,7 @@ specifiers:
   jsdom: ^19.0.0
   lint-staged: 12.4.1
   pinia: 2.0.14
-  pnpm: 7.1.1
+  pnpm: 7.1.2
   postcss-html: 1.4.1
   prettier: 2.6.2
   stylelint: 14.8.2
@@ -77,7 +77,7 @@ devDependencies:
   husky: 8.0.1
   jsdom: 19.0.0
   lint-staged: 12.4.1
-  pnpm: 7.1.1
+  pnpm: 7.1.2
   postcss-html: 1.4.1
   prettier: 2.6.2
   stylelint: 14.8.2
@@ -4762,8 +4762,8 @@ packages:
       vue-demi: 0.12.5_vue@3.2.33
     dev: false
 
-  /pnpm/7.1.1:
-    resolution: {integrity: sha512-RdWWK/qD3QUf8LtBJ5MgD3CHpFcHuO9yNz+/0RR8GDdu0tI1TnBSmOTxkUGWxa7AakWZKcOtDAmLgi++aKbLng==}
+  /pnpm/7.1.2:
+    resolution: {integrity: sha512-nZieltHsIEvr5vGcDM4JchBixUk1Esq+XewDP9RCiPAPxRv5LzDhGujgsrtoETyXBsQ9mclXSPppNr80ya4Rnw==}
     engines: {node: '>=14.19'}
     hasBin: true
     dev: true
