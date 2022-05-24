@@ -34,7 +34,7 @@ specifiers:
   typescript: 4.6.4
   unocss: 0.34.1
   unocss-preset-scrollbar: 0.2.1
-  unplugin-auto-import: 0.8.2
+  unplugin-auto-import: 0.8.4
   unplugin-vue-components: 0.19.5
   vite: 2.9.9
   vite-plugin-pages: 0.23.0
@@ -86,7 +86,7 @@ devDependencies:
   typescript: 4.6.4
   unocss: 0.34.1_vite@2.9.9
   unocss-preset-scrollbar: 0.2.1_unocss@0.34.1
-  unplugin-auto-import: 0.8.2_4xyn6ao5ngwbgzbefoyccvabvi
+  unplugin-auto-import: 0.8.4_4xyn6ao5ngwbgzbefoyccvabvi
   unplugin-vue-components: 0.19.5_vite@2.9.9+vue@3.2.36
   vite: 2.9.9
   vite-plugin-pages: 0.23.0_cyjpizlboac2xw76ngrtxfz55y
@@ -5881,8 +5881,8 @@ packages:
       - vite
     dev: true
 
-  /unplugin-auto-import/0.8.2_4xyn6ao5ngwbgzbefoyccvabvi:
-    resolution: {integrity: sha512-iZjJ+3HEU3dn79SDDfgU0uVP6fGjufP4SnpU26pRVvTSLvh/en5YgTS8tNI06zWIwGhjYPruprtlbwV8SEQs8Q==}
+  /unplugin-auto-import/0.8.4_4xyn6ao5ngwbgzbefoyccvabvi:
+    resolution: {integrity: sha512-YtUN80CzPBLK6qrzONQ0WWg191A0MMERq1nxcVSH+kUkKbs7L2QFiRv9eZrk3Rf9oe7hk0gLfYH85b1bPUG2yA==}
     engines: {node: '>=14'}
     peerDependencies:
       '@vueuse/core': '*'
