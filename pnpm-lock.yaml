@@ -40,7 +40,7 @@ specifiers:
   vite-plugin-pages: 0.23.0
   vite-plugin-pwa: 0.12.0
   vite-plugin-vue-layouts: 0.6.0
-  vitest: 0.12.9
+  vitest: 0.13.0
   vue: 3.2.36
   vue-router: 4.0.15
   vue-tsc: 0.35.0
@@ -92,7 +92,7 @@ devDependencies:
   vite-plugin-pages: 0.23.0_cyjpizlboac2xw76ngrtxfz55y
   vite-plugin-pwa: 0.12.0_vite@2.9.9
   vite-plugin-vue-layouts: 0.6.0_ogyzu5t2gxjxdcuo6vkz6mdms4
-  vitest: 0.12.9_jsdom@19.0.0
+  vitest: 0.13.0_jsdom@19.0.0
   vue-tsc: 0.35.0_typescript@4.7.2
   workbox-core: 6.5.3
   workbox-precaching: 6.5.3
@@ -3587,7 +3587,7 @@ packages:
     dev: true
 
   /get-func-name/2.0.0:
-    resolution: {integrity: sha1-6td0q+5y4gQJQzoGY2YCPdaIekE=}
+    resolution: {integrity: sha512-Hm0ixYtaSZ/V7C8FJrtZIuBBI+iSgL+1Aq82zSu8VQNB4S3Gk8e7Qs3VwBDJAhmRZcFqkl3tQu36g/Foh5I5ig==}
     dev: true
 
   /get-intrinsic/1.1.1:
@@ -6061,8 +6061,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.12.9_jsdom@19.0.0:
-    resolution: {integrity: sha512-1NtyUANS72Qw5PwYvoztk067NX4fSiis2xQxhByOWS33eL2er/yupHyLxlBCOkF2ANe0dLFRvT1GVb+nczL5aw==}
+  /vitest/0.13.0_jsdom@19.0.0:
+    resolution: {integrity: sha512-vuYt3+G25MMnANgyMHHG3VK86C9K/VFi/8uH5myQ2v660W4WArv99ElakPlVFxxSXXM1jqQPiPj2ht35Bod9LQ==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
