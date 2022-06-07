@@ -19,7 +19,7 @@
     "@unocss/reset": "0.37.4",
     "@vueuse/core": "8.6.0",
     "pinia": "2.0.14",
-    "vue": "3.2.36",
+    "vue": "3.2.37",
     "vue-router": "4.0.15"
   },
   "devDependencies": {
@@ -33,8 +33,8 @@
     "@unocss/preset-icons": "0.37.4",
     "@unocss/preset-uno": "0.37.4",
     "@vitejs/plugin-vue": "2.3.3",
-    "@vue/compiler-sfc": "3.2.36",
-    "@vue/runtime-core": "3.2.36",
+    "@vue/compiler-sfc": "3.2.37",
+    "@vue/runtime-core": "3.2.37",
     "@vue/test-utils": "^2.0.0-rc.21",
     "eslint": "8.17.0",
     "eslint-config-prettier": "8.5.0",
