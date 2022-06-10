@@ -18,7 +18,7 @@ specifiers:
   '@vueuse/core': 8.6.0
   eslint: 8.17.0
   eslint-config-prettier: 8.5.0
-  eslint-plugin-prettier-vue: 3.1.0
+  eslint-plugin-prettier-vue: 4.1.0
   eslint-plugin-simple-import-sort: 7.0.0
   eslint-plugin-vue: 9.1.0
   husky: 8.0.1
@@ -71,7 +71,7 @@ devDependencies:
   '@vue/test-utils': 2.0.0_vue@3.2.37
   eslint: 8.17.0
   eslint-config-prettier: 8.5.0_eslint@8.17.0
-  eslint-plugin-prettier-vue: 3.1.0
+  eslint-plugin-prettier-vue: 4.1.0
   eslint-plugin-simple-import-sort: 7.0.0_eslint@8.17.0
   eslint-plugin-vue: 9.1.0_eslint@8.17.0
   husky: 8.0.1
@@ -3246,8 +3246,9 @@ packages:
       eslint: 8.17.0
     dev: true
 
-  /eslint-plugin-prettier-vue/3.1.0:
-    resolution: {integrity: sha512-PxJxmHTAqBv5v6rU/hSg55cyJAp+LhF2K0ffF+MeR3zt0Njy36X5AcYQ75sYLt0KKdgA35XkQHIBrgLF63hTxA==}
+  /eslint-plugin-prettier-vue/4.1.0:
+    resolution: {integrity: sha512-fh2HfRpyAs60LkwTfSvBy4BfYgf5YW6KplpOvkPUyFyeeYBD/pSlBhXHCbZklcnkbURptfHs2fdiqGeB+SYSIw==}
+    engines: {node: '>=14'}
     dependencies:
       '@vue/compiler-sfc': 3.2.37
       chalk: 4.1.2
