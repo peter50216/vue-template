@@ -28,7 +28,7 @@ specifiers:
   pnpm: 7.2.0
   postcss-html: 1.4.1
   prettier: 2.6.2
-  stylelint: 14.9.0
+  stylelint: 14.9.1
   stylelint-config-idiomatic-order: 8.1.0
   stylelint-config-standard: 26.0.0
   typescript: 4.7.3
@@ -80,9 +80,9 @@ devDependencies:
   pnpm: 7.2.0
   postcss-html: 1.4.1
   prettier: 2.6.2
-  stylelint: 14.9.0
-  stylelint-config-idiomatic-order: 8.1.0_stylelint@14.9.0
-  stylelint-config-standard: 26.0.0_stylelint@14.9.0
+  stylelint: 14.9.1
+  stylelint-config-idiomatic-order: 8.1.0_stylelint@14.9.1
+  stylelint-config-standard: 26.0.0_stylelint@14.9.1
   typescript: 4.7.3
   unocss: 0.38.2_vite@2.9.12
   unocss-preset-scrollbar: 0.2.1_unocss@0.38.2
@@ -1427,8 +1427,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.9
     dev: true
 
-  /@csstools/selector-specificity/2.0.0_444rcjjorr3kpoqtvoodsr46pu:
-    resolution: {integrity: sha512-rZ6vufeY/UjAgtyiJ4WvfF6XP6HizIyOfbZOg0RnecIwjrvH8Am3nN1BpKnnPZunYAkUcPPXDhwbxOtGop8cfQ==}
+  /@csstools/selector-specificity/2.0.1_444rcjjorr3kpoqtvoodsr46pu:
+    resolution: {integrity: sha512-aG20vknL4/YjQF9BSV7ts4EWm/yrjagAN7OWBNmlbEOUiu0llj4OGrFoOKK3g2vey4/p2omKCoHrWtPxSwV3HA==}
     engines: {node: ^12 || ^14 || >=16}
     peerDependencies:
       postcss: ^8.3
@@ -5474,36 +5474,36 @@ packages:
     dev: true
 
   /style-search/0.1.0:
-    resolution: {integrity: sha1-eVjHk+R+MuB9K1yv5cC/jhLneQI=}
+    resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
     dev: true
 
-  /stylelint-config-idiomatic-order/8.1.0_stylelint@14.9.0:
+  /stylelint-config-idiomatic-order/8.1.0_stylelint@14.9.1:
     resolution: {integrity: sha512-iTPY6JjbkIdzy+21x3a1xi/tG33zKhLJb6lZl1xg6jZrXjgIYelnRZ5xVtbcEP9rElxZq/Zu1eGthfvI+ri+YQ==}
     peerDependencies:
       stylelint: '>=11'
     dependencies:
-      stylelint: 14.9.0
-      stylelint-order: 3.1.1_stylelint@14.9.0
+      stylelint: 14.9.1
+      stylelint-order: 3.1.1_stylelint@14.9.1
     dev: true
 
-  /stylelint-config-recommended/8.0.0_stylelint@14.9.0:
+  /stylelint-config-recommended/8.0.0_stylelint@14.9.1:
     resolution: {integrity: sha512-IK6dWvE000+xBv9jbnHOnBq01gt6HGVB2ZTsot+QsMpe82doDQ9hvplxfv4YnpEuUwVGGd9y6nbaAnhrjcxhZQ==}
     peerDependencies:
       stylelint: ^14.8.0
     dependencies:
-      stylelint: 14.9.0
+      stylelint: 14.9.1
     dev: true
 
-  /stylelint-config-standard/26.0.0_stylelint@14.9.0:
+  /stylelint-config-standard/26.0.0_stylelint@14.9.1:
     resolution: {integrity: sha512-hUuB7LaaqM8abvkOO84wh5oYSkpXgTzHu2Zza6e7mY+aOmpNTjoFBRxSLlzY0uAOMWEFx0OMKzr+reG1BUtcqQ==}
     peerDependencies:
       stylelint: ^14.9.0
     dependencies:
-      stylelint: 14.9.0
-      stylelint-config-recommended: 8.0.0_stylelint@14.9.0
+      stylelint: 14.9.1
+      stylelint-config-recommended: 8.0.0_stylelint@14.9.1
     dev: true
 
-  /stylelint-order/3.1.1_stylelint@14.9.0:
+  /stylelint-order/3.1.1_stylelint@14.9.1:
     resolution: {integrity: sha512-4gP/r8j/6JGZ/LL41b2sYtQqfwZl4VSqTp7WeIwI67v/OXNQ08dnn64BGXNwAUSgb2+YIvIOxQaMzqMyQMzoyQ==}
     engines: {node: '>=8.7.0'}
     peerDependencies:
@@ -5512,15 +5512,15 @@ packages:
       lodash: 4.17.21
       postcss: 7.0.39
       postcss-sorting: 5.0.1
-      stylelint: 14.9.0
+      stylelint: 14.9.1
     dev: true
 
-  /stylelint/14.9.0:
-    resolution: {integrity: sha512-+xsQ4uKS56RQs8AGYx2CXc9nhWyPR7c/G0RqyiKgWZx2LuE3VJnIhGRQXUfnGQXOqBPHxNjMCHiK5NNQRB52sw==}
+  /stylelint/14.9.1:
+    resolution: {integrity: sha512-RdAkJdPiLqHawCSnu21nE27MjNXaVd4WcOHA4vK5GtIGjScfhNnaOuWR2wWdfKFAvcWQPOYe311iveiVKSmwsA==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
-      '@csstools/selector-specificity': 2.0.0_444rcjjorr3kpoqtvoodsr46pu
+      '@csstools/selector-specificity': 2.0.1_444rcjjorr3kpoqtvoodsr46pu
       balanced-match: 2.0.0
       colord: 2.9.2
       cosmiconfig: 7.0.1
@@ -5592,7 +5592,7 @@ packages:
     dev: true
 
   /svg-tags/1.0.0:
-    resolution: {integrity: sha1-WPcc7jvVGbWdSyqEO2x95krAR2Q=}
+    resolution: {integrity: sha512-ovssysQTa+luh7A5Weu3Rta6FJlFBBbInjOh722LIt6klpU2/HtdUbszju/G4devcvk8PGt7FCLv5wftu3THUA==}
     dev: true
 
   /symbol-tree/3.2.4:
