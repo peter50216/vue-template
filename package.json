@@ -25,7 +25,7 @@
   "devDependencies": {
     "@commitlint/cli": "17.0.2",
     "@commitlint/config-conventional": "17.0.2",
-    "@iconify/json": "2.1.63",
+    "@iconify/json": "2.1.64",
     "@types/node": "16.11.41",
     "@typescript-eslint/eslint-plugin": "5.28.0",
     "@typescript-eslint/parser": "5.28.0",
