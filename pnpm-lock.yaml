@@ -1970,7 +1970,7 @@ packages:
   /@unocss/vite/0.44.5_vite@3.0.2:
     resolution: {integrity: sha512-HAA77Z+CTHWCjtbgupolsLhRrGuYH4C+FbmfVwTgm07ttWFZy5QaWKRU0mcR53/n1owPxkZilPxWCWX7ltscbw==}
     peerDependencies:
-      vite: ^2.9.0 || ^3.0.0-0
+      vite: ^2.9.0 || ^3.0.0-0 || 3
     dependencies:
       '@ampproject/remapping': 2.2.0
       '@rollup/pluginutils': 4.2.1
@@ -1987,7 +1987,7 @@ packages:
     resolution: {integrity: sha512-Ll9JgxG7ONIz/XZv3dssfoMUDu9qAnlJ+km+pBA0teYSXzwPCIzS/e1bmwNYl5dcQGs677D21amgfYAnzMl17A==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
-      vite: ^3.0.0
+      vite: ^3.0.0 || 3
       vue: ^3.2.25
     dependencies:
       vite: 3.0.2
@@ -5928,7 +5928,7 @@ packages:
   /unocss-preset-scrollbar/0.2.1_unocss@0.44.5:
     resolution: {integrity: sha512-7ubHdOaUwr7xBn1glPpICNNsM2SZGjvWK5uRPNiQYsrZ9YFjsCGHk9x5S2R8pTkuMDQeiaSa/UQbYhjC8Fra5g==}
     peerDependencies:
-      unocss: '>= 0.31.13 < 1 || 0'
+      unocss: '>= 0.31.13 < 1'
     dependencies:
       '@unocss/preset-mini': 0.31.17
       unocss: 0.44.5_vite@3.0.2
@@ -6020,7 +6020,7 @@ packages:
     peerDependencies:
       esbuild: '>=0.13'
       rollup: ^2.50.0
-      vite: ^2.3.0 || ^3.0.0-0
+      vite: ^2.3.0 || ^3.0.0-0 || 3
       webpack: 4 || 5
     peerDependenciesMeta:
       esbuild:
@@ -6044,7 +6044,7 @@ packages:
     peerDependencies:
       esbuild: '>=0.13'
       rollup: ^2.50.0
-      vite: ^2.3.0 || ^3.0.0-0
+      vite: ^2.3.0 || ^3.0.0-0 || 3
       webpack: 4 || 5
     peerDependenciesMeta:
       esbuild:
@@ -6097,7 +6097,7 @@ packages:
     resolution: {integrity: sha512-q0SX2iSw0UrTnivkzsPb19ZxamShq1nE/e/CKOe8+uVg70/e14uJuzKnw7dZ2omPjmV9Lhks38nzJL6RDRGmeA==}
     peerDependencies:
       '@vue/compiler-sfc': ^2.7.0 || ^3.0.0
-      vite: ^2.0.0 || ^3.0.0-0
+      vite: ^2.0.0 || ^3.0.0-0 || 3
     peerDependenciesMeta:
       '@vue/compiler-sfc':
         optional: true
@@ -6120,7 +6120,7 @@ packages:
   /vite-plugin-pwa/0.12.3_vite@3.0.2:
     resolution: {integrity: sha512-gmYdIVXpmBuNjzbJFPZFzxWYrX4lHqwMAlOtjmXBbxApiHjx9QPXKQPJjSpeTeosLKvVbNcKSAAhfxMda0QVNQ==}
     peerDependencies:
-      vite: ^2.0.0 || ^3.0.0-0
+      vite: ^2.0.0 || ^3.0.0-0 || 3
     dependencies:
       debug: 4.3.4
       fast-glob: 3.2.11
@@ -6137,7 +6137,7 @@ packages:
   /vite-plugin-vue-layouts/0.6.0_i5f576xweswtg2nbfti5sqkk7q:
     resolution: {integrity: sha512-7QX7o/NpCfs+hyXphwYfmPqAEQ6qd4uXsvI0VsovjGT2eCoEE5dMdP6L+uqqNWY4uqv7oCvtinecZmbzZv/9Rg==}
     peerDependencies:
-      vite: ^2.5.0
+      vite: ^2.5.0 || 3
       vue: ^2.6.12 || ^3.2.4
       vue-router: ^3.5.1 || ^ 4.0.11
     dependencies:
