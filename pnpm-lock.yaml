@@ -40,7 +40,7 @@ specifiers:
   vite-plugin-pages: 0.25.0
   vite-plugin-pwa: 0.12.3
   vite-plugin-vue-layouts: 0.7.0
-  vitest: 0.19.0
+  vitest: 0.19.1
   vue: 3.2.37
   vue-router: 4.1.2
   vue-tsc: 0.39.0
@@ -92,7 +92,7 @@ devDependencies:
   vite-plugin-pages: 0.25.0_fvfvl6jo25l4byabogbrrdvuya
   vite-plugin-pwa: 0.12.3_vite@3.0.3
   vite-plugin-vue-layouts: 0.7.0_z3wofnvexstekwaykj47orp6tq
-  vitest: 0.19.0_jsdom@20.0.0
+  vitest: 0.19.1_jsdom@20.0.0
   vue-tsc: 0.39.0_typescript@4.7.4
   workbox-core: 6.5.3
   workbox-precaching: 6.5.3
@@ -6178,8 +6178,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.19.0_jsdom@20.0.0:
-    resolution: {integrity: sha512-nU80Gm95tMchigHpAMukxv1LoWbBGgknX/1MqrXCOoJoJL7/wfq4h2aow61o2jwf5szQrahoNqBqaGb+fYdYrQ==}
+  /vitest/0.19.1_jsdom@20.0.0:
+    resolution: {integrity: sha512-E/ZXpFMUahn731wzhMBNzWRp4mGgiZFT0xdHa32cbNO0CSaHpE9hTfteEU247Gi2Dula8uXo5vvrNB6dtszmQA==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
