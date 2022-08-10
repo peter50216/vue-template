@@ -60,7 +60,7 @@
     "vite-plugin-pwa": "0.12.3",
     "vite-plugin-vue-layouts": "0.7.0",
     "vitest": "0.21.1",
-    "vue-tsc": "0.39.5",
+    "vue-tsc": "0.40.0",
     "workbox-core": "6.5.4",
     "workbox-precaching": "6.5.4",
     "workbox-window": "6.5.4"
