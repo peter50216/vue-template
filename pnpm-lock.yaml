@@ -24,7 +24,7 @@ specifiers:
   husky: 8.0.1
   jsdom: 20.0.0
   lint-staged: 13.0.3
-  pinia: 2.0.21
+  pinia: 2.0.22
   pnpm: 7.10.0
   postcss-html: 1.5.0
   prettier: 2.7.1
@@ -51,7 +51,7 @@ specifiers:
 dependencies:
   '@unocss/reset': 0.45.18
   '@vueuse/core': 9.1.1_vue@3.2.38
-  pinia: 2.0.21_pj7ch6rmow6odq73xb5hfvge3q
+  pinia: 2.0.22_pj7ch6rmow6odq73xb5hfvge3q
   vue: 3.2.38
   vue-router: 4.1.5_vue@3.2.38
 
@@ -4899,8 +4899,8 @@ packages:
     hasBin: true
     dev: true
 
-  /pinia/2.0.21_pj7ch6rmow6odq73xb5hfvge3q:
-    resolution: {integrity: sha512-6ol04PtL29O0Z6JHI47O3JUSoyOJ7Og0rstXrHVMZSP4zAldsQBXJCNF0i/H7m8vp/Hjd/CSmuPl7C5QAwpeWQ==}
+  /pinia/2.0.22_pj7ch6rmow6odq73xb5hfvge3q:
+    resolution: {integrity: sha512-u+b8/BC+tmvo3ACbYO2w5NfxHWFOjvvw9DQnyT0dW8aUMCPRQT5QnfZ5R5W2MzZBMTeZRMQI7V/QFbafmM9QHw==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
