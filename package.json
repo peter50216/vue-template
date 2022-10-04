@@ -44,7 +44,7 @@
     "husky": "8.0.1",
     "jsdom": "20.0.1",
     "lint-staged": "13.0.3",
-    "pnpm": "7.13.0",
+    "pnpm": "7.13.1",
     "postcss-html": "1.5.0",
     "prettier": "2.7.1",
     "stylelint": "14.13.0",
@@ -73,7 +73,7 @@
       "pnpm run lint:css --fix"
     ]
   },
-  "packageManager": "pnpm@7.13.0",
+  "packageManager": "pnpm@7.13.1",
   "pnpm": {
     "peerDependencyRules": {
       "allowedVersions": {
