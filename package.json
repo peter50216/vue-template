@@ -26,7 +26,7 @@
     "@commitlint/cli": "17.3.0",
     "@commitlint/config-conventional": "17.3.0",
     "@iconify/json": "2.1.148",
-    "@types/node": "18.11.10",
+    "@types/node": "18.11.11",
     "@typescript-eslint/eslint-plugin": "5.45.1",
     "@typescript-eslint/parser": "5.45.1",
     "@unocss/preset-attributify": "0.47.5",
