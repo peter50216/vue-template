@@ -40,7 +40,7 @@ specifiers:
   vite-plugin-pages: 0.27.1
   vite-plugin-pwa: 0.13.3
   vite-plugin-vue-layouts: 0.7.0
-  vitest: 0.25.3
+  vitest: 0.25.4
   vue: 3.2.45
   vue-router: 4.1.6
   vue-tsc: 1.0.11
@@ -92,7 +92,7 @@ devDependencies:
   vite-plugin-pages: 0.27.1_ddag3muocym7uexovvmjvx6a4q
   vite-plugin-pwa: 0.13.3_v7patrztka3wxwjwwj7rxgk7ey
   vite-plugin-vue-layouts: 0.7.0_3nkpb5yzbuphqhegz2uv6y4s3u
-  vitest: 0.25.3_jsdom@20.0.3
+  vitest: 0.25.4_jsdom@20.0.3
   vue-tsc: 1.0.11_typescript@4.9.3
   workbox-core: 6.5.4
   workbox-precaching: 6.5.4
@@ -5688,12 +5688,6 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /strip-literal/0.4.2:
-    resolution: {integrity: sha512-pv48ybn4iE1O9RLgCAN0iU4Xv7RlBTiit6DKmMiErbs9x1wH6vXBs45tWc0H5wUIF6TLTrKweqkmYF/iraQKNw==}
-    dependencies:
-      acorn: 8.8.1
-    dev: true
-
   /strip-literal/1.0.0:
     resolution: {integrity: sha512-5o4LsH1lzBzO9UFH63AJ2ad2/S2AVx6NtjOcaz+VTT2h1RiRvbipW72z8M/lxEhcPHDBQwpDrnTF7sXy/7OwCQ==}
     dependencies:
@@ -6368,8 +6362,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.25.3_jsdom@20.0.3:
-    resolution: {integrity: sha512-/UzHfXIKsELZhL7OaM2xFlRF8HRZgAHtPctacvNK8H4vOcbJJAMEgbWNGSAK7Y9b1NBe5SeM7VTuz2RsTHFJJA==}
+  /vitest/0.25.4_jsdom@20.0.3:
+    resolution: {integrity: sha512-v/qoSEYPrf8qa1CbKIKYK+1GGmPPEJyXFbkuD6jhh080cfNBsuUDAdMu6hV2h9Uv34EMiUrVETL/wB+EHxFtbA==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -6400,7 +6394,7 @@ packages:
       jsdom: 20.0.3
       local-pkg: 0.4.2
       source-map: 0.6.1
-      strip-literal: 0.4.2
+      strip-literal: 1.0.0
       tinybench: 2.3.1
       tinypool: 0.3.0
       tinyspy: 1.0.2
