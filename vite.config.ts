@@ -10,6 +10,7 @@ import Components from "unplugin-vue-components/vite";
 import Pages from "vite-plugin-pages";
 import { VitePWA } from "vite-plugin-pwa";
 import Layouts from "vite-plugin-vue-layouts";
+import Vuetify from "vite-plugin-vuetify";
 import { defineConfig } from "vitest/config";
 
 export default defineConfig({
@@ -21,6 +22,10 @@ export default defineConfig({
   plugins: [
     Vue({
       reactivityTransform: true,
+    }),
+
+    Vuetify({
+      autoImport: true,
     }),
 
     // https://github.com/antfu/unplugin-auto-import

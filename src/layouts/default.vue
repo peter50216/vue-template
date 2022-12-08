@@ -1,12 +1,8 @@
 <template>
-  <div 
-    w="full"
-    h="full"
-    flex="~ col"
-    text="white xl"
-    p="2"
-  >
+  <v-app>
     <TopNavbar />
-    <router-view />
-  </div>
+    <v-main>
+      <router-view />
+    </v-main>
+  </v-app>
 </template>
