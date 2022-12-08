@@ -12,7 +12,8 @@
     "lint:js:all": "pnpm run lint:js .",
     "prepare": "husky install .husky",
     "serve": "vite preview",
-    "test": "vitest --silent",
+    "test": "vitest run --silent",
+    "test:watch": "vitest watch --silent",
     "tsc": "vue-tsc --noEmit"
   },
   "dependencies": {

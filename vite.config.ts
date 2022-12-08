@@ -96,5 +96,9 @@ export default defineConfig({
   },
   test: {
     environment: "jsdom",
+    setupFiles: ["./test/setup-plugins.ts"],
+    deps: {
+      inline: ["vuetify"],
+    },
   },
 });
