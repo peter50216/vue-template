@@ -42,7 +42,7 @@ specifiers:
   vite-plugin-pwa: 0.14.0
   vite-plugin-vue-layouts: 0.7.0
   vite-plugin-vuetify: 1.0.1
-  vitest: 0.26.0
+  vitest: 0.26.1
   vue: 3.2.45
   vue-router: 4.1.6
   vue-tsc: 1.0.14
@@ -98,7 +98,7 @@ devDependencies:
   vite-plugin-pwa: 0.14.0_gusaiip33kkuwpygl36cqmizje
   vite-plugin-vue-layouts: 0.7.0_jv2z4nfib4yzuruot6gfjyfuka
   vite-plugin-vuetify: 1.0.1_xjpsiiqv2u6a6ub4d6ndg7isc4
-  vitest: 0.26.0_jsdom@20.0.3
+  vitest: 0.26.1_jsdom@20.0.3
   vue-tsc: 1.0.14_typescript@4.9.4
   workbox-core: 6.5.4
   workbox-precaching: 6.5.4
@@ -6318,8 +6318,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-node/0.26.0_@types+node@18.11.17:
-    resolution: {integrity: sha512-nLtHWCv6reONl1oFsKhQ/LT7n3UNLpvVARAJlmGrQV6qSElht/9AdN41Pa+WSkw2Winh682UzM0Yw0GNlfqejw==}
+  /vite-node/0.26.1_@types+node@18.11.17:
+    resolution: {integrity: sha512-5FJSKZZJz48zFRKHE55WyevZe61hLMQEsqGn+ungfd60kxEztFybZ3yG9ToGFtOWNCCy7Vn5EVuXD8bdeHOSdw==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     dependencies:
@@ -6448,8 +6448,8 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
-  /vitest/0.26.0_jsdom@20.0.3:
-    resolution: {integrity: sha512-5kUnms5WOa0qrDCJePEPB13v9mhr+ZT1Qy0qNg0eVj1X7/Fx4GY4L1e5s3OH+BQ/J7M5WtaKsUGv9l1pbC7v2Q==}
+  /vitest/0.26.1_jsdom@20.0.3:
+    resolution: {integrity: sha512-qTLRnjYmjmJpHlLUtErxtlRqGCe8WItFhGXKklpWivu7CLP9KXN9iTezROe+vf51Kb+BB/fzxK6fUG9DvFGL5Q==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -6485,7 +6485,7 @@ packages:
       tinypool: 0.3.0
       tinyspy: 1.0.2
       vite: 4.0.2_@types+node@18.11.17
-      vite-node: 0.26.0_@types+node@18.11.17
+      vite-node: 0.26.1_@types+node@18.11.17
     transitivePeerDependencies:
       - less
       - sass
