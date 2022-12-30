@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@commitlint/cli': 17.3.0
   '@commitlint/config-conventional': 17.3.0
-  '@iconify/json': 2.1.158
+  '@iconify/json': 2.1.159
   '@mdi/js': 7.1.96
   '@types/node': 18.11.18
   '@typescript-eslint/eslint-plugin': 5.47.1
@@ -62,7 +62,7 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 17.3.0
   '@commitlint/config-conventional': 17.3.0
-  '@iconify/json': 2.1.158
+  '@iconify/json': 2.1.159
   '@mdi/js': 7.1.96
   '@types/node': 18.11.18
   '@typescript-eslint/eslint-plugin': 5.47.1_txmweb6yn7coi7nfrp22gpyqmy
@@ -1675,8 +1675,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify/json/2.1.158:
-    resolution: {integrity: sha512-7rw3LTk6Y9aLyVESGoFADBJiYpsLdNRV7GCEarh3HpbR4jdDH29s8kF6yJybgYoBfb01J6h6PzDgjujSxlNUaQ==}
+  /@iconify/json/2.1.159:
+    resolution: {integrity: sha512-LBJDXNsHMBhBZ2BfN2Es/cB8GmI9+2305biJz/C2riYyUWNIU1BnrM5EzDL4i0FwKq6s7I2C+j2wtBJ3pCeQjA==}
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 0.3.9
