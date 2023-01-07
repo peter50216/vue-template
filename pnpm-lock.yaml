@@ -23,7 +23,7 @@ specifiers:
   eslint-plugin-simple-import-sort: 8.0.0
   eslint-plugin-vue: 9.8.0
   husky: 8.0.3
-  jsdom: 20.0.3
+  jsdom: 21.0.0
   lint-staged: 13.1.0
   pinia: 2.0.28
   pnpm: 7.22.0
@@ -80,7 +80,7 @@ devDependencies:
   eslint-plugin-simple-import-sort: 8.0.0_eslint@8.31.0
   eslint-plugin-vue: 9.8.0_eslint@8.31.0
   husky: 8.0.3
-  jsdom: 20.0.3
+  jsdom: 21.0.0
   lint-staged: 13.1.0
   pnpm: 7.22.0
   postcss-html: 1.5.0
@@ -98,7 +98,7 @@ devDependencies:
   vite-plugin-pwa: 0.14.1_aln3rhi4rqbizqxdkcc2hwlswu
   vite-plugin-vue-layouts: 0.7.0_oh6kquo6biweymmreht6aj34oy
   vite-plugin-vuetify: 1.0.1_p46zntyhun6hploevyscuxma3a
-  vitest: 0.26.3_jsdom@20.0.3
+  vitest: 0.26.3_jsdom@21.0.0
   vue-tsc: 1.0.22_typescript@4.9.4
   workbox-core: 6.5.4
   workbox-precaching: 6.5.4
@@ -3223,11 +3223,6 @@ packages:
     resolution: {integrity: sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==}
     dev: true
 
-  /entities/4.3.1:
-    resolution: {integrity: sha512-o4q/dYJlmyjP2zfnaWDUC6A3BQFmVTX+tZPezK7k0GLSU9QYCauscf5Y+qcEPzKL+EixVouYDgLQK5H9GrLpkg==}
-    engines: {node: '>=0.12'}
-    dev: true
-
   /entities/4.4.0:
     resolution: {integrity: sha512-oYp7156SP8LkeGD0GF85ad1X9Ai79WtRsZ2gxJqtBuzH+98YUV6jkHEKlZkMbcrjJjIVJNIDP/3WL9wQkoPbWA==}
     engines: {node: '>=0.12'}
@@ -3962,7 +3957,7 @@ packages:
       domelementtype: 2.3.0
       domhandler: 5.0.3
       domutils: 3.0.1
-      entities: 4.3.1
+      entities: 4.4.0
     dev: true
 
   /http-proxy-agent/5.0.0:
@@ -4325,8 +4320,8 @@ packages:
       argparse: 2.0.1
     dev: true
 
-  /jsdom/20.0.3:
-    resolution: {integrity: sha512-SYhBvTh89tTfCD/CRdSOm13mOBa42iTaTyfyEWBdKcGdPxPtLFBXuHR8XHb33YNYaP+lLbmSvBTsnoesCNJEsQ==}
+  /jsdom/21.0.0:
+    resolution: {integrity: sha512-AIw+3ZakSUtDYvhwPwWHiZsUi3zHugpMEKlNPaurviseYoBqo0zBd3zqoUi3LPCNtPFlEP8FiW9MqCZdjb2IYA==}
     engines: {node: '>=14'}
     peerDependencies:
       canvas: ^2.5.0
@@ -6451,7 +6446,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
-  /vitest/0.26.3_jsdom@20.0.3:
+  /vitest/0.26.3_jsdom@21.0.0:
     resolution: {integrity: sha512-FmHxU9aUCxTi23keF3vxb/Qp0lYXaaJ+jRLGOUmMS3qVTOJvgGE+f1VArupA6pEhaG2Ans4X+zV9dqM5WISMbg==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -6480,7 +6475,7 @@ packages:
       acorn-walk: 8.2.0
       chai: 4.3.7
       debug: 4.3.4
-      jsdom: 20.0.3
+      jsdom: 21.0.0
       local-pkg: 0.4.2
       source-map: 0.6.1
       strip-literal: 1.0.0
