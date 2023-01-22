@@ -23,7 +23,7 @@ specifiers:
   eslint-plugin-simple-import-sort: 9.0.0
   eslint-plugin-vue: 9.9.0
   husky: 8.0.3
-  jsdom: 21.0.0
+  jsdom: 21.1.0
   lint-staged: 13.1.0
   pinia: 2.0.29
   pnpm: 7.25.1
@@ -80,7 +80,7 @@ devDependencies:
   eslint-plugin-simple-import-sort: 9.0.0_eslint@8.32.0
   eslint-plugin-vue: 9.9.0_eslint@8.32.0
   husky: 8.0.3
-  jsdom: 21.0.0
+  jsdom: 21.1.0
   lint-staged: 13.1.0
   pnpm: 7.25.1
   postcss-html: 1.5.0
@@ -98,7 +98,7 @@ devDependencies:
   vite-plugin-pwa: 0.14.1_aln3rhi4rqbizqxdkcc2hwlswu
   vite-plugin-vue-layouts: 0.7.0_oh6kquo6biweymmreht6aj34oy
   vite-plugin-vuetify: 1.0.1_l54dx3ntqreabui4gzakb57alm
-  vitest: 0.27.3_jsdom@21.0.0
+  vitest: 0.27.3_jsdom@21.1.0
   vue-tsc: 1.0.24_typescript@4.9.4
   workbox-core: 6.5.4
   workbox-precaching: 6.5.4
@@ -4319,8 +4319,8 @@ packages:
       argparse: 2.0.1
     dev: true
 
-  /jsdom/21.0.0:
-    resolution: {integrity: sha512-AIw+3ZakSUtDYvhwPwWHiZsUi3zHugpMEKlNPaurviseYoBqo0zBd3zqoUi3LPCNtPFlEP8FiW9MqCZdjb2IYA==}
+  /jsdom/21.1.0:
+    resolution: {integrity: sha512-m0lzlP7qOtthD918nenK3hdItSd2I+V3W9IrBcB36sqDwG+KnUs66IF5GY7laGWUnlM9vTsD0W1QwSEBYWWcJg==}
     engines: {node: '>=14'}
     peerDependencies:
       canvas: ^2.5.0
@@ -6452,7 +6452,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
-  /vitest/0.27.3_jsdom@21.0.0:
+  /vitest/0.27.3_jsdom@21.1.0:
     resolution: {integrity: sha512-Ld3UVgRVhJUtqvQ3dW89GxiApFAgBsWJZBCWzK+gA3w2yG68csXlGZZ4WDJURf+8ecNfgrScga6xY+8YSOpiMg==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -6482,7 +6482,7 @@ packages:
       cac: 6.7.14
       chai: 4.3.7
       debug: 4.3.4
-      jsdom: 21.0.0
+      jsdom: 21.1.0
       local-pkg: 0.4.2
       picocolors: 1.0.0
       source-map: 0.6.1
