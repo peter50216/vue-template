@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@commitlint/cli': 17.4.2
   '@commitlint/config-conventional': 17.4.2
-  '@iconify/json': 2.2.11
+  '@iconify/json': 2.2.12
   '@mdi/js': 7.1.96
   '@types/node': 18.11.18
   '@typescript-eslint/eslint-plugin': 5.49.0
@@ -62,7 +62,7 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 17.4.2
   '@commitlint/config-conventional': 17.4.2
-  '@iconify/json': 2.2.11
+  '@iconify/json': 2.2.12
   '@mdi/js': 7.1.96
   '@types/node': 18.11.18
   '@typescript-eslint/eslint-plugin': 5.49.0_iu322prlnwsygkcra5kbpy22si
@@ -1675,11 +1675,11 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify/json/2.2.11:
-    resolution: {integrity: sha512-LlFrpRAOFq4zW7tbw3GZPB3GRjtwpXQJIb7bHyFjAQb43FdkOWM01A5tB1WpXDYBq1C4FMIbGusCbrSHlX9jHQ==}
+  /@iconify/json/2.2.12:
+    resolution: {integrity: sha512-IFfyWgnUb8EZYnOVC0506FVTAnasuGEw1U0z+8KZu85uUO3h/cz2AgR4pUeZgStHavJIlp9+cCGOWyj4Sz1xuQ==}
     dependencies:
       '@iconify/types': 2.0.0
-      pathe: 1.0.0
+      pathe: 1.1.0
     dev: true
 
   /@iconify/types/2.0.0:
@@ -4805,7 +4805,7 @@ packages:
     resolution: {integrity: sha512-QL108Hwt+u9bXdWgOI0dhzZfACovn5Aen4Xvc8Jasd9ouRH4NjnrXEiyP3nVvJo91zPlYjVRckta0Nt2zfoR6g==}
     dependencies:
       acorn: 8.8.1
-      pathe: 1.0.0
+      pathe: 1.1.0
       pkg-types: 1.0.1
       ufo: 1.0.1
     dev: true
@@ -5079,10 +5079,6 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /pathe/1.0.0:
-    resolution: {integrity: sha512-nPdMG0Pd09HuSsr7QOKUXO2Jr9eqaDiZvDwdyIhNG5SHYujkQHYKDfGQkulBxvbDHz8oHLsTgKN86LSwYzSHAg==}
-    dev: true
-
   /pathe/1.1.0:
     resolution: {integrity: sha512-ODbEPR0KKHqECXW1GoxdDb+AZvULmXjVPy4rt+pGo2+TnjJTIPJQSVS6N63n8T2Ip+syHhbn52OewKicV0373w==}
     dev: true
@@ -5138,7 +5134,7 @@ packages:
     dependencies:
       jsonc-parser: 3.2.0
       mlly: 1.0.0
-      pathe: 1.0.0
+      pathe: 1.1.0
     dev: true
 
   /pnpm/7.26.0:
@@ -6214,7 +6210,7 @@ packages:
       local-pkg: 0.4.2
       magic-string: 0.27.0
       mlly: 1.0.0
-      pathe: 1.0.0
+      pathe: 1.1.0
       pkg-types: 1.0.1
       scule: 1.0.0
       strip-literal: 1.0.0
