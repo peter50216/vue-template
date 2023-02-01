@@ -5,3 +5,5 @@ dist
 .presite
 dist-ssr
 .env
+dev-dist
+tsconfig.tsbuildinfo

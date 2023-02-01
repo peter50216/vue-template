@@ -1,7 +1,7 @@
 <template>
   <header
     bg="primary"
-    text="white xl"
+    text="gray-50 xl"
     flex="~ row"
     items="center"
     position="sticky"
@@ -21,11 +21,19 @@
     >
       {{ store.title }}
     </div>
+    <div
+      cursor="pointer"
+      i="mdi-theme-light-dark"
+      m="2"
+      @click="toggleDark()"
+    />
   </header>
 </template>
 
 <script setup lang="ts">
 import { useNavStore } from "/~/store/nav";
+
+import { toggleDark } from "../dark";
 
 const store = useNavStore();
 </script>

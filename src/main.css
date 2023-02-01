@@ -1,5 +1,23 @@
-html {
+:root {
   overflow-y: auto;
 
-  @apply scrollbar-c;
+  /* indigo-500 */
+  --a-primary: 239, 84%, 67%;
+
+  @apply scrollbar-c bg-gray-50;
+}
+
+:root.dark {
+  /* indigo-500 */
+  --a-primary: 239, 84%, 67%;
+
+  @apply bg-gray-900;
+}
+
+body {
+  @apply text-gray-900;
+}
+
+.dark body {
+  @apply text-gray-50;
 }
