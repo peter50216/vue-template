@@ -6,6 +6,7 @@
     flex="~ col"
     items="center"
     text="lg"
+    self="center"
   >
     <div
       flex="~ row"

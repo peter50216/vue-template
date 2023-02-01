@@ -4,7 +4,7 @@
     flex="~ col"
   >
     <TopNavbar />
-    <main>
+    <main flex="~ col">
       <RouterView />
     </main>
   </div>
