@@ -1,6 +1,7 @@
 import "@unocss/reset/tailwind.css";
 import "uno.css";
-import "vuetify/styles";
+import "anu-vue/dist/style.css";
+import "@anu-vue/preset-theme-default/dist/style.css";
 import "./main.css";
 
 import { createPinia } from "pinia";
@@ -9,8 +10,8 @@ import generatedRoutes from "virtual:generated-pages";
 import { registerSW } from "virtual:pwa-register";
 import { createApp } from "vue";
 import { createRouter, createWebHistory } from "vue-router";
-import { createVuetify } from "vuetify";
-import { aliases, mdi } from "vuetify/iconsets/mdi-svg";
+
+import { useNavStore } from "/~/store/nav";
 
 import App from "./App.vue";
 
@@ -22,30 +23,13 @@ const router = createRouter({
   routes,
 });
 
+router.beforeEach((to, from) => {
+  const navStore = useNavStore();
+  navStore.title = "";
+});
+
 app.use(createPinia());
 app.use(router);
-app.use(
-  createVuetify({
-    theme: {
-      defaultTheme: "dark",
-      themes: {
-        dark: {
-          dark: true,
-          colors: {
-            primary: "#0982db",
-          },
-        },
-      },
-    },
-    icons: {
-      defaultSet: "mdi",
-      aliases,
-      sets: {
-        mdi,
-      },
-    },
-  })
-);
 
 app.mount("#app", true);
 

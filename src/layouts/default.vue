@@ -1,8 +1,11 @@
 <template>
-  <v-app>
+  <div
+    min-h="screen"
+    flex="~ col"
+  >
     <TopNavbar />
-    <v-main>
+    <main>
       <router-view />
-    </v-main>
-  </v-app>
+    </main>
+  </div>
 </template>

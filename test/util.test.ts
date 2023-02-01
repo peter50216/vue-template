@@ -1,6 +1,6 @@
 import { expect, test } from "vitest";
 
-import { assert as myAssert } from "/~/util";
+import { assert as myAssert } from "/~/util/assert";
 
 test("assert", () => {
   expect(myAssert(true)).toBeUndefined();

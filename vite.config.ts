@@ -1,16 +1,12 @@
-import presetAttributify from "@unocss/preset-attributify";
-import presetIcons from "@unocss/preset-icons";
-import presetUno from "@unocss/preset-uno";
 import Vue from "@vitejs/plugin-vue";
+import { AnuComponentResolver } from "anu-vue";
 import path from "path";
 import Unocss from "unocss/vite";
-import { presetScrollbar } from "unocss-preset-scrollbar";
 import AutoImport from "unplugin-auto-import/vite";
 import Components from "unplugin-vue-components/vite";
 import Pages from "vite-plugin-pages";
 import { VitePWA } from "vite-plugin-pwa";
 import Layouts from "vite-plugin-vue-layouts";
-import Vuetify from "vite-plugin-vuetify";
 import { defineConfig } from "vitest/config";
 
 export default defineConfig({
@@ -24,39 +20,28 @@ export default defineConfig({
       reactivityTransform: true,
     }),
 
-    Vuetify({
-      autoImport: true,
-    }),
-
     // https://github.com/antfu/unplugin-auto-import
     AutoImport({
       imports: ["vue", "@vueuse/head", "@vueuse/core"],
+      dirs: ["./src/util"],
+      vueTemplate: true,
     }),
 
     // https://github.com/antfu/unplugin-vue-components
     Components({
       dts: true,
       directoryAsNamespace: true,
+      resolvers: [AnuComponentResolver()],
     }),
 
-    Unocss({
-      presets: [
-        presetUno(),
-        presetIcons(),
-        presetAttributify(),
-        presetScrollbar(),
-      ],
-    }),
+    Unocss(),
 
     Pages(),
 
     Layouts(),
 
     VitePWA({
-      registerType: "autoUpdate",
-      srcDir: "src",
-      filename: "sw.ts",
-      strategies: "injectManifest",
+      registerType: "prompt",
       includeAssets: [
         "favicon.svg",
         "favicon.ico",
@@ -87,6 +72,9 @@ export default defineConfig({
           },
         ],
       },
+      workbox: {
+        globPatterns: ["**/*.{css,js,html}"],
+      },
     }),
   ],
   server: {
@@ -97,8 +85,5 @@ export default defineConfig({
   test: {
     environment: "jsdom",
     setupFiles: ["./test/setup-plugins.ts"],
-    deps: {
-      inline: ["vuetify"],
-    },
   },
 });

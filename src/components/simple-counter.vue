@@ -1,19 +1,20 @@
 <template>
-  <v-row
-    justify="center"
+  <div
+    flex="~ row"
     items="center"
   >
-    <v-btn
+    <a-btn
+      icon-only
+      icon="i-mdi-plus-circle"
       variant="text"
-      :icon="mdiPlusCircleOutline"
       @click="cnt++"
     />
-    Here's a counter: {{ cnt }}
-  </v-row>
+    <span>
+      Here's a counter: {{ cnt }}
+    </span>
+  </div>
 </template>
 
 <script setup lang="ts">
-import { mdiPlusCircleOutline } from "@mdi/js";
-
 let cnt = $ref(0);
 </script>

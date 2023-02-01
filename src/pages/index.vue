@@ -1,27 +1,30 @@
 <template>
-  <v-sheet
-    class="m-2 p-2"
-    rounded
+  <div
+    container="~"
+    m="2"
+    p="2"
+    flex="~ col"
+    items="center"
+    text="lg"
   >
-    <v-container>
-      <v-row justify="center">
-        <v-icon
-          :icon="mdiRabbitVariant"
-          class="mr-2"
-        />
-        Hello to Vue 3 + UnoCSS + Vuetify!
-      </v-row>
-      <SimpleCounter />
-    </v-container>
-  </v-sheet>
+    <div
+      flex="~ row"
+      items="center"
+    >
+      <div
+        i="mdi-rabbit-variant"
+        m="r-2"
+      />
+      Hello to Vue 3 + UnoCSS + Vuetify!
+    </div>
+    <SimpleCounter />
+  </div>
 </template>
 
 <script setup lang="ts">
-import { mdiRabbitVariant } from "@mdi/js";
+import { useNavStore } from "/~/store/nav";
 
-import { useNavbarStore } from "/~/store/navbar";
-
-const store = useNavbarStore();
+const store = useNavStore();
 
 onMounted(() => {
   store.title = "Index";

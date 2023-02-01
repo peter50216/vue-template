@@ -1,27 +1,31 @@
 <template>
-  <v-app-bar
-    density="compact"
-    color="primary"
-    :elevation="2"
+  <header
+    bg="primary"
+    text="white xl"
+    flex="~ row"
+    items="center"
+    position="sticky"
+    top="0"
+    z="100"
+    p="2"
   >
-    <template #prepend>
-      <router-link to="/">
-        <v-btn
-          variant="text"
-          :icon="mdiHome"
-        />
-      </router-link>
-    </template>
-    <v-app-bar-title>
+    <router-link to="/">
+      <div
+        i="mdi-home"
+        m="2"
+      />
+    </router-link>
+    <div
+      flex="1"
+      m="x-4"
+    >
       {{ store.title }}
-    </v-app-bar-title>
-  </v-app-bar>
+    </div>
+  </header>
 </template>
 
 <script setup lang="ts">
-import { mdiHome } from "@mdi/js";
+import { useNavStore } from "/~/store/nav";
 
-import { useNavbarStore } from "/~/store/navbar";
-
-const store = useNavbarStore();
+const store = useNavStore();
 </script>
