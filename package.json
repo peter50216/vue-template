@@ -17,10 +17,10 @@
     "tsc": "vue-tsc --noEmit && :"
   },
   "dependencies": {
-    "@anu-vue/preset-theme-default": "^0.12.0",
+    "@anu-vue/preset-theme-default": "0.12.0",
     "@unocss/reset": "0.49.1",
     "@vueuse/core": "9.12.0",
-    "anu-vue": "^0.12.0",
+    "anu-vue": "0.12.0",
     "pinia": "2.0.29",
     "vue": "3.2.45",
     "vue-router": "4.1.6"

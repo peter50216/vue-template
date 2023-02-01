@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@anu-vue/preset-theme-default': ^0.12.0
+  '@anu-vue/preset-theme-default': 0.12.0
   '@commitlint/cli': 17.4.2
   '@commitlint/config-conventional': 17.4.2
   '@iconify/json': 2.2.15
@@ -21,7 +21,7 @@ specifiers:
   '@vue/runtime-core': 3.2.45
   '@vue/test-utils': 2.2.8
   '@vueuse/core': 9.12.0
-  anu-vue: ^0.12.0
+  anu-vue: 0.12.0
   eslint: 8.33.0
   eslint-config-prettier: 8.6.0
   eslint-plugin-prettier-vue: 4.2.0
@@ -2398,7 +2398,7 @@ packages:
   /@unocss/vite/0.49.1_vite@4.0.4:
     resolution: {integrity: sha512-8/tZaPfHhKVQMjFa4PBALx73hq4eCVz9V9gUfaWTWM5x3nUVRDbYDkfSKkUPAU6cuElIjVarJ+zFTAw1ltKABA==}
     peerDependencies:
-      vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0 || 3
+      vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0
     dependencies:
       '@ampproject/remapping': 2.2.0
       '@rollup/pluginutils': 5.0.2
@@ -2419,7 +2419,7 @@ packages:
     resolution: {integrity: sha512-e0X4jErIxAB5oLtDqbHvHpJe/uWNkdpYV83AOG2xo2tEVSzCzewgJMtREZM30wXnM5ls90hxiOtAuVU6H5JgbA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
-      vite: ^4.0.0 || 3
+      vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
       vite: 4.0.4_@types+node@18.11.18
@@ -6891,7 +6891,7 @@ packages:
     resolution: {integrity: sha512-yncDncFVnjUzhqJnwCgGDZoZ/wO6MEOMe93f2MQjplKXm1MpmHCrTkFCPnQyYGZTVKPAN+y7BQcIpNWPFLQ4+w==}
     peerDependencies:
       '@vue/compiler-sfc': ^2.7.0 || ^3.0.0
-      vite: ^2.0.0 || ^3.0.0-0 || ^4.0.0 || 3
+      vite: ^2.0.0 || ^3.0.0-0 || ^4.0.0
     peerDependenciesMeta:
       '@vue/compiler-sfc':
         optional: true
@@ -6914,7 +6914,7 @@ packages:
   /vite-plugin-pwa/0.14.1_aln3rhi4rqbizqxdkcc2hwlswu:
     resolution: {integrity: sha512-5zx7yhQ8RTLwV71+GA9YsQQ63ALKG8XXIMqRJDdZkR8ZYftFcRgnzM7wOWmQZ/DATspyhPih5wCdcZnAIsM+mA==}
     peerDependencies:
-      vite: ^3.1.0 || ^4.0.0 || 3
+      vite: ^3.1.0 || ^4.0.0
       workbox-window: ^6.5.4
     dependencies:
       '@rollup/plugin-replace': 5.0.1_rollup@3.7.4
@@ -6933,7 +6933,7 @@ packages:
   /vite-plugin-vue-layouts/0.7.0_oh6kquo6biweymmreht6aj34oy:
     resolution: {integrity: sha512-k5XDmRNFo4M/GmUjhbRXj2WmJiFcGoVI8l/uZ72RHyRDQr4wE/6Zq/KFq0lqXomWQxTSzakQRUswzNwtvZLE8A==}
     peerDependencies:
-      vite: ^2.5.0 || ^3.0.0-0 || 3
+      vite: ^2.5.0 || ^3.0.0-0
       vue: ^2.6.12 || ^3.2.4
       vue-router: ^3.5.1 || ^ 4.0.11
     dependencies:
