@@ -1,143 +1,5 @@
-// Default order copied from https://github.com/typescript-eslint/typescript-eslint/blob/d134b1fa2540dec7094728f3dec1bbb8c644fe58/packages/eslint-plugin/src/rules/member-ordering.ts#L41
-const defaultOrder = [
-  // Index signature
-  "signature",
-  "call-signature",
-
-  // Fields
-  "public-static-field",
-  "protected-static-field",
-  "private-static-field",
-  "#private-static-field",
-
-  "public-decorated-field",
-  "protected-decorated-field",
-  "private-decorated-field",
-
-  "public-instance-field",
-  "protected-instance-field",
-  "private-instance-field",
-  "#private-instance-field",
-
-  "public-abstract-field",
-  "protected-abstract-field",
-
-  "public-field",
-  "protected-field",
-  "private-field",
-  "#private-field",
-
-  "static-field",
-  "instance-field",
-  "abstract-field",
-
-  "decorated-field",
-
-  "field",
-
-  // Static initialization
-  "static-initialization",
-
-  // Constructors
-  "public-constructor",
-  "protected-constructor",
-  "private-constructor",
-
-  "constructor",
-
-  // Getters
-  "public-static-get",
-  "protected-static-get",
-  "private-static-get",
-  "#private-static-get",
-
-  "public-decorated-get",
-  "protected-decorated-get",
-  "private-decorated-get",
-
-  "public-instance-get",
-  "protected-instance-get",
-  "private-instance-get",
-  "#private-instance-get",
-
-  "public-abstract-get",
-  "protected-abstract-get",
-
-  "public-get",
-  "protected-get",
-  "private-get",
-  "#private-get",
-
-  "static-get",
-  "instance-get",
-  "abstract-get",
-
-  "decorated-get",
-
-  "get",
-
-  // Setters
-  "public-static-set",
-  "protected-static-set",
-  "private-static-set",
-  "#private-static-set",
-
-  "public-decorated-set",
-  "protected-decorated-set",
-  "private-decorated-set",
-
-  "public-instance-set",
-  "protected-instance-set",
-  "private-instance-set",
-  "#private-instance-set",
-
-  "public-abstract-set",
-  "protected-abstract-set",
-
-  "public-set",
-  "protected-set",
-  "private-set",
-  "#private-set",
-
-  "static-set",
-  "instance-set",
-  "abstract-set",
-
-  "decorated-set",
-
-  "set",
-
-  // Methods
-  "public-static-method",
-  "protected-static-method",
-  "private-static-method",
-  "#private-static-method",
-
-  "public-decorated-method",
-  "protected-decorated-method",
-  "private-decorated-method",
-
-  "public-instance-method",
-  "protected-instance-method",
-  "private-instance-method",
-  "#private-instance-method",
-
-  "public-abstract-method",
-  "protected-abstract-method",
-
-  "public-method",
-  "protected-method",
-  "private-method",
-  "#private-method",
-
-  "static-method",
-  "instance-method",
-  "abstract-method",
-
-  "decorated-method",
-
-  "method",
-];
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const INLINE_ELEMENTS = require("eslint-plugin-vue/lib/utils/inline-non-void-elements.json");
 
 module.exports = {
   parser: "@typescript-eslint/parser",
@@ -146,7 +8,28 @@ module.exports = {
       files: ["*.vue"],
       parser: "vue-eslint-parser",
       parserOptions: {
-        parser: "@typescript-eslint/parser",
+        parser: {
+          "<template>": "espree",
+          js: "@typescript-eslint/parser",
+          ts: "@typescript-eslint/parser",
+        },
+      },
+    },
+    {
+      files: ["*.ts", "*.vue"],
+      parserOptions: {
+        project: "./tsconfig.eslint.json",
+        extraFileExtensions: [".vue"],
+      },
+      rules: {
+        "@typescript-eslint/strict-boolean-expressions": [
+          "error",
+          {
+            allowString: false,
+            allowNumber: false,
+            allowNullableObject: false,
+          },
+        ],
       },
     },
   ],
@@ -157,15 +40,6 @@ module.exports = {
   ],
   rules: {
     "@typescript-eslint/explicit-module-boundary-types": "off",
-    "@typescript-eslint/member-ordering": [
-      "error",
-      {
-        default: {
-          memberTypes: defaultOrder,
-          order: "alphabetically-case-insensitive",
-        },
-      },
-    ],
     "@typescript-eslint/method-signature-style": "error",
     "@typescript-eslint/no-unused-vars": "off",
     "prettier-vue/prettier": "error",
@@ -174,12 +48,23 @@ module.exports = {
     "vue/multi-word-component-names": "off",
     // ref sugar
     "vue/no-setup-props-destructure": "off",
-  },
-  settings: {
-    "prettier-vue": {
-      SFCBlocks: {
-        template: false,
+    "vue/component-name-in-template-casing": [
+      "error",
+      "PascalCase",
+      {
+        registeredComponentsOnly: false,
       },
-    },
+    ],
+    "vue/custom-event-name-casing": "error",
+    "vue/padding-line-between-blocks": "error",
+    // Conflict with prettier
+    "vue/html-indent": "off",
+    "vue/html-self-closing": "off",
+    "vue/singleline-html-element-content-newline": [
+      "error",
+      {
+        ignores: ["pre", "textarea", "template", ...INLINE_ELEMENTS],
+      },
+    ],
   },
 };

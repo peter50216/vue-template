@@ -84,11 +84,7 @@
     ]
   },
   "packageManager": "pnpm@7.26.3",
-  "pnpm": {
-    "peerDependencyRules": {
-      "allowedVersions": {
-        "vite": "3"
-      }
-    }
+  "prettier": {
+    "singleAttributePerLine": true
   }
 }

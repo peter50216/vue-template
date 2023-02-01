@@ -3,8 +3,11 @@ export {}
 declare global {
   const EffectScope: typeof import('vue')['EffectScope']
   const assert: typeof import('./src/util/assert')['assert']
+  const assertExists: typeof import('./src/util/assert')['assertExists']
+  const assertNotReached: typeof import('./src/util/assert')['assertNotReached']
   const asyncComputed: typeof import('@vueuse/core')['asyncComputed']
   const autoResetRef: typeof import('@vueuse/core')['autoResetRef']
+  const checkEnumVariant: typeof import('./src/util/assert')['checkEnumVariant']
   const computed: typeof import('vue')['computed']
   const computedAsync: typeof import('@vueuse/core')['computedAsync']
   const computedEager: typeof import('@vueuse/core')['computedEager']
@@ -270,8 +273,11 @@ declare module 'vue' {
   interface ComponentCustomProperties {
     readonly EffectScope: UnwrapRef<typeof import('vue')['EffectScope']>
     readonly assert: UnwrapRef<typeof import('./src/util/assert')['assert']>
+    readonly assertExists: UnwrapRef<typeof import('./src/util/assert')['assertExists']>
+    readonly assertNotReached: UnwrapRef<typeof import('./src/util/assert')['assertNotReached']>
     readonly asyncComputed: UnwrapRef<typeof import('@vueuse/core')['asyncComputed']>
     readonly autoResetRef: UnwrapRef<typeof import('@vueuse/core')['autoResetRef']>
+    readonly checkEnumVariant: UnwrapRef<typeof import('./src/util/assert')['checkEnumVariant']>
     readonly computed: UnwrapRef<typeof import('vue')['computed']>
     readonly computedAsync: UnwrapRef<typeof import('@vueuse/core')['computedAsync']>
     readonly computedEager: UnwrapRef<typeof import('@vueuse/core')['computedEager']>

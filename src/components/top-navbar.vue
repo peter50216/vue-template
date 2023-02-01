@@ -9,12 +9,12 @@
     z="100"
     p="2"
   >
-    <router-link to="/">
+    <RouterLink to="/">
       <div
         i="mdi-home"
         m="2"
       />
-    </router-link>
+    </RouterLink>
     <div
       flex="1"
       m="x-4"

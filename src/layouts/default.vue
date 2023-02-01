@@ -5,7 +5,7 @@
   >
     <TopNavbar />
     <main>
-      <router-view />
+      <RouterView />
     </main>
   </div>
 </template>
