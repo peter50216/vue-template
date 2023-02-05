@@ -30,7 +30,7 @@
     "@commitlint/config-conventional": "17.4.2",
     "@iconify/json": "2.2.16",
     "@mdi/js": "7.1.96",
-    "@types/node": "18.11.18",
+    "@types/node": "18.11.19",
     "@typescript-eslint/eslint-plugin": "5.50.0",
     "@typescript-eslint/parser": "5.50.0",
     "@unocss/preset-attributify": "0.49.4",
