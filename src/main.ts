@@ -1,7 +1,8 @@
 import "@unocss/reset/tailwind.css";
+import "@kidonng/daisyui/base/index.css";
+import "@kidonng/daisyui/components/index.css";
+import "@kidonng/daisyui/utilities/index.css";
 import "uno.css";
-import "anu-vue/dist/style.css";
-import "@anu-vue/preset-theme-default/dist/style.css";
 import "./main.css";
 
 import { createPinia } from "pinia";

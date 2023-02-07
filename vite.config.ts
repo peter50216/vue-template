@@ -1,5 +1,4 @@
 import Vue from "@vitejs/plugin-vue";
-import { AnuComponentResolver } from "anu-vue";
 import path from "path";
 import Unocss from "unocss/vite";
 import AutoImport from "unplugin-auto-import/vite";
@@ -31,7 +30,6 @@ export default defineConfig({
     Components({
       dts: true,
       directoryAsNamespace: true,
-      resolvers: [AnuComponentResolver()],
     }),
 
     Unocss(),

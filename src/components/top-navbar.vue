@@ -1,7 +1,7 @@
 <template>
   <header
     bg="primary"
-    text="gray-50 xl"
+    text="primary-content xl"
     flex="~ row"
     items="center"
     position="sticky"

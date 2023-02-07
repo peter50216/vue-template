@@ -16,7 +16,7 @@
         i="mdi-rabbit-variant"
         m="r-2"
       />
-      Hello to Vue 3 + UnoCSS + Anu!
+      Hello to Vue 3 + UnoCSS + DaisyUI!
     </div>
     <SimpleCounter />
   </div>

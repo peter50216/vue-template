@@ -3,12 +3,13 @@
     flex="~ row"
     items="center"
   >
-    <ABtn
-      icon-only
-      icon="i-mdi-plus-circle"
-      variant="text"
+    <button
+      class="btn btn-ghost btn-circle"
+      text="xl"
       @click="cnt++"
-    />
+    >
+      <span i="mdi-plus-circle" />
+    </button>
     <span>Here's a counter: {{ cnt }}</span>
   </div>
 </template>

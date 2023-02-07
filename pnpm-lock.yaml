@@ -1,14 +1,15 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@anu-vue/preset-theme-default': 0.12.0
   '@commitlint/cli': 17.4.2
   '@commitlint/config-conventional': 17.4.2
   '@iconify/json': 2.2.18
+  '@kidonng/daisyui': github:peter50216/daisyui#tags/v2.50.0
   '@mdi/js': 7.1.96
   '@types/node': 18.11.19
   '@typescript-eslint/eslint-plugin': 5.51.0
   '@typescript-eslint/parser': 5.51.0
+  '@unocss/core': ^0.49.4
   '@unocss/preset-attributify': 0.49.4
   '@unocss/preset-icons': 0.49.4
   '@unocss/preset-mini': 0.49.4
@@ -21,7 +22,6 @@ specifiers:
   '@vue/runtime-core': 3.2.47
   '@vue/test-utils': 2.2.10
   '@vueuse/core': 9.12.0
-  anu-vue: 0.12.0
   eslint: 8.33.0
   eslint-config-prettier: 8.6.0
   eslint-plugin-prettier-vue: 4.2.0
@@ -39,6 +39,7 @@ specifiers:
   stylelint-config-standard: 29.0.0
   typescript: 4.9.5
   unocss: 0.49.4
+  unocss-preset-daisy: github:peter50216/unocss-preset-daisy#tags/v1.3.1
   unocss-preset-scrollbar: 0.2.1
   unplugin-auto-import: 0.13.0
   unplugin-vue-components: 0.23.0
@@ -55,10 +56,8 @@ specifiers:
   workbox-window: 6.5.4
 
 dependencies:
-  '@anu-vue/preset-theme-default': 0.12.0
   '@unocss/reset': 0.49.4
   '@vueuse/core': 9.12.0_vue@3.2.47
-  anu-vue: 0.12.0_7vdvhdy7p7kbghgn7nd7f4w26a
   pinia: 2.0.30_hmuptsblhheur2tugfgucj7gc4
   vue: 3.2.47
   vue-router: 4.1.6_vue@3.2.47
@@ -67,10 +66,12 @@ devDependencies:
   '@commitlint/cli': 17.4.2
   '@commitlint/config-conventional': 17.4.2
   '@iconify/json': 2.2.18
+  '@kidonng/daisyui': github.com/peter50216/daisyui/ff37ebd24c7c9b91b2f69e783d94d3d10b8d5306
   '@mdi/js': 7.1.96
   '@types/node': 18.11.19
   '@typescript-eslint/eslint-plugin': 5.51.0_b635kmla6dsb4frxfihkw4m47e
   '@typescript-eslint/parser': 5.51.0_4vsywjlpuriuw3tl5oq6zy5a64
+  '@unocss/core': 0.49.4
   '@unocss/preset-attributify': 0.49.4
   '@unocss/preset-icons': 0.49.4
   '@unocss/preset-mini': 0.49.4
@@ -97,6 +98,7 @@ devDependencies:
   stylelint-config-standard: 29.0.0_stylelint@14.16.1
   typescript: 4.9.5
   unocss: 0.49.4_vite@4.1.1
+  unocss-preset-daisy: github.com/peter50216/unocss-preset-daisy/d101b7e34ce657460ede879f3767f34ec8267a28
   unocss-preset-scrollbar: 0.2.1_unocss@0.49.4
   unplugin-auto-import: 0.13.0_@vueuse+core@9.12.0
   unplugin-vue-components: 0.23.0_vue@3.2.47
@@ -134,12 +136,6 @@ packages:
   /@antfu/utils/0.7.2:
     resolution: {integrity: sha512-vy9fM3pIxZmX07dL+VX1aZe7ynZ+YyB0jY+jE6r3hOK6GNY2t6W8rzpFC4tgpbXUYABkFQwgJq2XYXlxbXAI0g==}
     dev: true
-
-  /@anu-vue/preset-theme-default/0.12.0:
-    resolution: {integrity: sha512-a835rCYXo3heLW+Zfucdr+i/GqgbQQgiAfWoYyNL3CzJIUc3ZDu/EgiCBIquKhGJQqJEGG4sYmMrQh2vjKls0Q==}
-    dependencies:
-      defu: 6.1.2
-    dev: false
 
   /@apideck/better-ajv-errors/0.3.6_ajv@8.11.0:
     resolution: {integrity: sha512-P+ZygBLZtkp0qqOAJJVX4oX/sFo5JR3eBWwwuqHHhK0GIgQOKWrAfiAaWX0aArHkRWHMuggFEgAZNxVPwPZYaA==}
@@ -1732,16 +1728,6 @@ packages:
       - supports-color
     dev: true
 
-  /@floating-ui/core/1.1.1:
-    resolution: {integrity: sha512-PL7g3dhA4dHgZfujkuD8Q+tfJJynEtnNQSPzmucCnxMvkxf4cLBJw/ZYqZUn4HCh33U3WHrAfv2R2tbi9UCSmw==}
-    dev: false
-
-  /@floating-ui/dom/1.1.1:
-    resolution: {integrity: sha512-TpIO93+DIujg3g7SykEAGZMDtbJRrmnYRCNYSjJlvIbGhBjRSNTLVbNeDQBrzy9qDgUbiWdc7KA0uZHZ2tJmiw==}
-    dependencies:
-      '@floating-ui/core': 1.1.1
-    dev: false
-
   /@humanwhocodes/config-array/0.11.8:
     resolution: {integrity: sha512-UybHIJzJnR5Qc/MsD9Kr+RpO2h+/P1GhOwdiLPXK5TWk5sgTdu88bTD9UP+CKbPPh5Rni1u0GjAdYQLemG8g+g==}
     engines: {node: '>=10.10.0'}
@@ -2718,21 +2704,6 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /anu-vue/0.12.0_7vdvhdy7p7kbghgn7nd7f4w26a:
-    resolution: {integrity: sha512-pf3+DRMg90LaNVK9Frhfv5eVkFK3is7j2RmcmtnmW0MIRFgFxq3aPTH243r5H7KJitWqb+G9d5mNG+MAOaBSxQ==}
-    peerDependencies:
-      '@unocss/reset': ^0.41.1
-      '@vueuse/core': ^9.6.0
-      vue-router: '4'
-    dependencies:
-      '@floating-ui/dom': 1.1.1
-      '@unocss/reset': 0.49.4
-      '@vueuse/core': 9.12.0_vue@3.2.47
-      defu: 6.1.2
-      vue: 3.2.47
-      vue-router: 4.1.6_vue@3.2.47
-    dev: false
-
   /anymatch/3.1.2:
     resolution: {integrity: sha512-P43ePfOAIupkguHUycrc4qJ9kz8ZiuOUijaETwX7THt0Y/GNK7v0aa8rY816xWjZ7rJdA5XdMcpVFTKMq+RvWg==}
     engines: {node: '>= 8'}
@@ -2940,6 +2911,11 @@ packages:
   /camelcase/5.3.1:
     resolution: {integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==}
     engines: {node: '>=6'}
+    dev: true
+
+  /camelcase/7.0.1:
+    resolution: {integrity: sha512-xlx1yCK2Oc1APsPXDL2LdlNP6+uu8OCDdhOBSVT279M/S+y75O30C2VuD8T2ogdePBBl7PfPF4504tnLgX3zfw==}
+    engines: {node: '>=14.16'}
     dev: true
 
   /caniuse-lite/1.0.30001384:
@@ -3339,6 +3315,7 @@ packages:
 
   /defu/6.1.2:
     resolution: {integrity: sha512-+uO4+qr7msjNNWKYPHqN/3+Dx3NFkmIzayk2L1MyZQlvgZb/J1A0fo410dpKrN2SnqFjt8n4JL8fDJE0wIgjFQ==}
+    dev: true
 
   /delayed-stream/1.0.0:
     resolution: {integrity: sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==}
@@ -7469,4 +7446,18 @@ packages:
   /yocto-queue/1.0.0:
     resolution: {integrity: sha512-9bnSc/HEW2uRy67wc+T8UwauLuPJVn28jb+GtJY16iiKWyvmYJRXVT4UamsAEGQfPohgr2q4Tq0sQbQlxTfi1g==}
     engines: {node: '>=12.20'}
+    dev: true
+
+  github.com/peter50216/daisyui/ff37ebd24c7c9b91b2f69e783d94d3d10b8d5306:
+    resolution: {tarball: https://codeload.github.com/peter50216/daisyui/tar.gz/ff37ebd24c7c9b91b2f69e783d94d3d10b8d5306}
+    name: '@kidonng/daisyui'
+    version: 2.50.0
+    dev: true
+
+  github.com/peter50216/unocss-preset-daisy/d101b7e34ce657460ede879f3767f34ec8267a28:
+    resolution: {tarball: https://codeload.github.com/peter50216/unocss-preset-daisy/tar.gz/d101b7e34ce657460ede879f3767f34ec8267a28}
+    name: unocss-preset-daisy
+    version: 1.2.0
+    dependencies:
+      camelcase: 7.0.1
     dev: true
