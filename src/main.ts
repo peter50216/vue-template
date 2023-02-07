@@ -1,7 +1,5 @@
 import "@unocss/reset/tailwind.css";
-import "@kidonng/daisyui/base/index.css";
-import "@kidonng/daisyui/components/index.css";
-import "@kidonng/daisyui/utilities/index.css";
+import "@kidonng/daisyui/index.css";
 import "uno.css";
 import "./main.css";
 
