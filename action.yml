@@ -3,6 +3,12 @@ description: 'Basic Vue checks & builds for the template'
 runs:
   using: "composite"
   steps:
+    # This is for building dependency daisyUI
+    # TODO(Darkpi): Find some way to publish my custom one without needing a
+    # build on all users.
+    - uses: denoland/setup-deno@v1
+      with:
+        deno-version: v1.x
     - name: Setup PNPM
       uses: pnpm/action-setup@v2
       with:
