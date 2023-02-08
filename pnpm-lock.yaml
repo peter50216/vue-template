@@ -33,7 +33,7 @@ specifiers:
   pinia: 2.0.30
   pnpm: 7.26.3
   postcss-html: 1.5.0
-  prettier: 2.8.3
+  prettier: 2.8.4
   stylelint: 14.16.1
   stylelint-config-idiomatic-order: 9.0.0
   stylelint-config-standard: 29.0.0
@@ -92,7 +92,7 @@ devDependencies:
   lint-staged: 13.1.1
   pnpm: 7.26.3
   postcss-html: 1.5.0
-  prettier: 2.8.3
+  prettier: 2.8.4
   stylelint: 14.16.1
   stylelint-config-idiomatic-order: 9.0.0_stylelint@14.16.1
   stylelint-config-standard: 29.0.0_stylelint@14.16.1
@@ -3553,7 +3553,7 @@ packages:
     dependencies:
       '@vue/compiler-sfc': 3.2.47
       chalk: 4.1.2
-      prettier: 2.8.3
+      prettier: 2.8.4
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -5559,8 +5559,8 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier/2.8.3:
-    resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
+  /prettier/2.8.4:
+    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
