@@ -8,3 +8,5 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - uses: peter50216/vue-template@v2
+      with:
+        use-deno: true

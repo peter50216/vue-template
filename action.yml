@@ -1,12 +1,26 @@
 name: 'Basic checks'
 description: 'Basic Vue checks & builds for the template'
+inputs:
+  use-deno:
+    description: 'If deno is used or not, used by custom daisyUI for now'
+    default: false
 runs:
   using: "composite"
   steps:
     # This is for building dependency daisyUI
     # TODO(Darkpi): Find some way to publish my custom one without needing a
     # build on all users.
+    - name: cache deno installation and deno.land dependencies
+      if: inputs.use-deno
+      uses: actions/cache@v2
+      with:
+        key: ${{ runner.os }}-deno-${{ hashFiles('**/*') }}
+        restore-keys: ${{ runner.os }}-deno-
+        path: |
+          /home/runner/.deno
+          /home/runner/.cache/deno/deps/https/deno.land
     - uses: denoland/setup-deno@v1
+      if: inputs.use-deno
       with:
         deno-version: v1.x
     - name: Setup PNPM
