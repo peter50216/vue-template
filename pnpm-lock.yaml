@@ -4,7 +4,7 @@ specifiers:
   '@commitlint/cli': 17.4.2
   '@commitlint/config-conventional': 17.4.2
   '@iconify/json': 2.2.19
-  '@kidonng/daisyui': github:peter50216/daisyui#tags/v2.50.0
+  '@kidonng/daisyui': github:peter50216/daisyui#tags/v2.50.1
   '@mdi/js': 7.1.96
   '@types/node': 18.13.0
   '@typescript-eslint/eslint-plugin': 5.51.0
@@ -39,7 +39,7 @@ specifiers:
   stylelint-config-standard: 29.0.0
   typescript: 4.9.5
   unocss: 0.49.4
-  unocss-preset-daisy: github:peter50216/unocss-preset-daisy#tags/v1.3.2
+  unocss-preset-daisy: github:peter50216/unocss-preset-daisy#tags/v1.3.3
   unocss-preset-scrollbar: 0.2.1
   unplugin-auto-import: 0.13.0
   unplugin-vue-components: 0.23.0
@@ -66,7 +66,7 @@ devDependencies:
   '@commitlint/cli': 17.4.2
   '@commitlint/config-conventional': 17.4.2
   '@iconify/json': 2.2.19
-  '@kidonng/daisyui': github.com/peter50216/daisyui/3053015575b58435f1a78d0a2414a0237189e433
+  '@kidonng/daisyui': github.com/peter50216/daisyui/137effc4c500559d5a3c60da7612c34980d92269
   '@mdi/js': 7.1.96
   '@types/node': 18.13.0
   '@typescript-eslint/eslint-plugin': 5.51.0_b635kmla6dsb4frxfihkw4m47e
@@ -98,7 +98,7 @@ devDependencies:
   stylelint-config-standard: 29.0.0_stylelint@14.16.1
   typescript: 4.9.5
   unocss: 0.49.4_vite@4.1.1
-  unocss-preset-daisy: github.com/peter50216/unocss-preset-daisy/24364c9a2feff3f5f827b20d4387ef56d520f38b
+  unocss-preset-daisy: github.com/peter50216/unocss-preset-daisy/e8c9dca6567074a51ec8d34b502d3b3b300d458d
   unocss-preset-scrollbar: 0.2.1_unocss@0.49.4
   unplugin-auto-import: 0.13.0_@vueuse+core@9.12.0
   unplugin-vue-components: 0.23.0_vue@3.2.47
@@ -7403,14 +7403,14 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
-  github.com/peter50216/daisyui/3053015575b58435f1a78d0a2414a0237189e433:
-    resolution: {tarball: https://codeload.github.com/peter50216/daisyui/tar.gz/3053015575b58435f1a78d0a2414a0237189e433}
+  github.com/peter50216/daisyui/137effc4c500559d5a3c60da7612c34980d92269:
+    resolution: {tarball: https://codeload.github.com/peter50216/daisyui/tar.gz/137effc4c500559d5a3c60da7612c34980d92269}
     name: '@kidonng/daisyui'
     version: 2.50.0
     dev: true
 
-  github.com/peter50216/unocss-preset-daisy/24364c9a2feff3f5f827b20d4387ef56d520f38b:
-    resolution: {tarball: https://codeload.github.com/peter50216/unocss-preset-daisy/tar.gz/24364c9a2feff3f5f827b20d4387ef56d520f38b}
+  github.com/peter50216/unocss-preset-daisy/e8c9dca6567074a51ec8d34b502d3b3b300d458d:
+    resolution: {tarball: https://codeload.github.com/peter50216/unocss-preset-daisy/tar.gz/e8c9dca6567074a51ec8d34b502d3b3b300d458d}
     name: unocss-preset-daisy
     version: 1.2.0
     dependencies:
