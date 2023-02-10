@@ -26,7 +26,7 @@
   "devDependencies": {
     "@commitlint/cli": "17.4.2",
     "@commitlint/config-conventional": "17.4.2",
-    "@iconify/json": "2.2.19",
+    "@iconify/json": "2.2.20",
     "@kidonng/daisyui": "github:peter50216/daisyui#tags/v2.50.1",
     "@mdi/js": "7.1.96",
     "@types/node": "18.13.0",
