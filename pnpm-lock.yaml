@@ -41,7 +41,7 @@ specifiers:
   unocss: 0.49.5
   unocss-preset-daisy: github:peter50216/unocss-preset-daisy#tags/v1.3.3
   unocss-preset-scrollbar: 0.2.1
-  unplugin-auto-import: 0.14.2
+  unplugin-auto-import: 0.14.3
   unplugin-vue-components: 0.23.0
   vite: 4.1.1
   vite-plugin-pages: 0.28.0
@@ -100,7 +100,7 @@ devDependencies:
   unocss: 0.49.5_vite@4.1.1
   unocss-preset-daisy: github.com/peter50216/unocss-preset-daisy/e8c9dca6567074a51ec8d34b502d3b3b300d458d
   unocss-preset-scrollbar: 0.2.1_unocss@0.49.5
-  unplugin-auto-import: 0.14.2_@vueuse+core@9.12.0
+  unplugin-auto-import: 0.14.3_@vueuse+core@9.12.0
   unplugin-vue-components: 0.23.0_vue@3.2.47
   vite: 4.1.1_@types+node@18.13.0
   vite-plugin-pages: 0.28.0_jcsmkydzzmiirbz2fx6lklq7mq
@@ -6717,8 +6717,8 @@ packages:
       - vite
     dev: true
 
-  /unplugin-auto-import/0.14.2_@vueuse+core@9.12.0:
-    resolution: {integrity: sha512-6DptcCD+bKlxwK0yS4ehleZTvtG4Xl9k/XxhKWxc9ii2uE28HvcA3KbYpoHAzTlHDXRBrtcCAohR8vtIRB5bfg==}
+  /unplugin-auto-import/0.14.3_@vueuse+core@9.12.0:
+    resolution: {integrity: sha512-6eCHLnsOPwLjNZHQkb95S5jbTWW2JH/jKiQUzTeWJAb8XFpDFZPEhxDeIDAr7HOF76Nz6EGhKF8PQduzygdICg==}
     engines: {node: '>=14'}
     peerDependencies:
       '@vueuse/core': '*'
