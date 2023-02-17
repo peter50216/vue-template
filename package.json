@@ -24,8 +24,8 @@
     "vue-router": "4.1.6"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.4.3",
-    "@commitlint/config-conventional": "17.4.3",
+    "@commitlint/cli": "17.4.4",
+    "@commitlint/config-conventional": "17.4.4",
     "@iconify/json": "2.2.23",
     "@kidonng/daisyui": "github:peter50216/daisyui#tags/v2.50.1",
     "@mdi/js": "7.1.96",
