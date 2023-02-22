@@ -19,7 +19,7 @@
   "dependencies": {
     "@unocss/reset": "0.49.7",
     "@vueuse/core": "9.12.0",
-    "pinia": "2.0.30",
+    "pinia": "2.0.32",
     "vue": "3.2.47",
     "vue-router": "4.1.6"
   },
