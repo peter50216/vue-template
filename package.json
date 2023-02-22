@@ -42,7 +42,7 @@
     "@vitejs/plugin-vue": "4.0.0",
     "@vue/compiler-sfc": "3.2.47",
     "@vue/runtime-core": "3.2.47",
-    "@vue/test-utils": "2.2.10",
+    "@vue/test-utils": "2.3.0",
     "eslint": "8.34.0",
     "eslint-config-prettier": "8.6.0",
     "eslint-plugin-prettier-vue": "4.2.0",
