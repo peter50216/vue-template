@@ -1,9 +1,5 @@
 name: 'Basic checks'
 description: 'Basic Vue checks & builds for the template'
-inputs:
-  use-deno:
-    description: 'If deno is used or not, used by custom daisyUI for now'
-    default: false
 runs:
   using: "composite"
   steps:
