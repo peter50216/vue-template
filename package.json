@@ -44,7 +44,7 @@
     "@vue/runtime-core": "3.2.47",
     "@vue/test-utils": "2.3.0",
     "eslint": "8.35.0",
-    "eslint-config-prettier": "8.6.0",
+    "eslint-config-prettier": "8.7.0",
     "eslint-plugin-prettier-vue": "4.2.0",
     "eslint-plugin-simple-import-sort": "10.0.0",
     "eslint-plugin-vue": "9.9.0",
