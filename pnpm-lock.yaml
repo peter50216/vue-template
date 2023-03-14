@@ -31,7 +31,7 @@ specifiers:
   jsdom: 21.1.1
   lint-staged: 13.2.0
   pinia: 2.0.33
-  pnpm: 7.29.1
+  pnpm: 7.29.2
   postcss-html: 1.5.0
   prettier: 2.8.4
   stylelint: 15.2.0
@@ -90,7 +90,7 @@ devDependencies:
   husky: 8.0.3
   jsdom: 21.1.1
   lint-staged: 13.2.0
-  pnpm: 7.29.1
+  pnpm: 7.29.2
   postcss-html: 1.5.0
   prettier: 2.8.4
   stylelint: 15.2.0
@@ -5289,8 +5289,8 @@ packages:
       pathe: 1.1.0
     dev: true
 
-  /pnpm/7.29.1:
-    resolution: {integrity: sha512-dn+65B2XpMIin7sQZvBIJ2Zyx8Z7LK95qyAvgEPE8qXkWYL/LuwpfMfK9Muc7+zNnpPwiQgtGEsxgOtuabFibQ==}
+  /pnpm/7.29.2:
+    resolution: {integrity: sha512-G1z1E1uKwDjhG85gJYXdycR9ND4Cy1jK3WbtqK09RofBraagz/mXdYoc0x765RurwP1Np1/Vi/uJ6fZqHUWgyw==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
