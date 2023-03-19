@@ -28,7 +28,7 @@
     "@commitlint/config-conventional": "17.4.4",
     "@iconify/json": "2.2.36",
     "@kidonng/daisyui": "github:peter50216/daisyui#tags/v2.50.1",
-    "@mdi/js": "7.1.96",
+    "@mdi/js": "7.2.96",
     "@types/node": "18.15.3",
     "@typescript-eslint/eslint-plugin": "5.55.0",
     "@typescript-eslint/parser": "5.55.0",
