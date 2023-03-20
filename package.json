@@ -29,7 +29,7 @@
     "@iconify/json": "2.2.37",
     "@kidonng/daisyui": "github:peter50216/daisyui#tags/v2.50.1",
     "@mdi/js": "7.2.96",
-    "@types/node": "18.15.3",
+    "@types/node": "18.15.5",
     "@typescript-eslint/eslint-plugin": "5.55.0",
     "@typescript-eslint/parser": "5.55.0",
     "@unocss/core": "0.50.6",
