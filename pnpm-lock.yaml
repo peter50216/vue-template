@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@commitlint/cli': 17.5.0
   '@commitlint/config-conventional': 17.4.4
-  '@iconify/json': 2.2.39
+  '@iconify/json': 2.2.40
   '@kidonng/daisyui': github:peter50216/daisyui#tags/v2.50.1
   '@mdi/js': 7.2.96
   '@types/node': 18.15.10
@@ -65,7 +65,7 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 17.5.0
   '@commitlint/config-conventional': 17.4.4
-  '@iconify/json': 2.2.39
+  '@iconify/json': 2.2.40
   '@kidonng/daisyui': github.com/peter50216/daisyui/137effc4c500559d5a3c60da7612c34980d92269
   '@mdi/js': 7.2.96
   '@types/node': 18.15.10
@@ -1755,8 +1755,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify/json/2.2.39:
-    resolution: {integrity: sha512-LlEejR9fv8PIpww3HUl8nbVJ4a89Q3Ydcp5W5Cwj/vhP7ergmzGemXizlqs7kGPRYUORZnjKGZkt32oW423icw==}
+  /@iconify/json/2.2.40:
+    resolution: {integrity: sha512-I6RVi9Y7xt1AXjJ4JKt3dnS5f/Jep1LyPUwDcc7ZlTgW5u7kcDoIjyAlE+ax5bBqxiR60s9qVVufMmjLSq5iUA==}
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.0
