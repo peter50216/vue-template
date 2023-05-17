@@ -8,8 +8,8 @@ dependencies:
     specifier: 10.1.2
     version: 10.1.2(vue@3.3.2)
   pinia:
-    specifier: 2.0.36
-    version: 2.0.36(typescript@5.0.4)(vue@3.3.2)
+    specifier: 2.1.0
+    version: 2.1.0(typescript@5.0.4)(vue@3.3.2)
   vue:
     specifier: 3.3.2
     version: 3.3.2
@@ -2620,7 +2620,7 @@ packages:
   /@vueuse/shared@10.1.2(vue@3.3.2):
     resolution: {integrity: sha512-1uoUTPBlgyscK9v6ScGeVYDDzlPSFXBlxuK7SfrDGyUTBiznb3mNceqhwvZHjtDRELZEN79V5uWPTF1VDV8svA==}
     dependencies:
-      vue-demi: 0.14.0(vue@3.3.2)
+      vue-demi: 0.14.1(vue@3.3.2)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -5316,8 +5316,8 @@ packages:
     hasBin: true
     dev: true
 
-  /pinia@2.0.36(typescript@5.0.4)(vue@3.3.2):
-    resolution: {integrity: sha512-4UKApwjlmJH+VuHKgA+zQMddcCb3ezYnyewQ9NVrsDqZ/j9dMv5+rh+1r48whKNdpFkZAWVxhBp5ewYaYX9JcQ==}
+  /pinia@2.1.0(typescript@5.0.4)(vue@3.3.2):
+    resolution: {integrity: sha512-WAnicKzwxEow/1il0Ax9HjAB6/Uaqlaq/VxnyUDTxFnSVAPuh3AnJFLz60DOnJ9TRLPVl09kAk2y3bmYfetX7A==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
@@ -5331,7 +5331,7 @@ packages:
       '@vue/devtools-api': 6.5.0
       typescript: 5.0.4
       vue: 3.3.2
-      vue-demi: 0.14.0(vue@3.3.2)
+      vue-demi: 0.14.1(vue@3.3.2)
     dev: false
 
   /pkg-types@1.0.2:
@@ -6800,6 +6800,20 @@ packages:
 
   /vue-demi@0.14.0(vue@3.3.2):
     resolution: {integrity: sha512-gt58r2ogsNQeVoQ3EhoUAvUsH9xviydl0dWJj7dabBC/2L4uBId7ujtCwDRD0JhkGsV1i0CtfLAeyYKBht9oWg==}
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    peerDependencies:
+      '@vue/composition-api': ^1.0.0-rc.1
+      vue: ^3.0.0-0 || ^2.6.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+    dependencies:
+      vue: 3.3.2
+
+  /vue-demi@0.14.1(vue@3.3.2):
+    resolution: {integrity: sha512-rt+yuCtXvscYot9SQQj3WKZJVSriPNqVkpVBNEHPzSgBv7QIYzsS410VqVgvx8f9AAPgjg+XPKvmV3vOqqkJQQ==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
