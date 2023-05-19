@@ -14,8 +14,8 @@ dependencies:
     specifier: 3.3.4
     version: 3.3.4
   vue-router:
-    specifier: 4.2.0
-    version: 4.2.0(vue@3.3.4)
+    specifier: 4.2.1
+    version: 4.2.1(vue@3.3.4)
 
 devDependencies:
   '@commitlint/cli':
@@ -146,7 +146,7 @@ devDependencies:
     version: 0.14.7(vite@4.3.8)(workbox-build@6.5.4)(workbox-window@6.5.4)
   vite-plugin-vue-layouts:
     specifier: 0.8.0
-    version: 0.8.0(vite@4.3.8)(vue-router@4.2.0)(vue@3.3.4)
+    version: 0.8.0(vite@4.3.8)(vue-router@4.2.1)(vue@3.3.4)
   vitest:
     specifier: 0.31.1
     version: 0.31.1(jsdom@22.0.0)
@@ -6683,7 +6683,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-vue-layouts@0.8.0(vite@4.3.8)(vue-router@4.2.0)(vue@3.3.4):
+  /vite-plugin-vue-layouts@0.8.0(vite@4.3.8)(vue-router@4.2.1)(vue@3.3.4):
     resolution: {integrity: sha512-UZW2nSV2LraTSe7gsAL46hfdi7a0X1RvkGGoJVtA2O8beu7anzpXFwQLou8+kHy31CzVycT4gIPySBsHhtBN5g==}
     peerDependencies:
       vite: ^2.5.0 || ^3.0.0-0 || ^4.0.0
@@ -6695,7 +6695,7 @@ packages:
       fast-glob: 3.2.12
       vite: 4.3.8(@types/node@18.16.13)
       vue: 3.3.4
-      vue-router: 4.2.0(vue@3.3.4)
+      vue-router: 4.2.1(vue@3.3.4)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6845,8 +6845,8 @@ packages:
       - supports-color
     dev: true
 
-  /vue-router@4.2.0(vue@3.3.4):
-    resolution: {integrity: sha512-c+usESa6ZoWsm4PPdzRSyenp5A4dsUtnDJnrI03fY1IpIihA9TK3x5ffgkFDpjhLJZewsXoKURapNLFdZjuqTg==}
+  /vue-router@4.2.1(vue@3.3.4):
+    resolution: {integrity: sha512-nW28EeifEp8Abc5AfmAShy5ZKGsGzjcnZ3L1yc2DYUo+MqbBClrRP9yda3dIekM4I50/KnEwo1wkBLf7kHH5Cw==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
