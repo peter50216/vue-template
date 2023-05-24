@@ -25,8 +25,8 @@ devDependencies:
     specifier: 17.6.3
     version: 17.6.3
   '@iconify/json':
-    specifier: 2.2.68
-    version: 2.2.68
+    specifier: 2.2.69
+    version: 2.2.69
   '@kidonng/daisyui':
     specifier: github:peter50216/daisyui#tags/v2.50.1
     version: github.com/peter50216/daisyui/137effc4c500559d5a3c60da7612c34980d92269
@@ -1802,8 +1802,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify/json@2.2.68:
-    resolution: {integrity: sha512-UNgbecms1tWhvY9ycXbWW/nOLlx5Xxlufp+dHWontty0j+yiQfap3UshpSGGAt74C9OLYEFKTl42d20PLRakzg==}
+  /@iconify/json@2.2.69:
+    resolution: {integrity: sha512-4Xe8qxWW28Ibw438+BBmOgQH6hBgPZB1utql/R7bbYkSqauW8cFDjNL0Qf4q5VxW2jkQaBpHFAr8NhUuB/LyNg==}
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.0
