@@ -22,7 +22,11 @@ export default defineConfig({
     presetAttributify(),
     presetScrollbar(),
   ],
-  include: ["./**/*.vue"],
+  content: {
+    pipeline: {
+      include: ["./**/*.vue"],
+    },
+  },
   transformers: [transformerVariantGroup(), transformerDirectives()],
   shortcuts: {
     "scrollbar-c":
