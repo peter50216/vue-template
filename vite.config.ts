@@ -1,4 +1,5 @@
 import Vue from "@vitejs/plugin-vue";
+import ReactivityTransform from "@vue-macros/reactivity-transform";
 import path from "path";
 import Unocss from "unocss/vite";
 import AutoImport from "unplugin-auto-import/vite";
@@ -15,9 +16,8 @@ export default defineConfig({
     },
   },
   plugins: [
-    Vue({
-      reactivityTransform: true,
-    }),
+    Vue(),
+    ReactivityTransform.vite(),
 
     // https://github.com/antfu/unplugin-auto-import
     AutoImport({
