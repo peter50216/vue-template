@@ -6,7 +6,7 @@ import presetUno from "@unocss/preset-uno";
 import transformerDirectives from "@unocss/transformer-directives";
 import transformerVariantGroup from "@unocss/transformer-variant-group";
 import { defineConfig } from "unocss";
-import presetDaisy from "unocss-preset-daisy";
+import { presetDaisy } from "unocss-preset-daisy";
 import { presetScrollbar } from "unocss-preset-scrollbar";
 
 export default defineConfig({
