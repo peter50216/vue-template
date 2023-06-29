@@ -128,8 +128,8 @@ devDependencies:
     specifier: 0.53.4
     version: 0.53.4(postcss@8.4.24)(rollup@2.79.1)(vite@4.3.9)
   unocss-preset-daisy:
-    specifier: 5.0.0
-    version: 5.0.0(daisyui@3.1.7)(unocss@0.53.4)
+    specifier: 6.0.0
+    version: 6.0.0(daisyui@3.1.7)(unocss@0.53.4)
   unocss-preset-scrollbar:
     specifier: 0.2.1
     version: 0.2.1(unocss@0.53.4)
@@ -6623,8 +6623,8 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unocss-preset-daisy@5.0.0(daisyui@3.1.7)(unocss@0.53.4):
-    resolution: {integrity: sha512-MVAPKN/PRCwUV4IFr2Sku90HSdSCraFX0n2eSaL16aUFDf2XG4Q3vrMc+Zf0baciXBdmYXJv34TCCsxMk4T9DQ==}
+  /unocss-preset-daisy@6.0.0(daisyui@3.1.7)(unocss@0.53.4):
+    resolution: {integrity: sha512-C+72UJlPWZeyaZIZXXgET/Kvjnv1LRxhdyjHhtNykbmHYq9AGafOTYf3xZtKqYztI9+jEzfM74Fgevvi68thAg==}
     peerDependencies:
       daisyui: ^3.1.0
       unocss: ^0.53.1
