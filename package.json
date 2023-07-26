@@ -20,7 +20,7 @@
     "@unocss/reset": "0.53.6",
     "@vueuse/core": "10.2.1",
     "daisyui": "3.5.0",
-    "pinia": "2.1.4",
+    "pinia": "2.1.6",
     "vue": "3.3.4",
     "vue-router": "4.2.4"
   },
