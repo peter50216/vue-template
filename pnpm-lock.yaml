@@ -71,8 +71,8 @@ devDependencies:
     specifier: 4.2.3
     version: 4.2.3(vite@4.4.8)(vue@3.3.4)
   '@vue-macros/reactivity-transform':
-    specifier: 0.3.9
-    version: 0.3.9(rollup@2.79.1)(vue@3.3.4)
+    specifier: 0.3.18
+    version: 0.3.18(rollup@2.79.1)(vue@3.3.4)
   '@vue/compiler-sfc':
     specifier: 3.3.4
     version: 3.3.4
@@ -2507,8 +2507,8 @@ packages:
       '@volar/language-core': 1.10.0
     dev: true
 
-  /@vue-macros/common@1.3.3(rollup@2.79.1)(vue@3.3.4):
-    resolution: {integrity: sha512-bjHomaf3mu+ARMD4DX22C/lLVVocbmwgcLH7bg1rK4kB5ghesgShZTQIrNR6ZjifQmdGc/2jjZ/25kSb364uEA==}
+  /@vue-macros/common@1.6.2(rollup@2.79.1)(vue@3.3.4):
+    resolution: {integrity: sha512-1RtMew9RxBvPgUhwQPBismenqHzfeFGycJbrseZ7RQsofE0FG7zoHeElYS1LADTcLXN6lA7FAnE7VlW7MaHu2w==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       vue: ^2.7.0 || ^3.2.25
@@ -2519,21 +2519,22 @@ packages:
       '@babel/types': 7.22.5
       '@rollup/pluginutils': 5.0.2(rollup@2.79.1)
       '@vue/compiler-sfc': 3.3.4
+      ast-kit: 0.9.4(rollup@2.79.1)
       local-pkg: 0.4.3
-      magic-string-ast: 0.1.3
+      magic-string-ast: 0.3.0
       vue: 3.3.4
     transitivePeerDependencies:
       - rollup
     dev: true
 
-  /@vue-macros/reactivity-transform@0.3.9(rollup@2.79.1)(vue@3.3.4):
-    resolution: {integrity: sha512-lzzH2qzIxc1LWRrSR+ax0TVeBTgwTpG9qTZOo4Au+ODgJyXpIWHGCnc9rjcxGfu6LitjZ75NmyjbEnaEkomefw==}
+  /@vue-macros/reactivity-transform@0.3.18(rollup@2.79.1)(vue@3.3.4):
+    resolution: {integrity: sha512-wr1Jl+UQPYz9ZumQ05THSizAg1XtQA7Lv7WgGiaXZ9hBRJsmovE1AKXOLa9qHQ1JImeQN3XZDOn5ZUB+LGq8Lw==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       vue: ^2.7.0 || ^3.2.25
     dependencies:
       '@babel/parser': 7.22.7
-      '@vue-macros/common': 1.3.3(rollup@2.79.1)(vue@3.3.4)
+      '@vue-macros/common': 1.6.2(rollup@2.79.1)(vue@3.3.4)
       '@vue/compiler-core': 3.3.4
       '@vue/shared': 3.3.4
       magic-string: 0.30.2
@@ -2606,7 +2607,7 @@ packages:
       '@vue/compiler-core': 3.3.4
       '@vue/shared': 3.3.4
       estree-walker: 2.0.2
-      magic-string: 0.30.1
+      magic-string: 0.30.2
 
   /@vue/reactivity@3.3.4:
     resolution: {integrity: sha512-kLTDLwd0B1jG08NBF3R5rqULtv/f8x3rOFByTDz4J53ttIQEDmALqKqXY0J+XQeN0aV2FBxY8nJDf88yvOPAqQ==}
@@ -2847,6 +2848,17 @@ packages:
 
   /assertion-error@1.1.0:
     resolution: {integrity: sha512-jgsaNduz+ndvGyFt3uSuWqvy4lCnIJiovtouQN5JZHOKCS2QuhEdbcQHFhVksz2N2U9hXJo8odG7ETyWlEeuDw==}
+    dev: true
+
+  /ast-kit@0.9.4(rollup@2.79.1):
+    resolution: {integrity: sha512-UrZHsdj87OS6NM+IXRii+asdAUA/P0SMa4r1NrZvsUy72hDvCYwk8c9PsbKf1MvJ0BvP+rF1B8tFP54eT370Tg==}
+    engines: {node: '>=16.14.0'}
+    dependencies:
+      '@babel/parser': 7.22.7
+      '@rollup/pluginutils': 5.0.2(rollup@2.79.1)
+      pathe: 1.1.1
+    transitivePeerDependencies:
+      - rollup
     dev: true
 
   /astral-regex@2.0.0:
@@ -4954,8 +4966,8 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /magic-string-ast@0.1.3:
-    resolution: {integrity: sha512-nnNhBSh8QAd90n3CQeyxKlXY4TKJ4PNjFRi7Ofs1dAr239k6H4CYAaAR4ZKRrWZNBvh1IUTl5dYP91t9dKDjig==}
+  /magic-string-ast@0.3.0:
+    resolution: {integrity: sha512-0shqecEPgdFpnI3AP90epXyxZy9g6CRZ+SZ7BcqFwYmtFEnZ1jpevcV5HoyVnlDS9gCnc1UIg3Rsvp3Ci7r8OA==}
     engines: {node: '>=16.14.0'}
     dependencies:
       magic-string: 0.30.2
@@ -4978,7 +4990,6 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
-    dev: true
 
   /make-error@1.3.6:
     resolution: {integrity: sha512-s8UhlNe7vPKomQhC1qFelMokr/Sc3AgNbso3n74mVPA5LTZwkB9NlXf4XPamLxJE8h0gh73rM94xvwRT2CVInw==}
