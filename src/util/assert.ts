@@ -1,5 +1,6 @@
 export function assert<T>(value: T, message?: string): asserts value {
-  if (!Boolean(value)) {
+  // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
+  if (!value) {
     try {
       throw new Error(message ?? "assertion error");
     } catch (e) {

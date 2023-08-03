@@ -35,10 +35,12 @@ module.exports = {
   ],
   plugins: ["simple-import-sort", "prettier-vue"],
   extends: [
+    "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:vue/vue3-recommended",
   ],
   rules: {
+    "no-undef": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/method-signature-style": "error",
     "@typescript-eslint/no-unused-vars": "off",
