@@ -23,9 +23,7 @@
     "jsx": "preserve",
     "paths": {
       "/~/*": ["src/*"]
-    },
-    "composite": true,
-    "incremental": true
+    }
   },
   "include": ["**/*.ts", "**/*.vue", "**/*.json", "**/*.mts"],
   "ts-node": {
