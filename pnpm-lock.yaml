@@ -71,8 +71,8 @@ devDependencies:
     specifier: 4.2.3
     version: 4.2.3(vite@4.4.9)(vue@3.3.4)
   '@vue-macros/reactivity-transform':
-    specifier: 0.3.18
-    version: 0.3.18(rollup@2.79.1)(vue@3.3.4)
+    specifier: 0.3.19
+    version: 0.3.19(rollup@2.79.1)(vue@3.3.4)
   '@vue/compiler-sfc':
     specifier: 3.3.4
     version: 3.3.4
@@ -2502,8 +2502,8 @@ packages:
       '@volar/language-core': 1.10.0
     dev: true
 
-  /@vue-macros/common@1.6.2(rollup@2.79.1)(vue@3.3.4):
-    resolution: {integrity: sha512-1RtMew9RxBvPgUhwQPBismenqHzfeFGycJbrseZ7RQsofE0FG7zoHeElYS1LADTcLXN6lA7FAnE7VlW7MaHu2w==}
+  /@vue-macros/common@1.7.0(rollup@2.79.1)(vue@3.3.4):
+    resolution: {integrity: sha512-177tzAjvEiFxAsOM+zd8EWCfAdneePoZroGg6R5QhMcycC28r+2k4wyzrjupjkDBgx7KAZkJ/KzkSfuEi31U0A==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       vue: ^2.7.0 || ^3.2.25
@@ -2514,7 +2514,7 @@ packages:
       '@babel/types': 7.22.5
       '@rollup/pluginutils': 5.0.2(rollup@2.79.1)
       '@vue/compiler-sfc': 3.3.4
-      ast-kit: 0.9.4(rollup@2.79.1)
+      ast-kit: 0.9.5(rollup@2.79.1)
       local-pkg: 0.4.3
       magic-string-ast: 0.3.0
       vue: 3.3.4
@@ -2522,14 +2522,14 @@ packages:
       - rollup
     dev: true
 
-  /@vue-macros/reactivity-transform@0.3.18(rollup@2.79.1)(vue@3.3.4):
-    resolution: {integrity: sha512-wr1Jl+UQPYz9ZumQ05THSizAg1XtQA7Lv7WgGiaXZ9hBRJsmovE1AKXOLa9qHQ1JImeQN3XZDOn5ZUB+LGq8Lw==}
+  /@vue-macros/reactivity-transform@0.3.19(rollup@2.79.1)(vue@3.3.4):
+    resolution: {integrity: sha512-HUqMu8GyGJG89K3a64OxZJknT/Jii8sTcA1fB6ommTU2T7eSGkBalipsSRvbJAhAkl4SYcVLJk0HX18hv+GA+g==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       vue: ^2.7.0 || ^3.2.25
     dependencies:
       '@babel/parser': 7.22.7
-      '@vue-macros/common': 1.6.2(rollup@2.79.1)(vue@3.3.4)
+      '@vue-macros/common': 1.7.0(rollup@2.79.1)(vue@3.3.4)
       '@vue/compiler-core': 3.3.4
       '@vue/shared': 3.3.4
       magic-string: 0.30.2
@@ -2845,8 +2845,8 @@ packages:
     resolution: {integrity: sha512-jgsaNduz+ndvGyFt3uSuWqvy4lCnIJiovtouQN5JZHOKCS2QuhEdbcQHFhVksz2N2U9hXJo8odG7ETyWlEeuDw==}
     dev: true
 
-  /ast-kit@0.9.4(rollup@2.79.1):
-    resolution: {integrity: sha512-UrZHsdj87OS6NM+IXRii+asdAUA/P0SMa4r1NrZvsUy72hDvCYwk8c9PsbKf1MvJ0BvP+rF1B8tFP54eT370Tg==}
+  /ast-kit@0.9.5(rollup@2.79.1):
+    resolution: {integrity: sha512-kbL7ERlqjXubdDd+szuwdlQ1xUxEz9mCz1+m07ftNVStgwRb2RWw+U6oKo08PAvOishMxiqz1mlJyLl8yQx2Qg==}
     engines: {node: '>=16.14.0'}
     dependencies:
       '@babel/parser': 7.22.7
