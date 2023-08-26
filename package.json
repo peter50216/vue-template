@@ -52,7 +52,7 @@
     "husky": "8.0.3",
     "jsdom": "22.1.0",
     "lint-staged": "14.0.1",
-    "pnpm": "8.6.12",
+    "pnpm": "8.7.0",
     "postcss-html": "1.5.0",
     "prettier": "3.0.2",
     "stylelint": "15.10.3",
@@ -85,7 +85,7 @@
       "pnpm run lint:css --fix"
     ]
   },
-  "packageManager": "pnpm@8.6.12",
+  "packageManager": "pnpm@8.7.0",
   "prettier": {
     "singleAttributePerLine": true
   }
