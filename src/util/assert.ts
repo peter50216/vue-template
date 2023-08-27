@@ -12,7 +12,7 @@ export function assert<T>(value: T, message?: string): asserts value {
 
 export function assertExists<T>(
   value: T | null | undefined,
-  message = "value does not exist"
+  message = "value does not exist",
 ): T {
   assert(value != null, message);
   return value;
@@ -24,7 +24,7 @@ export function assertNotReached(): never {
 
 export function checkEnumVariant<T extends string>(
   enumType: { [key: string]: T },
-  value: string | null | undefined
+  value: string | null | undefined,
 ): T | null {
   if (
     value === null ||
