@@ -19,7 +19,7 @@
   "dependencies": {
     "@unocss/reset": "0.55.3",
     "@vueuse/core": "10.4.1",
-    "daisyui": "3.6.3",
+    "daisyui": "3.6.4",
     "pinia": "2.1.6",
     "vue": "3.3.4",
     "vue-router": "4.2.4"
