@@ -32,8 +32,8 @@ devDependencies:
     specifier: 17.7.0
     version: 17.7.0
   '@iconify/json':
-    specifier: 2.2.108
-    version: 2.2.108
+    specifier: 2.2.109
+    version: 2.2.109
   '@mdi/js':
     specifier: 7.2.96
     version: 7.2.96
@@ -1825,8 +1825,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify/json@2.2.108:
-    resolution: {integrity: sha512-s6iHOPNaTgrl3SxcIHruoE05MiGqhQllZd/pXJlZAC652vzLXfJhCe5SNQiiI3V1RqiXCmdU1Z2dZydk86UaTQ==}
+  /@iconify/json@2.2.109:
+    resolution: {integrity: sha512-Hi5InevdpLbDOjaJ1a0e5wQq8x8lDcNh3xyCq7yMyH/N/wniKa2vGUzzLQWLwENYcMm81b50jCAt7R4cOkx1BQ==}
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.1
