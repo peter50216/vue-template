@@ -61,7 +61,7 @@
     "typescript": "5.2.2",
     "unocss": "0.56.0",
     "unocss-preset-daisy": "6.0.1",
-    "unocss-preset-scrollbar": "0.2.1",
+    "unocss-preset-scrollbar": "0.3.0",
     "unplugin-auto-import": "0.16.6",
     "unplugin-vue-components": "0.25.2",
     "vite": "4.4.9",
