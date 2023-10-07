@@ -35,8 +35,8 @@ devDependencies:
     specifier: 2.2.125
     version: 2.2.125
   '@mdi/js':
-    specifier: 7.2.96
-    version: 7.2.96
+    specifier: 7.3.67
+    version: 7.3.67
   '@types/node':
     specifier: 18.18.4
     version: 18.18.4
@@ -1894,8 +1894,8 @@ packages:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  /@mdi/js@7.2.96:
-    resolution: {integrity: sha512-paR9M9ZT7rKbh2boksNUynuSZMHhqRYnEZOm/KrZTjQ4/FzyhjLHuvw/8XYzP+E7fS4+/Ms/82EN1pl/OFsiIA==}
+  /@mdi/js@7.3.67:
+    resolution: {integrity: sha512-MnRjknFqpTC6FifhGHjZ0+QYq2bAkZFQqIj8JA2AdPZbBxUvr8QSgB2yPAJ8/ob/XkR41xlg5majDR3c1JP1hw==}
     dev: true
 
   /@nodelib/fs.scandir@2.1.5:
