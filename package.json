@@ -62,7 +62,7 @@
     "unocss": "0.57.1",
     "unocss-preset-daisy": "6.0.1",
     "unocss-preset-scrollbar": "0.3.0",
-    "unplugin-auto-import": "0.16.6",
+    "unplugin-auto-import": "0.16.7",
     "unplugin-vue-components": "0.25.2",
     "vite": "4.5.0",
     "vite-plugin-pages": "0.31.0",
