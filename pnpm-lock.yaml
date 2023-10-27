@@ -12,8 +12,8 @@ dependencies:
     specifier: 10.5.0
     version: 10.5.0(vue@3.3.7)
   daisyui:
-    specifier: 3.9.3
-    version: 3.9.3
+    specifier: 3.9.4
+    version: 3.9.4
   pinia:
     specifier: 2.1.7
     version: 2.1.7(typescript@5.2.2)(vue@3.3.7)
@@ -132,7 +132,7 @@ devDependencies:
     version: 0.57.1(postcss@8.4.31)(rollup@2.79.1)(vite@4.5.0)
   unocss-preset-daisy:
     specifier: 7.0.0
-    version: 7.0.0(daisyui@3.9.3)(unocss@0.57.1)
+    version: 7.0.0(daisyui@3.9.4)(unocss@0.57.1)
   unocss-preset-scrollbar:
     specifier: 0.3.0
     version: 0.3.0(unocss@0.57.1)
@@ -3341,8 +3341,8 @@ packages:
   /csstype@3.1.2:
     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
 
-  /daisyui@3.9.3:
-    resolution: {integrity: sha512-8li177QCu6dqlEOzE3h/dAV1y9Movbjx5bzJIO/hNqMNZtJkbHM0trjTzbDejV7N57eNGdjBvAGtxZYKzS4jow==}
+  /daisyui@3.9.4:
+    resolution: {integrity: sha512-fvi2RGH4YV617/6DntOVGcOugOPym9jTGWW2XySb5ZpvdWO4L7bEG77VHirrnbRUEWvIEVXkBpxUz2KFj0rVnA==}
     engines: {node: '>=16.9.0'}
     dependencies:
       colord: 2.9.3
@@ -6827,7 +6827,7 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unocss-preset-daisy@7.0.0(daisyui@3.9.3)(unocss@0.57.1):
+  /unocss-preset-daisy@7.0.0(daisyui@3.9.4)(unocss@0.57.1):
     resolution: {integrity: sha512-tr+3vsqtRAzkunom9dSf3vnrXrtglGf+BxkRvKFU0ajY4n+OqkM/Xr/UkiGrrQNlPFz34dExBZWhYUEQBikxgg==}
     peerDependencies:
       daisyui: ^3.0.0
@@ -6835,7 +6835,7 @@ packages:
     dependencies:
       autoprefixer: 10.4.16(postcss@8.4.31)
       camelcase: 8.0.0
-      daisyui: 3.9.3
+      daisyui: 3.9.4
       parsel-js: 1.1.2
       postcss: 8.4.31
       postcss-js: 4.0.1(postcss@8.4.31)
