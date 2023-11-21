@@ -25,8 +25,8 @@
     "vue-router": "4.2.5"
   },
   "devDependencies": {
-    "@commitlint/cli": "18.4.2",
-    "@commitlint/config-conventional": "18.4.2",
+    "@commitlint/cli": "18.4.3",
+    "@commitlint/config-conventional": "18.4.3",
     "@iconify/json": "2.2.144",
     "@mdi/js": "7.3.67",
     "@types/node": "20.9.3",
