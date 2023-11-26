@@ -65,7 +65,7 @@
     "unplugin-auto-import": "0.17.1",
     "unplugin-vue-components": "0.25.2",
     "vite": "5.0.2",
-    "vite-plugin-pages": "0.31.0",
+    "vite-plugin-pages": "0.32.0",
     "vite-plugin-pwa": "0.17.2",
     "vite-plugin-vue-layouts": "0.8.0",
     "vitest": "0.34.6",
