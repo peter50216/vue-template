@@ -71,8 +71,8 @@ devDependencies:
     specifier: 4.5.2
     version: 4.5.2(vite@5.0.7)(vue@3.3.11)
   '@vue-macros/reactivity-transform':
-    specifier: 0.4.0
-    version: 0.4.0(rollup@2.79.1)(vue@3.3.11)
+    specifier: 0.4.1
+    version: 0.4.1(rollup@2.79.1)(vue@3.3.11)
   '@vue/compiler-sfc':
     specifier: 3.3.11
     version: 3.3.11
@@ -2683,8 +2683,8 @@ packages:
       path-browserify: 1.0.1
     dev: true
 
-  /@vue-macros/common@1.9.0(rollup@2.79.1)(vue@3.3.11):
-    resolution: {integrity: sha512-LbfRHDkceuokkLlVuQW9Wq3ZLmRs6KIDPzCjUvvL14HB4GslWdtvBB1suFfNs6VMvh9Zj30cEKF/EAP7QBCZ6Q==}
+  /@vue-macros/common@1.10.0(rollup@2.79.1)(vue@3.3.11):
+    resolution: {integrity: sha512-4DZsPeQA/nBQDw2RkYAmH7KrFjJVrMdAhJhO1JCl1bbbFXCGeoGjXfkg9wHPppj47s2HpAB3GrqNwqVGbi12NQ==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       vue: ^2.7.0 || ^3.2.25
@@ -2703,14 +2703,14 @@ packages:
       - rollup
     dev: true
 
-  /@vue-macros/reactivity-transform@0.4.0(rollup@2.79.1)(vue@3.3.11):
-    resolution: {integrity: sha512-3DG+FWkIZe5xZJhIdxyieIYcDKJGC3aUab1JWtEOkS8Q21rLpu6VKUjV6TmB5LNyLSGVp+7de/87Ptd6C6RHOA==}
+  /@vue-macros/reactivity-transform@0.4.1(rollup@2.79.1)(vue@3.3.11):
+    resolution: {integrity: sha512-P+9MnDx9eVr23jDo2CifUtfgYGZ8NcTAE3njS1ef3DpEs9C3p4UfcEbeLyvt1fCpPVf9kpdo//8mVJ8MgVK6cw==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       vue: ^2.7.0 || ^3.2.25
     dependencies:
       '@babel/parser': 7.23.5
-      '@vue-macros/common': 1.9.0(rollup@2.79.1)(vue@3.3.11)
+      '@vue-macros/common': 1.10.0(rollup@2.79.1)(vue@3.3.11)
       '@vue/compiler-core': 3.3.11
       '@vue/shared': 3.3.11
       magic-string: 0.30.5
