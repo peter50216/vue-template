@@ -8,8 +8,5 @@
       "files": ["**/*.vue"],
       "customSyntax": "postcss-html"
     }
-  ],
-  "rules": {
-    "declaration-block-trailing-semicolon": null
-  }
+  ]
 }
