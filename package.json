@@ -28,7 +28,7 @@
     "@commitlint/cli": "18.4.3",
     "@commitlint/config-conventional": "18.4.3",
     "@iconify/json": "2.2.161",
-    "@mdi/js": "7.3.67",
+    "@mdi/js": "7.4.47",
     "@types/node": "20.10.5",
     "@typescript-eslint/eslint-plugin": "6.16.0",
     "@typescript-eslint/parser": "6.16.0",
