@@ -43,7 +43,7 @@
     "@vue-macros/reactivity-transform": "0.4.3",
     "@vue/compiler-sfc": "3.4.15",
     "@vue/runtime-core": "3.4.15",
-    "@vue/test-utils": "2.4.3",
+    "@vue/test-utils": "2.4.4",
     "eslint": "8.56.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-prettier-vue": "5.0.0",
