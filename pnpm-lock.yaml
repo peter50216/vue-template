@@ -9,8 +9,8 @@ dependencies:
     specifier: 0.58.5
     version: 0.58.5
   '@vueuse/core':
-    specifier: 10.7.2
-    version: 10.7.2(vue@3.4.19)
+    specifier: 10.8.0
+    version: 10.8.0(vue@3.4.19)
   daisyui:
     specifier: 3.9.4
     version: 3.9.4
@@ -138,7 +138,7 @@ devDependencies:
     version: 0.3.1(unocss@0.58.5)
   unplugin-auto-import:
     specifier: 0.17.5
-    version: 0.17.5(@vueuse/core@10.7.2)(rollup@2.79.1)
+    version: 0.17.5(@vueuse/core@10.8.0)(rollup@2.79.1)
   unplugin-vue-components:
     specifier: 0.26.0
     version: 0.26.0(rollup@2.79.1)(vue@3.4.19)
@@ -2819,22 +2819,22 @@ packages:
       vue-component-type-helpers: 1.8.27
     dev: true
 
-  /@vueuse/core@10.7.2(vue@3.4.19):
-    resolution: {integrity: sha512-AOyAL2rK0By62Hm+iqQn6Rbu8bfmbgaIMXcE3TSr7BdQ42wnSFlwIdPjInO62onYsEMK/yDMU8C6oGfDAtZ2qQ==}
+  /@vueuse/core@10.8.0(vue@3.4.19):
+    resolution: {integrity: sha512-G9Ok9fjx10TkNIPn8V1dJmK1NcdJCtYmDRyYiTMUyJ1p0Tywc1zmOoCQ2xhHYyz8ULBU4KjIJQ9n+Lrty74iVw==}
     dependencies:
       '@types/web-bluetooth': 0.0.20
-      '@vueuse/metadata': 10.7.2
-      '@vueuse/shared': 10.7.2(vue@3.4.19)
+      '@vueuse/metadata': 10.8.0
+      '@vueuse/shared': 10.8.0(vue@3.4.19)
       vue-demi: 0.14.7(vue@3.4.19)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
 
-  /@vueuse/metadata@10.7.2:
-    resolution: {integrity: sha512-kCWPb4J2KGrwLtn1eJwaJD742u1k5h6v/St5wFe8Quih90+k2a0JP8BS4Zp34XUuJqS2AxFYMb1wjUL8HfhWsQ==}
+  /@vueuse/metadata@10.8.0:
+    resolution: {integrity: sha512-Nim/Vle5OgXcXhAvGOgkJQXB1Yb+Kq/fMbLuv3YYDYbiQrwr39ljuD4k9fPeq4yUyokYRo2RaNQmbbIMWB/9+w==}
 
-  /@vueuse/shared@10.7.2(vue@3.4.19):
-    resolution: {integrity: sha512-qFbXoxS44pi2FkgFjPvF4h7c9oMDutpyBdcJdMYIMg9XyXli2meFMuaKn+UMgsClo//Th6+beeCgqweT/79BVA==}
+  /@vueuse/shared@10.8.0(vue@3.4.19):
+    resolution: {integrity: sha512-dUdy6zwHhULGxmr9YUg8e+EnB39gcM4Fe2oKBSrh3cOsV30JcMPtsyuspgFCUo5xxFNaeMf/W2yyKfST7Bg8oQ==}
     dependencies:
       vue-demi: 0.14.7(vue@3.4.19)
     transitivePeerDependencies:
@@ -6979,7 +6979,7 @@ packages:
       - supports-color
     dev: true
 
-  /unplugin-auto-import@0.17.5(@vueuse/core@10.7.2)(rollup@2.79.1):
+  /unplugin-auto-import@0.17.5(@vueuse/core@10.8.0)(rollup@2.79.1):
     resolution: {integrity: sha512-fHNDkDSxv3PGagX1wmKBYBkgaM4AKAgZmdJw/bxjhNljx9KSXSgHpGfX0MwUrq9qw6q1bhHIZVWyOwoY2koo4w==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -6993,7 +6993,7 @@ packages:
     dependencies:
       '@antfu/utils': 0.7.7
       '@rollup/pluginutils': 5.1.0(rollup@2.79.1)
-      '@vueuse/core': 10.7.2(vue@3.4.19)
+      '@vueuse/core': 10.8.0(vue@3.4.19)
       fast-glob: 3.3.2
       local-pkg: 0.5.0
       magic-string: 0.30.7
