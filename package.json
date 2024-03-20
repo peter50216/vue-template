@@ -58,7 +58,7 @@
     "stylelint": "16.2.1",
     "stylelint-config-idiomatic-order": "10.0.0",
     "stylelint-config-standard": "36.0.0",
-    "typescript": "5.4.2",
+    "typescript": "5.4.3",
     "unocss": "0.58.6",
     "unocss-preset-daisy": "7.0.0",
     "unocss-preset-scrollbar": "0.3.1",
