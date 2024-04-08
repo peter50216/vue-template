@@ -1,3 +1,6 @@
 {
-  "extends": ["github>peter50216/renovate-config"]
+  "extends": [
+    "github>peter50216/renovate-config",
+    "helpers:pinGitHubActionDigests"
+  ]
 }
