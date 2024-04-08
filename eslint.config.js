@@ -27,7 +27,7 @@ export default tseslint.config(
     files: ["**/*.ts", "**/*.vue"],
     languageOptions: {
       parserOptions: {
-        project: "./tsconfig.eslint.json",
+        project: "./tsconfig.json",
         extraFileExtensions: [".vue"],
       },
     },
