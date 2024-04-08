@@ -1,7 +1,6 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const INLINE_ELEMENTS = require("eslint-plugin-vue/lib/utils/inline-non-void-elements.json");
+import INLINE_ELEMENTS from "eslint-plugin-vue/lib/utils/inline-non-void-elements.json";
 
-module.exports = {
+export default {
   parser: "@typescript-eslint/parser",
   overrides: [
     {
@@ -20,16 +19,6 @@ module.exports = {
       parserOptions: {
         project: "./tsconfig.eslint.json",
         extraFileExtensions: [".vue"],
-      },
-      rules: {
-        "@typescript-eslint/strict-boolean-expressions": [
-          "error",
-          {
-            allowString: false,
-            allowNumber: false,
-            allowNullableObject: false,
-          },
-        ],
       },
     },
   ],

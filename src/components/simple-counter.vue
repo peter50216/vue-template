@@ -15,5 +15,5 @@
 </template>
 
 <script setup lang="ts">
-let cnt = $ref(0);
+const cnt = ref(0);
 </script>

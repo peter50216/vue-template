@@ -17,8 +17,7 @@
       "vite/client",
       "vite-plugin-vue-layouts/client",
       "vite-plugin-pages/client",
-      "vite-plugin-pwa/client",
-      "@vue-macros/reactivity-transform/macros-global"
+      "vite-plugin-pwa/client"
     ],
     "jsx": "preserve",
     "paths": {
