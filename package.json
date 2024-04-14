@@ -1,15 +1,21 @@
 {
-  "name": "darkpi-nuxt-layer",
+  "name": "nuxt-app",
+  "private": true,
   "type": "module",
   "version": "0.0.1",
   "main": "./nuxt.config.ts",
   "scripts": {
-    "dev": "nuxi dev .playground",
-    "build": "nuxt build .playground",
-    "generate": "nuxt generate .playground",
-    "preview": "nuxt preview .playground",
-    "lint": "eslint .",
-    "postinstall": "nuxt prepare .playground"
+    "build": "nuxt build",
+    "dev": "nuxi dev",
+    "generate": "nuxt generate",
+    "lint": "eslint . && stylelint **/*.{vue,html,css}",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "3.11.2",
+    "vue": "3.4.21",
+    "vue-router": "4.3.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "2.13.3",
@@ -17,7 +23,6 @@
     "@nuxtjs/stylelint-module": "5.2.0",
     "eslint": "9.0.0",
     "eslint-plugin-format": "0.1.0",
-    "nuxt": "3.11.2",
     "prettier": "3.2.5",
     "stylelint": "16.3.1",
     "stylelint-config-idiomatic-order": "10.0.0",

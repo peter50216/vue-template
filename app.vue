@@ -1,5 +1,5 @@
 <template>
-  <span class="test">
-    Hello world!
-  </span>
+  <div>
+    <NuxtWelcome />
+  </div>
 </template>
