@@ -21,12 +21,5 @@ export default withNuxt(
       "simple-import-sort/exports": "error",
       "simple-import-sort/imports": "error",
     },
-    settings: {
-      "prettier-vue": {
-        SFCBlocks: {
-          template: false,
-        },
-      },
-    },
   },
 );
