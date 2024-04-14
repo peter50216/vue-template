@@ -19,6 +19,7 @@ export default defineNuxtConfig({
     ],
   ],
   typescript: {
-    includeWorkspace: true,
+    typeCheck: true,
+    strict: true,
   },
 })

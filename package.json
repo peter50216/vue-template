@@ -8,9 +8,13 @@
     "build": "nuxt build",
     "dev": "nuxi dev",
     "generate": "nuxt generate",
-    "lint": "eslint . && stylelint **/*.{vue,html,css}",
+    "lint": "pnpm run lint:js --fix . && pnpm run lint:css --fix **/*.{css,vue,html}",
+    "lint:css": "stylelint --max-warnings 0",
+    "lint:js": "eslint --max-warnings 0",
+    "prepare": "husky",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "tsc": "nuxi typecheck && :"
   },
   "dependencies": {
     "nuxt": "3.11.2",
@@ -19,16 +23,32 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "2.13.3",
+    "@commitlint/cli": "19.2.2",
+    "@commitlint/config-conventional": "19.2.2",
     "@nuxt/eslint": "0.3.6",
     "@nuxtjs/stylelint-module": "5.2.0",
     "eslint": "9.0.0",
     "eslint-plugin-format": "0.1.0",
+    "husky": "9.0.11",
+    "lint-staged": "15.2.2",
     "prettier": "3.2.5",
     "stylelint": "16.3.1",
     "stylelint-config-idiomatic-order": "10.0.0",
     "stylelint-config-standard": "36.0.0",
     "stylelint-config-standard-vue": "1.0.0",
-    "typescript": "5.4.5"
+    "typescript": "5.4.5",
+    "vue-tsc": "1.8.27"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": [
+      "pnpm run lint:js --fix"
+    ],
+    "*.{js,ts,vue,hack}": [
+      "pnpm run tsc"
+    ],
+    "*.{css,vue}": [
+      "pnpm run lint:css --fix"
+    ]
   },
   "pnpm": {
     "peerDependencyRules": {
