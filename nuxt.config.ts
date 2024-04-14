@@ -2,13 +2,23 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    "@nuxt/eslint",
     [
-      "@nuxtjs/stylelint-module",
+      '@nuxt/eslint',
+      {
+        config: {
+          standalone: false,
+        },
+      },
+    ],
+    [
+      '@nuxtjs/stylelint-module',
       {
         lintOnStart: false,
-        include: ["**/*.{css,vue}"],
+        include: ['**/*.{css,vue}'],
       },
     ],
   ],
-});
+  typescript: {
+    includeWorkspace: true,
+  },
+})

@@ -1,3 +1,5 @@
 <template>
-  <span class="test">Hello world!</span>
+  <span class="test">
+    Hello world!
+  </span>
 </template>
