@@ -1,33 +1,3 @@
 {
-  "compilerOptions": {
-    "baseUrl": ".",
-    "module": "ESNext",
-    "target": "es2017",
-    "lib": ["DOM", "ESNext", "WebWorker"],
-    "strict": true,
-    "strictNullChecks": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "forceConsistentCasingInFileNames": true,
-    "noUnusedLocals": true,
-    "types": [
-      "node",
-      "vite/client",
-      "vite-plugin-vue-layouts/client",
-      "vite-plugin-pages/client",
-      "vite-plugin-pwa/client"
-    ],
-    "jsx": "preserve",
-    "paths": {
-      "/~/*": ["src/*"]
-    }
-  },
-  "include": ["**/*.ts", "**/*.vue", "**/*.json", "**/*.mts"],
-  "ts-node": {
-    "compilerOptions": {
-      "noUnusedLocals": false
-    }
-  }
+  "extends": "./.playground/.nuxt/tsconfig.json"
 }
