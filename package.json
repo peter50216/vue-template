@@ -6,7 +6,7 @@
   "main": "./nuxt.config.ts",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxi dev",
+    "dev": "nuxt dev",
     "generate": "nuxt generate",
     "lint": "pnpm run lint:js --fix . && pnpm run lint:css --fix **/*.{css,vue,html}",
     "lint:css": "stylelint --max-warnings 0",
@@ -14,7 +14,7 @@
     "prepare": "husky",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "tsc": "nuxi typecheck && :"
+    "tsc": "nuxt typecheck && :"
   },
   "dependencies": {
     "nuxt": "3.11.2",
