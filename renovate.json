@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "github>peter50216/renovate-config",
+    "helpers:pinGitHubActionDigests"
+  ]
+}
