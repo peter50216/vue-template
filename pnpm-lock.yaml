@@ -103,8 +103,8 @@ importers:
         specifier: 15.2.2
         version: 15.2.2
       pnpm:
-        specifier: 9.0.2
-        version: 9.0.2
+        specifier: 9.0.4
+        version: 9.0.4
       postcss-html:
         specifier: 1.6.0
         version: 1.6.0
@@ -3109,8 +3109,8 @@ packages:
   pkg-types@1.0.3:
     resolution: {integrity: sha512-nN7pYi0AQqJnoLPC9eHFQ8AcyaixBUOwvqc5TDnIKCMEE6I0y8P7OKA7fPexsXGCGxQDl/cmrLAp26LhcwxZ4A==}
 
-  pnpm@9.0.2:
-    resolution: {integrity: sha512-i+3zHeQnBbl/+JMwu+F3lUrVcDqS+olL4PtNRbXfq1miH2WoQZrRyugt0W+sLUGow0N3XoDv59q22AsECNsv1g==}
+  pnpm@9.0.4:
+    resolution: {integrity: sha512-w3S1LePeiMWP2DM99mSnNyec2w4TRLpAVNOx//qaGjZwhU91XcpPFq3qPxS+mJan/K8WdAn+DBrWBHUnHa/oGg==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -7362,7 +7362,7 @@ snapshots:
       mlly: 1.6.1
       pathe: 1.1.2
 
-  pnpm@9.0.2: {}
+  pnpm@9.0.4: {}
 
   possible-typed-array-names@1.0.0: {}
 
