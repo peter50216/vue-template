@@ -1853,8 +1853,8 @@ packages:
     resolution: {integrity: sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==}
     engines: {node: '>=8'}
 
-  css-functions-list@3.2.1:
-    resolution: {integrity: sha512-Nj5YcaGgBtuUmn1D7oHqPW0c9iui7xsTsj5lIX8ZgevdfhmjFfKB3r8moHJtNJnctnYXJyYX5I1pp90HM4TPgQ==}
+  css-functions-list@3.2.2:
+    resolution: {integrity: sha512-c+N0v6wbKVxTu5gOBBFkr9BEdBWaqqjQeiJ8QvSRIJOf+UxlJh930m8e6/WNeODIK0mYLFkoONrnj16i2EcvfQ==}
     engines: {node: '>=12 || >=16'}
 
   css-selector-tokenizer@0.8.0:
@@ -3890,8 +3890,8 @@ packages:
       jsdom:
         optional: true
 
-  vue-component-type-helpers@2.0.13:
-    resolution: {integrity: sha512-xNO5B7DstNWETnoYflLkVgh8dK8h2ZDgxY1M2O0zrqGeBNq5yAZ8a10yCS9+HnixouNGYNX+ggU9MQQq86HTpg==}
+  vue-component-type-helpers@2.0.14:
+    resolution: {integrity: sha512-DInfgOyXlMyliyqAAD9frK28tTfch0+tMi4qoWJcZlRxUf+NFAtraJBnAsKLep+FOyLMiajkhfyEb3xLK08i7w==}
 
   vue-demi@0.14.7:
     resolution: {integrity: sha512-EOG8KXDQNwkJILkx/gPcoL/7vH+hORoBaKgGe+6W7VFMvCYJfmF2dGbvgDroVnI8LU7/kTu8mbjRZGBU1z9NTA==}
@@ -5686,7 +5686,7 @@ snapshots:
   '@vue/test-utils@2.4.5':
     dependencies:
       js-beautify: 1.15.1
-      vue-component-type-helpers: 2.0.13
+      vue-component-type-helpers: 2.0.14
 
   '@vueuse/core@10.9.0(vue@3.4.23(typescript@5.4.5))':
     dependencies:
@@ -6036,7 +6036,7 @@ snapshots:
 
   crypto-random-string@2.0.0: {}
 
-  css-functions-list@3.2.1: {}
+  css-functions-list@3.2.2: {}
 
   css-selector-tokenizer@0.8.0:
     dependencies:
@@ -7776,7 +7776,7 @@ snapshots:
       balanced-match: 2.0.0
       colord: 2.9.3
       cosmiconfig: 9.0.0(typescript@5.4.5)
-      css-functions-list: 3.2.1
+      css-functions-list: 3.2.2
       css-tree: 2.3.1
       debug: 4.3.4
       fast-glob: 3.3.2
@@ -8261,7 +8261,7 @@ snapshots:
       - supports-color
       - terser
 
-  vue-component-type-helpers@2.0.13: {}
+  vue-component-type-helpers@2.0.14: {}
 
   vue-demi@0.14.7(vue@3.4.23(typescript@5.4.5)):
     dependencies:
