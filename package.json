@@ -56,5 +56,6 @@
     "*.{css,vue}": [
       "pnpm run lint:css --fix"
     ]
-  }
+  },
+  "packageManager": "pnpm@9.0.6"
 }
