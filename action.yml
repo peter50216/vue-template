@@ -19,8 +19,6 @@ runs:
         key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
         restore-keys: |
           ${{ runner.os }}-pnpm-store-
-    - name: Setup edgedb
-      use: edgedb/setup-edgedb@v1
     - name: Install dependencies
       run: pnpm install
       shell: bash
