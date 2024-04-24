@@ -1,7 +1,7 @@
-name: 'Basic checks'
+name: Basic checks
 description: 'Basic Nuxt checks & builds for the template'
 runs:
-  using: "composite"
+  using: composite
   steps:
     - name: Setup PNPM
       uses: pnpm/action-setup@v3
@@ -24,7 +24,7 @@ runs:
       shell: bash
     - run: pnpm run lint:js .
       shell: bash
-    - run: "pnpm run lint:css **/*.{css,vue}"
+    - run: 'pnpm run lint:css **/*.{css,vue}'
       shell: bash
     - run: pnpm run tsc
       shell: bash
