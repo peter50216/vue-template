@@ -103,8 +103,8 @@ importers:
         specifier: 15.2.2
         version: 15.2.2
       pnpm:
-        specifier: 9.0.6
-        version: 9.0.6
+        specifier: 9.1.0
+        version: 9.1.0
       postcss-html:
         specifier: 1.6.0
         version: 1.6.0
@@ -128,19 +128,19 @@ importers:
         version: 7.8.0(eslint@9.2.0)(typescript@5.4.5)
       unocss:
         specifier: 0.59.4
-        version: 0.59.4(postcss@8.4.38)(rollup@4.17.2)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0))
+        version: 0.59.4(postcss@8.4.38)(rollup@2.79.1)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0))
       unocss-preset-daisy:
         specifier: 7.0.0
-        version: 7.0.0(daisyui@3.9.4)(unocss@0.59.4(postcss@8.4.38)(rollup@4.17.2)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0)))
+        version: 7.0.0(daisyui@3.9.4)(unocss@0.59.4(postcss@8.4.38)(rollup@2.79.1)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0)))
       unocss-preset-scrollbar:
         specifier: 0.3.1
-        version: 0.3.1(unocss@0.59.4(postcss@8.4.38)(rollup@4.17.2)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0)))
+        version: 0.3.1(unocss@0.59.4(postcss@8.4.38)(rollup@2.79.1)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0)))
       unplugin-auto-import:
         specifier: 0.17.5
-        version: 0.17.5(@vueuse/core@10.9.0(vue@3.4.26(typescript@5.4.5)))(rollup@4.17.2)
+        version: 0.17.5(@vueuse/core@10.9.0(vue@3.4.26(typescript@5.4.5)))(rollup@2.79.1)
       unplugin-vue-components:
         specifier: 0.27.0
-        version: 0.27.0(@babel/parser@7.24.5)(rollup@4.17.2)(vue@3.4.26(typescript@5.4.5))
+        version: 0.27.0(@babel/parser@7.24.5)(rollup@2.79.1)(vue@3.4.26(typescript@5.4.5))
       vite:
         specifier: 5.2.11
         version: 5.2.11(@types/node@20.12.8)(terser@5.31.0)
@@ -3109,8 +3109,8 @@ packages:
   pkg-types@1.1.0:
     resolution: {integrity: sha512-/RpmvKdxKf8uILTtoOhAgf30wYbP2Qw+L9p3Rvshx1JZVX+XQNZQFjlbmGHEGIm4CkVPlSn+NXmIM8+9oWQaSA==}
 
-  pnpm@9.0.6:
-    resolution: {integrity: sha512-9thjEwlzIHy3ozbWtDmiQqJqyAaAd99TDWqGBpQZhT3B/+ZAKexZSpxQWjpBDRlkPIcKumd2Mw9c/dzxCpwWFw==}
+  pnpm@9.1.0:
+    resolution: {integrity: sha512-Z/WHmRapKT5c8FnCOFPVcb6vT3U8cH9AyyK+1fsVeMaq07bEEHzLO6CzW+AD62IaFkcayDbIe+tT+dVLtGEnJA==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -5238,14 +5238,6 @@ snapshots:
     optionalDependencies:
       rollup: 2.79.1
 
-  '@rollup/pluginutils@5.1.0(rollup@4.17.2)':
-    dependencies:
-      '@types/estree': 1.0.5
-      estree-walker: 2.0.2
-      picomatch: 2.3.1
-    optionalDependencies:
-      rollup: 4.17.2
-
   '@rollup/rollup-android-arm-eabi@4.17.2':
     optional: true
 
@@ -5417,20 +5409,20 @@ snapshots:
       '@typescript-eslint/types': 7.8.0
       eslint-visitor-keys: 3.4.3
 
-  '@unocss/astro@0.59.4(rollup@4.17.2)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0))':
+  '@unocss/astro@0.59.4(rollup@2.79.1)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0))':
     dependencies:
       '@unocss/core': 0.59.4
       '@unocss/reset': 0.59.4
-      '@unocss/vite': 0.59.4(rollup@4.17.2)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0))
+      '@unocss/vite': 0.59.4(rollup@2.79.1)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0))
     optionalDependencies:
       vite: 5.2.11(@types/node@20.12.8)(terser@5.31.0)
     transitivePeerDependencies:
       - rollup
 
-  '@unocss/cli@0.59.4(rollup@4.17.2)':
+  '@unocss/cli@0.59.4(rollup@2.79.1)':
     dependencies:
       '@ampproject/remapping': 2.3.0
-      '@rollup/pluginutils': 5.1.0(rollup@4.17.2)
+      '@rollup/pluginutils': 5.1.0(rollup@2.79.1)
       '@unocss/config': 0.59.4
       '@unocss/core': 0.59.4
       '@unocss/preset-uno': 0.59.4
@@ -5570,10 +5562,10 @@ snapshots:
     dependencies:
       '@unocss/core': 0.59.4
 
-  '@unocss/vite@0.59.4(rollup@4.17.2)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0))':
+  '@unocss/vite@0.59.4(rollup@2.79.1)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0))':
     dependencies:
       '@ampproject/remapping': 2.3.0
-      '@rollup/pluginutils': 5.1.0(rollup@4.17.2)
+      '@rollup/pluginutils': 5.1.0(rollup@2.79.1)
       '@unocss/config': 0.59.4
       '@unocss/core': 0.59.4
       '@unocss/inspector': 0.59.4
@@ -7358,7 +7350,7 @@ snapshots:
       mlly: 1.7.0
       pathe: 1.1.2
 
-  pnpm@9.0.6: {}
+  pnpm@9.1.0: {}
 
   possible-typed-array-names@1.0.0: {}
 
@@ -8040,9 +8032,9 @@ snapshots:
 
   unicorn-magic@0.1.0: {}
 
-  unimport@3.7.1(rollup@4.17.2):
+  unimport@3.7.1(rollup@2.79.1):
     dependencies:
-      '@rollup/pluginutils': 5.1.0(rollup@4.17.2)
+      '@rollup/pluginutils': 5.1.0(rollup@2.79.1)
       acorn: 8.11.3
       escape-string-regexp: 5.0.0
       estree-walker: 3.0.3
@@ -8066,7 +8058,7 @@ snapshots:
 
   universalify@2.0.1: {}
 
-  unocss-preset-daisy@7.0.0(daisyui@3.9.4)(unocss@0.59.4(postcss@8.4.38)(rollup@4.17.2)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0))):
+  unocss-preset-daisy@7.0.0(daisyui@3.9.4)(unocss@0.59.4(postcss@8.4.38)(rollup@2.79.1)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0))):
     dependencies:
       autoprefixer: 10.4.19(postcss@8.4.38)
       camelcase: 8.0.0
@@ -8074,17 +8066,17 @@ snapshots:
       parsel-js: 1.1.2
       postcss: 8.4.38
       postcss-js: 4.0.1(postcss@8.4.38)
-      unocss: 0.59.4(postcss@8.4.38)(rollup@4.17.2)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0))
+      unocss: 0.59.4(postcss@8.4.38)(rollup@2.79.1)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0))
 
-  unocss-preset-scrollbar@0.3.1(unocss@0.59.4(postcss@8.4.38)(rollup@4.17.2)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0))):
+  unocss-preset-scrollbar@0.3.1(unocss@0.59.4(postcss@8.4.38)(rollup@2.79.1)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0))):
     dependencies:
       '@unocss/preset-mini': 0.56.5
-      unocss: 0.59.4(postcss@8.4.38)(rollup@4.17.2)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0))
+      unocss: 0.59.4(postcss@8.4.38)(rollup@2.79.1)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0))
 
-  unocss@0.59.4(postcss@8.4.38)(rollup@4.17.2)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0)):
+  unocss@0.59.4(postcss@8.4.38)(rollup@2.79.1)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0)):
     dependencies:
-      '@unocss/astro': 0.59.4(rollup@4.17.2)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0))
-      '@unocss/cli': 0.59.4(rollup@4.17.2)
+      '@unocss/astro': 0.59.4(rollup@2.79.1)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0))
+      '@unocss/cli': 0.59.4(rollup@2.79.1)
       '@unocss/core': 0.59.4
       '@unocss/extractor-arbitrary-variants': 0.59.4
       '@unocss/postcss': 0.59.4(postcss@8.4.38)
@@ -8102,7 +8094,7 @@ snapshots:
       '@unocss/transformer-compile-class': 0.59.4
       '@unocss/transformer-directives': 0.59.4
       '@unocss/transformer-variant-group': 0.59.4
-      '@unocss/vite': 0.59.4(rollup@4.17.2)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0))
+      '@unocss/vite': 0.59.4(rollup@2.79.1)(vite@5.2.11(@types/node@20.12.8)(terser@5.31.0))
     optionalDependencies:
       vite: 5.2.11(@types/node@20.12.8)(terser@5.31.0)
     transitivePeerDependencies:
@@ -8110,25 +8102,25 @@ snapshots:
       - rollup
       - supports-color
 
-  unplugin-auto-import@0.17.5(@vueuse/core@10.9.0(vue@3.4.26(typescript@5.4.5)))(rollup@4.17.2):
+  unplugin-auto-import@0.17.5(@vueuse/core@10.9.0(vue@3.4.26(typescript@5.4.5)))(rollup@2.79.1):
     dependencies:
       '@antfu/utils': 0.7.7
-      '@rollup/pluginutils': 5.1.0(rollup@4.17.2)
+      '@rollup/pluginutils': 5.1.0(rollup@2.79.1)
       fast-glob: 3.3.2
       local-pkg: 0.5.0
       magic-string: 0.30.10
       minimatch: 9.0.4
-      unimport: 3.7.1(rollup@4.17.2)
+      unimport: 3.7.1(rollup@2.79.1)
       unplugin: 1.10.1
     optionalDependencies:
       '@vueuse/core': 10.9.0(vue@3.4.26(typescript@5.4.5))
     transitivePeerDependencies:
       - rollup
 
-  unplugin-vue-components@0.27.0(@babel/parser@7.24.5)(rollup@4.17.2)(vue@3.4.26(typescript@5.4.5)):
+  unplugin-vue-components@0.27.0(@babel/parser@7.24.5)(rollup@2.79.1)(vue@3.4.26(typescript@5.4.5)):
     dependencies:
       '@antfu/utils': 0.7.7
-      '@rollup/pluginutils': 5.1.0(rollup@4.17.2)
+      '@rollup/pluginutils': 5.1.0(rollup@2.79.1)
       chokidar: 3.6.0
       debug: 4.3.4
       fast-glob: 3.3.2
