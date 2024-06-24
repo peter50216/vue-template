@@ -57,7 +57,7 @@
     "stylelint-config-idiomatic-order": "10.0.0",
     "stylelint-config-standard": "36.0.1",
     "typescript": "5.5.2",
-    "typescript-eslint": "7.13.1",
+    "typescript-eslint": "7.14.1",
     "unocss": "0.61.0",
     "unocss-preset-daisy": "7.0.0",
     "unocss-preset-scrollbar": "0.3.1",
