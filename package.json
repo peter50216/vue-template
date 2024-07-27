@@ -37,7 +37,7 @@
     "@unocss/preset-uno": "0.61.6",
     "@unocss/transformer-directives": "0.61.6",
     "@unocss/transformer-variant-group": "0.61.6",
-    "@vitejs/plugin-vue": "5.1.0",
+    "@vitejs/plugin-vue": "5.1.1",
     "@vue/compiler-sfc": "3.4.34",
     "@vue/runtime-core": "3.4.34",
     "@vue/test-utils": "2.4.6",
