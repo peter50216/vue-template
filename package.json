@@ -21,7 +21,7 @@
     "@vueuse/core": "10.11.0",
     "daisyui": "3.9.4",
     "pinia": "2.2.0",
-    "vue": "3.4.35",
+    "vue": "3.4.36",
     "vue-router": "4.4.2"
   },
   "devDependencies": {
@@ -38,8 +38,8 @@
     "@unocss/transformer-directives": "0.61.9",
     "@unocss/transformer-variant-group": "0.61.9",
     "@vitejs/plugin-vue": "5.1.2",
-    "@vue/compiler-sfc": "3.4.35",
-    "@vue/runtime-core": "3.4.35",
+    "@vue/compiler-sfc": "3.4.36",
+    "@vue/runtime-core": "3.4.36",
     "@vue/test-utils": "2.4.6",
     "eslint": "9.8.0",
     "eslint-config-prettier": "9.1.0",
