@@ -1,0 +1,15 @@
+# https://stackoverflow.com/a/71974822
+
+exec < /dev/tty
+
+COMMIT_MESSAGE_FILE="$1"
+
+while true; do
+  if pnpm commitlint --edit "$COMMIT_MESSAGE_FILE"; then
+    exit 0
+  else
+    echo "retrying in 5 seconds..."
+    sleep 5
+    $EDITOR "$COMMIT_MESSAGE_FILE" || exit 1
+  fi
+done
