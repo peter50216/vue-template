@@ -34,8 +34,8 @@ importers:
         specifier: 19.5.0
         version: 19.5.0
       '@iconify/json':
-        specifier: 2.2.263
-        version: 2.2.263
+        specifier: 2.2.264
+        version: 2.2.264
       '@mdi/js':
         specifier: 7.4.47
         version: 7.4.47
@@ -1109,8 +1109,8 @@ packages:
     resolution: {integrity: sha512-JBxkERygn7Bv/GbN5Rv8Ul6LVknS+5Bp6RgDC/O8gEBU/yeH5Ui5C/OlWrTb6qct7LjjfT6Re2NxB0ln0yYybA==}
     engines: {node: '>=18.18'}
 
-  '@iconify/json@2.2.263':
-    resolution: {integrity: sha512-pY6Jpfz76F+OURDt5+J9njuQSzOLKECA3ah8C210T9VfXdtkpkYWA6+l6ZCHOvhABjcoGjBvcTub8HV9QNacrw==}
+  '@iconify/json@2.2.264':
+    resolution: {integrity: sha512-yT8LqVC+WiOaE+UGQAy7Big7On+oCImkcQTIgrocvDezGOtispxfyg1bpT3gUedIsPwMW+Onwhj1awOl+sWrxw==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -5151,7 +5151,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.3.1': {}
 
-  '@iconify/json@2.2.263':
+  '@iconify/json@2.2.264':
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.2
