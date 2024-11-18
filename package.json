@@ -47,7 +47,7 @@
     "eslint-plugin-simple-import-sort": "12.1.1",
     "eslint-plugin-vue": "9.31.0",
     "espree": "10.3.0",
-    "husky": "9.1.6",
+    "husky": "9.1.7",
     "jsdom": "25.0.1",
     "lint-staged": "15.2.10",
     "pnpm": "9.13.2",
