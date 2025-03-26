@@ -136,8 +136,8 @@ importers:
         specifier: 3.2.0
         version: 3.2.0(unocss@66.0.0(postcss@8.5.3)(vite@6.2.3(@types/node@22.13.13)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.8.2)))
       unplugin-auto-import:
-        specifier: 19.1.1
-        version: 19.1.1(@vueuse/core@13.0.0(vue@3.5.13(typescript@5.8.2)))
+        specifier: 19.1.2
+        version: 19.1.2(@vueuse/core@13.0.0(vue@3.5.13(typescript@5.8.2)))
       unplugin-vue-components:
         specifier: 28.4.1
         version: 28.4.1(@babel/parser@7.26.10)(vue@3.5.13(typescript@5.8.2))
@@ -3776,8 +3776,8 @@ packages:
       vite:
         optional: true
 
-  unplugin-auto-import@19.1.1:
-    resolution: {integrity: sha512-sCGZZrSR1Bc8RfN8Q0RUDxXtC20rdAt7UB4lDyq8MNtKVHiXXh+5af6Nz4JRp9Q+7HjnbgQfQox0TkEymjdUAQ==}
+  unplugin-auto-import@19.1.2:
+    resolution: {integrity: sha512-EkxNIJm4ZPYtV7rRaPBKnsscgTaifIZNrJF5DkMffTxkUOJOlJuKVypA6YBSBOjzPJDTFPjfVmCQPoBuOO+YYQ==}
     engines: {node: '>=14'}
     peerDependencies:
       '@nuxt/kit': ^3.2.2
@@ -8161,7 +8161,7 @@ snapshots:
       - supports-color
       - vue
 
-  unplugin-auto-import@19.1.1(@vueuse/core@13.0.0(vue@3.5.13(typescript@5.8.2))):
+  unplugin-auto-import@19.1.2(@vueuse/core@13.0.0(vue@3.5.13(typescript@5.8.2))):
     dependencies:
       local-pkg: 1.1.1
       magic-string: 0.30.17
