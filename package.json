@@ -29,7 +29,7 @@
     "@commitlint/config-conventional": "19.8.0",
     "@iconify/json": "2.2.336",
     "@mdi/js": "7.4.47",
-    "@types/node": "22.15.14",
+    "@types/node": "22.15.15",
     "@unocss/core": "66.1.0",
     "@unocss/preset-attributify": "66.1.0",
     "@unocss/preset-icons": "66.1.0",
