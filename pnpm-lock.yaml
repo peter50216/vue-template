@@ -12,8 +12,8 @@ importers:
         specifier: 66.1.2
         version: 66.1.2
       '@vueuse/core':
-        specifier: 13.2.0
-        version: 13.2.0(vue@3.5.15(typescript@5.8.3))
+        specifier: 13.3.0
+        version: 13.3.0(vue@3.5.15(typescript@5.8.3))
       daisyui:
         specifier: 3.9.4
         version: 3.9.4
@@ -137,7 +137,7 @@ importers:
         version: 3.2.0(unocss@66.1.2(postcss@8.5.3)(vite@6.3.5(@types/node@22.15.21)(jiti@2.4.2)(terser@5.39.2)(yaml@2.8.0))(vue@3.5.15(typescript@5.8.3)))
       unplugin-auto-import:
         specifier: 19.3.0
-        version: 19.3.0(@vueuse/core@13.2.0(vue@3.5.15(typescript@5.8.3)))
+        version: 19.3.0(@vueuse/core@13.3.0(vue@3.5.15(typescript@5.8.3)))
       unplugin-vue-components:
         specifier: 28.7.0
         version: 28.7.0(@babel/parser@7.27.2)(vue@3.5.15(typescript@5.8.3))
@@ -1507,16 +1507,16 @@ packages:
   '@vue/test-utils@2.4.6':
     resolution: {integrity: sha512-FMxEjOpYNYiFe0GkaHsnJPXFHxQ6m4t8vI/ElPGpMWxZKpmRvQ33OIrvRXemy6yha03RxhOlQuy+gZMC3CQSow==}
 
-  '@vueuse/core@13.2.0':
-    resolution: {integrity: sha512-n5TZoIAxbWAQ3PqdVPDzLgIRQOujFfMlatdI+f7ditSmoEeNpPBvp7h2zamzikCmrhFIePAwdEQB6ENccHr7Rg==}
+  '@vueuse/core@13.3.0':
+    resolution: {integrity: sha512-uYRz5oEfebHCoRhK4moXFM3NSCd5vu2XMLOq/Riz5FdqZMy2RvBtazdtL3gEcmDyqkztDe9ZP/zymObMIbiYSg==}
     peerDependencies:
       vue: ^3.5.0
 
-  '@vueuse/metadata@13.2.0':
-    resolution: {integrity: sha512-kPpzuQCU0+D8DZCzK0iPpIcXI+6ufWSgwnjJ6//GNpEn+SHViaCtR+XurzORChSgvpHO9YC8gGM97Y1kB+UabA==}
+  '@vueuse/metadata@13.3.0':
+    resolution: {integrity: sha512-42IzJIOYCKIb0Yjv1JfaKpx8JlCiTmtCWrPxt7Ja6Wzoq0h79+YVXmBV03N966KEmDEESTbp5R/qO3AB5BDnGw==}
 
-  '@vueuse/shared@13.2.0':
-    resolution: {integrity: sha512-vx9ZPDF5HcU9up3Jgt3G62dMUfZEdk6tLyBAHYAG4F4n73vpaA7J5hdncDI/lS9Vm7GA/FPlbOmh9TrDZROTpg==}
+  '@vueuse/shared@13.3.0':
+    resolution: {integrity: sha512-L1QKsF0Eg9tiZSFXTgodYnu0Rsa2P0En2LuLrIs/jgrkyiDuJSsPZK+tx+wU0mMsYHUYEjNsuE41uqqkuR8VhA==}
     peerDependencies:
       vue: ^3.5.0
 
@@ -5691,16 +5691,16 @@ snapshots:
       js-beautify: 1.15.4
       vue-component-type-helpers: 2.2.10
 
-  '@vueuse/core@13.2.0(vue@3.5.15(typescript@5.8.3))':
+  '@vueuse/core@13.3.0(vue@3.5.15(typescript@5.8.3))':
     dependencies:
       '@types/web-bluetooth': 0.0.21
-      '@vueuse/metadata': 13.2.0
-      '@vueuse/shared': 13.2.0(vue@3.5.15(typescript@5.8.3))
+      '@vueuse/metadata': 13.3.0
+      '@vueuse/shared': 13.3.0(vue@3.5.15(typescript@5.8.3))
       vue: 3.5.15(typescript@5.8.3)
 
-  '@vueuse/metadata@13.2.0': {}
+  '@vueuse/metadata@13.3.0': {}
 
-  '@vueuse/shared@13.2.0(vue@3.5.15(typescript@5.8.3))':
+  '@vueuse/shared@13.3.0(vue@3.5.15(typescript@5.8.3))':
     dependencies:
       vue: 3.5.15(typescript@5.8.3)
 
@@ -8088,7 +8088,7 @@ snapshots:
       - supports-color
       - vue
 
-  unplugin-auto-import@19.3.0(@vueuse/core@13.2.0(vue@3.5.15(typescript@5.8.3))):
+  unplugin-auto-import@19.3.0(@vueuse/core@13.3.0(vue@3.5.15(typescript@5.8.3))):
     dependencies:
       local-pkg: 1.1.1
       magic-string: 0.30.17
@@ -8097,7 +8097,7 @@ snapshots:
       unplugin: 2.3.4
       unplugin-utils: 0.2.4
     optionalDependencies:
-      '@vueuse/core': 13.2.0(vue@3.5.15(typescript@5.8.3))
+      '@vueuse/core': 13.3.0(vue@3.5.15(typescript@5.8.3))
 
   unplugin-utils@0.2.4:
     dependencies:
