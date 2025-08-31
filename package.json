@@ -27,7 +27,7 @@
   "devDependencies": {
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
-    "@iconify/json": "2.2.378",
+    "@iconify/json": "2.2.380",
     "@mdi/js": "7.4.47",
     "@types/node": "22.18.0",
     "@unocss/core": "66.4.2",
