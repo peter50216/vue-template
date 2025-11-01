@@ -48,7 +48,7 @@
     "eslint-plugin-vue": "10.5.1",
     "espree": "10.4.0",
     "husky": "9.1.7",
-    "jsdom": "27.0.1",
+    "jsdom": "27.1.0",
     "lint-staged": "16.2.6",
     "pnpm": "9.15.9",
     "postcss-html": "1.8.0",
