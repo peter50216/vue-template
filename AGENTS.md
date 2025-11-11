@@ -94,6 +94,8 @@ Generated type definitions: `auto-imports.d.ts` and `components.d.ts` (do not ed
   - `chore(deps): update actions/checkout digest to 08eba0b`
   - `docs: add user authentication guide`
 
+**Creating commits**: Use `jj commit -m "message"` to create commits, not `jj describe`.
+
 Pre-commit hook (`.husky/pre-commit`) runs:
 1. `lint-staged` - lints and type-checks only staged files:
    - JS/TS/Vue files (excluding auto-imports): ESLint fix + TypeScript check
