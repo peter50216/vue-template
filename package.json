@@ -5,12 +5,12 @@
     "build": "NODE_ENV=production vite build",
     "coverage": "vitest run --silent --coverage",
     "dev": "vite --open",
-    "lint": "pnpm run lint:js:all --fix && pnpm run lint:css:all --fix",
+    "lint": "bun run lint:js:all --fix && bun run lint:css:all --fix",
     "lint:css": "stylelint --max-warnings 0 **/*.{css,vue}",
-    "lint:css:all": "pnpm run lint:css **/*.{css,vue}",
+    "lint:css:all": "bun run lint:css **/*.{css,vue}",
     "lint:js": "eslint --max-warnings 0",
-    "lint:js:all": "pnpm run lint:js .",
-    "prepare": "husky install .husky",
+    "lint:js:all": "bun run lint:js .",
+    "prepare": "husky",
     "serve": "vite preview",
     "test": "vitest run --silent",
     "test:watch": "vitest watch --silent",
@@ -50,7 +50,6 @@
     "husky": "9.1.7",
     "jsdom": "27.1.0",
     "lint-staged": "16.2.6",
-    "pnpm": "9.15.9",
     "postcss-html": "1.8.0",
     "prettier": "3.6.2",
     "stylelint": "16.25.0",
@@ -75,25 +74,18 @@
   },
   "lint-staged": {
     "!(auto-imports.d.ts|components.d.ts)*.{js,ts,vue}": [
-      "pnpm run lint:js --fix"
+      "bun run lint:js --fix"
     ],
     "!(auto-imports.d.ts|components.d.ts)*.{js,ts,vue,hack}": [
-      "pnpm run tsc"
+      "bun run tsc"
     ],
     "*.{css,vue}": [
-      "pnpm run lint:css --fix"
+      "bun run lint:css --fix"
     ]
   },
-  "packageManager": "pnpm@9.15.9",
+  "packageManager": "bun@1.2.1",
   "prettier": {
     "singleAttributePerLine": true
   },
-  "type": "module",
-  "pnpm": {
-    "peerDependencyRules": {
-      "allowedVersions": {
-        "eslint": "9"
-      }
-    }
-  }
+  "type": "module"
 }

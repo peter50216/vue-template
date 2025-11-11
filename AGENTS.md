@@ -14,32 +14,32 @@ This is a Vue 3 template project using:
 - **Vue Router** with file-based routing (vite-plugin-pages)
 - **UnoCSS** for styling with DaisyUI preset
 - **PWA** capabilities (vite-plugin-pwa)
-- **pnpm** as package manager
+- **Bun** as package manager and runtime
 
 ## Common Commands
 
 ### Development
 ```bash
-pnpm dev                 # Start dev server (opens browser automatically)
-pnpm build               # Production build (sets NODE_ENV=production)
-pnpm serve               # Preview production build
+bun dev                  # Start dev server (opens browser automatically)
+bun build                # Production build (sets NODE_ENV=production)
+bun serve                # Preview production build
 ```
 
 ### Testing
 ```bash
-pnpm test                # Run all tests (silent mode)
-pnpm test:watch          # Run tests in watch mode
-pnpm coverage            # Run tests with coverage report
+bun test                 # Run all tests (silent mode)
+bun test:watch           # Run tests in watch mode
+bun coverage             # Run tests with coverage report
 ```
 
 ### Linting & Type Checking
 ```bash
-pnpm lint                # Fix all linting issues (JS/CSS)
-pnpm lint:js             # Lint specific JS/TS/Vue files
-pnpm lint:js:all         # Lint all JS/TS/Vue files
-pnpm lint:css            # Lint specific CSS/Vue files
-pnpm lint:css:all        # Lint all CSS/Vue files
-pnpm tsc                 # TypeScript type checking (no emit)
+bun lint                 # Fix all linting issues (JS/CSS)
+bun lint:js              # Lint specific JS/TS/Vue files
+bun lint:js:all          # Lint all JS/TS/Vue files
+bun lint:css             # Lint specific CSS/Vue files
+bun lint:css:all         # Lint all CSS/Vue files
+bun tsc                  # TypeScript type checking (no emit)
 ```
 
 ## Architecture
@@ -98,7 +98,7 @@ Pre-commit hook (`.husky/pre-commit`) runs:
 1. `lint-staged` - lints and type-checks only staged files:
    - JS/TS/Vue files (excluding auto-imports): ESLint fix + TypeScript check
    - CSS/Vue files: Stylelint fix
-2. `pnpm test` - runs all tests
+2. `bun test` - runs all tests
 
 ### ESLint Configuration
 - Uses `.eslintrc.js` (legacy config) with Vue 3 + TypeScript
@@ -129,7 +129,8 @@ Pre-commit hook (`.husky/pre-commit`) runs:
 
 ## Notes
 
-- Package manager is strictly **pnpm** (see `packageManager` field)
+- Package manager is strictly **Bun** (see `packageManager` field in package.json)
+- Runtime versions managed by **mise** (see `mise.toml`)
 - TypeScript strict mode is enabled with `noUnusedLocals`
 - Prettier config: `singleAttributePerLine: true`
 - Commitlint uses conventional commits format
