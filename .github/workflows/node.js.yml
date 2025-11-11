@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4
-    - uses: peter50216/vue-template@f466daa74c8003d64ed7470b249109ecdc159907 # v2.4
+    - uses: peter50216/vue-template@456b89cf7f481fa4a01d8601f4d876da1f17e0de # v3
