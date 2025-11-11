@@ -2,7 +2,7 @@ import js from "@eslint/js";
 import prettierVue from "eslint-plugin-prettier-vue";
 import simpleImportSort from "eslint-plugin-simple-import-sort";
 import pluginVue from "eslint-plugin-vue";
-import INLINE_ELEMENTS from "eslint-plugin-vue/lib/utils/inline-non-void-elements.json" assert { type: "json" };
+import INLINE_ELEMENTS from "eslint-plugin-vue/lib/utils/inline-non-void-elements.json" with { type: "json" };
 import * as espreeParser from "espree";
 import tseslint from "typescript-eslint";
 
