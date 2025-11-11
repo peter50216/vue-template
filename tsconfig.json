@@ -15,7 +15,7 @@
     "types": [
       "node",
       "vite/client",
-      "vite-plugin-vue-layouts/client",
+      "vite-plugin-vue-layouts-next/client",
       "vite-plugin-pages/client",
       "vite-plugin-pwa/client"
     ],

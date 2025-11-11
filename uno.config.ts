@@ -1,18 +1,18 @@
+import { presetDaisy } from "@ameinhardt/unocss-preset-daisy";
 import {} from "@unocss/core";
 import presetAttributify from "@unocss/preset-attributify";
 import presetIcons from "@unocss/preset-icons";
 import presetMini from "@unocss/preset-mini";
-import presetUno from "@unocss/preset-uno";
+import presetWind3 from "@unocss/preset-wind3";
 import transformerDirectives from "@unocss/transformer-directives";
 import transformerVariantGroup from "@unocss/transformer-variant-group";
 import { defineConfig } from "unocss";
-import { presetDaisy } from "unocss-preset-daisy";
 import { presetScrollbar } from "unocss-preset-scrollbar";
 
 export default defineConfig({
   presets: [
     presetMini(),
-    presetUno(),
+    presetWind3(),
     presetIcons({
       scale: 1.2,
     }),

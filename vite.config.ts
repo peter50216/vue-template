@@ -5,7 +5,7 @@ import AutoImport from "unplugin-auto-import/vite";
 import Components from "unplugin-vue-components/vite";
 import Pages from "vite-plugin-pages";
 import { VitePWA } from "vite-plugin-pwa";
-import Layouts from "vite-plugin-vue-layouts";
+import Layouts from "vite-plugin-vue-layouts-next";
 import { defineConfig } from "vitest/config";
 
 export default defineConfig({
@@ -77,6 +77,7 @@ export default defineConfig({
     fs: {
       strict: true,
     },
+    allowedHosts: [".chino.cafe"],
   },
   test: {
     environment: "jsdom",
