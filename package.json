@@ -28,7 +28,7 @@
     "@ameinhardt/unocss-preset-daisy": "1.1.8",
     "@commitlint/cli": "20.3.1",
     "@commitlint/config-conventional": "20.3.1",
-    "@iconify/json": "2.2.428",
+    "@iconify/json": "2.2.429",
     "@mdi/js": "7.4.47",
     "@types/node": "25.0.9",
     "@unocss/core": "66.5.10",
