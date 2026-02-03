@@ -63,7 +63,7 @@
     "unplugin-auto-import": "21.0.0",
     "unplugin-vue-components": "31.0.0",
     "vite": "6.4.1",
-    "vite-plugin-pages": "0.33.2",
+    "vite-plugin-pages": "0.33.3",
     "vite-plugin-pwa": "1.2.0",
     "vite-plugin-vue-layouts-next": "1.3.0",
     "vitest": "4.0.18",
