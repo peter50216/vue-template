@@ -16,7 +16,7 @@
         "@ameinhardt/unocss-preset-daisy": "1.1.8",
         "@commitlint/cli": "20.4.3",
         "@commitlint/config-conventional": "20.4.3",
-        "@iconify/json": "2.2.446",
+        "@iconify/json": "2.2.447",
         "@mdi/js": "7.4.47",
         "@types/node": "25.3.5",
         "@unocss/core": "66.6.6",
@@ -403,7 +403,7 @@
 
     "@humanwhocodes/retry": ["@humanwhocodes/retry@0.4.3", "", {}, "sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ=="],
 
-    "@iconify/json": ["@iconify/json@2.2.446", "", { "dependencies": { "@iconify/types": "*", "pathe": "^2.0.3" } }, "sha512-FrZToC6ONvIVmOkFhcNMGJYvIKJ4UPzdKE5hgAUkQijYz+ZWx74OZBHExp8osCLMEmyxrUPTFg2oynlpGWLsTw=="],
+    "@iconify/json": ["@iconify/json@2.2.447", "", { "dependencies": { "@iconify/types": "*", "pathe": "^2.0.3" } }, "sha512-hRPz6U6eN0C959BrYb0rE+I6f7BjDIPfgt8C9Ln5FxZ1Hw3aJQ+su/qbWy/+yJU74lLlXuwaS0ZfE8Kam6NkeA=="],
 
     "@iconify/types": ["@iconify/types@2.0.0", "", {}, "sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg=="],
 
