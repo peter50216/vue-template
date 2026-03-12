@@ -26,8 +26,8 @@
   },
   "devDependencies": {
     "@ameinhardt/unocss-preset-daisy": "1.1.8",
-    "@commitlint/cli": "20.4.3",
-    "@commitlint/config-conventional": "20.4.3",
+    "@commitlint/cli": "20.4.4",
+    "@commitlint/config-conventional": "20.4.4",
     "@iconify/json": "2.2.449",
     "@mdi/js": "7.4.47",
     "@types/node": "25.4.0",
