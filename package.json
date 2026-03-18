@@ -65,7 +65,7 @@
     "vite": "6.4.1",
     "vite-plugin-pages": "0.33.3",
     "vite-plugin-pwa": "1.2.0",
-    "vite-plugin-vue-layouts-next": "2.0.1",
+    "vite-plugin-vue-layouts-next": "2.1.0",
     "vitest": "4.1.0",
     "vue-tsc": "3.2.6",
     "workbox-core": "7.4.0",
