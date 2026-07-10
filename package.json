@@ -68,9 +68,9 @@
     "vite-plugin-vue-layouts-next": "2.1.0",
     "vitest": "4.1.10",
     "vue-tsc": "3.2.6",
-    "workbox-core": "7.4.0",
-    "workbox-precaching": "7.4.0",
-    "workbox-window": "7.4.0"
+    "workbox-core": "7.4.1",
+    "workbox-precaching": "7.4.1",
+    "workbox-window": "7.4.1"
   },
   "lint-staged": {
     "!(auto-imports.d.ts|components.d.ts)*.{js,ts,vue}": [
