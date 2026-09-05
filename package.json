@@ -83,7 +83,7 @@
       "bun run lint:css --fix"
     ]
   },
-  "packageManager": "bun@1.4.1",
+  "packageManager": "bun@1.4.2",
   "prettier": {
     "singleAttributePerLine": true
   },
